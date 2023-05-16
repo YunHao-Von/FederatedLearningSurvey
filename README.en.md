@@ -1,36 +1,22 @@
-# FederatedLearningSurvey
+1. # A-Review-Of-Security-Issues-In-Federated-Learning
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+   This is our first paper, which is called A Review Of Security Issues In Federated Learning.  
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+   ```mermaid
+   graph LR
+       O[联邦学习安全问题概述]
+       O --> A
+       O --> E
+       O --> H
+       O --> K
+       A[联邦学习中的防御机制] --> B[联邦对抗训练]
+       A --> C[对拜占庭攻击的防卫]  
+       A --> D[对后门/投毒攻击的防卫]
+       E[联邦学习中的恶意攻击] --> F[对抗攻击]  
+       E --> G[拜占庭攻击]
+   
+       H[对抗防卫] --> I[对抗训练]
+       H --> J[后门/投毒攻击的防御机制]
+   
+       K[联邦学习]
+   ```

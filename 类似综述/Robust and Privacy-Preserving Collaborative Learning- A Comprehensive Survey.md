@@ -1,56 +1,4 @@
-# A-Review-Of-Security-Issues-In-Federated-Learning
-
-This is our first paper, which is called A Review Of Security Issues In Federated Learning.
-
-```mermaid
-graph LR
-A1[Privacy and Robustness in Federated Learning: Attacks and Defences]  
-B1[1.Introduction]  
-A1 ---> B1  
-B1A[A.Categorization of Federated Learning based on Distribution] 
-B1B[B.Categorization of Federated Learning based on Architectures]  
-B1 ---> B1A  
-B1 ---> B1B  
-B1A ---> B1A1[Horizontally Federated Learning]
-B1A ---> B1A2[Vertically federated learning ]  
-B1A ---> B1A3[Federated transfer learning]
-B1B ---> B1B1[FL with Homogeneous Architectures]  
-B1B ---> B1B2[FL with Heterogeneous Architectures]  
-b1c[C.Threats to FL]  
-b1d[D.Secure Fl] 
-B1 ---> b1c  
-B1 ---> b1d
-b1c ---> pri[Privacy]   
-pri ---> pri1[malicious server]  
-pri ---> pri2[adversarial paricipant]
-b1c ---> rus[Robustness] 
-rus ---> pa[poisoning attacks]  
-pa ---> ua[untargeted attacks]  
-pa ---> ta[targeted attacks]  
-b1d ---> sap[Secure Fl against privacy attacks]  
-b1d ---> dfr[Defeding FL against various robustness attacks]  
-A1 ---> B2[2.Threat Models]  
-B2 ---> b2a[A. Insider and Outsider]  
-B2 ---> b2b[B.Training Phase and Inference Phase]  
-B2 ---> b2c[C.Privcy:Semi-honest and Malicious]  
-B2 ---> b2d[D.Robustness: Untargeted and Targeted]   
-A1 ---> B3[3.Privacy Attacks]  
-B3 ---> b3a[A.Inferring Class Representatives]   
-B3 ---> b3b[B. Inferring Membership]  
-B3 ---> b3c[C. Inferring Properties]    
-B3 ---> b3d[D. Inferring Training Inputs and Labels]  
-A1 ---> B4[4.DEFENSES AGAINST PRIVACY ATTACKS]  
-B4 --->b4a[A. Privacy Preservation through Homomorphic Encryption]
-B4 --->b4b[B. Privacy-Preservation through SMC]
-B4 --->b4c[C. Privacy-Preservation through Differential Privacy]
-A1 ---> B5[5.Poisoning Attacks]  
-B5 ---> b5a[A. Untargeted Attacks]
-B5 ---> b5b[B. Targeted Attacks]
-A1 ---> B6[6.Defences Against Poisoning Attacks]  
-B6 ---> b6a[A. Defenses against Untargeted Attacks]
-B6 ---> b6b[B. Defenses against Targeted Attacks]
-```
-
+# Robust and Privacy-Preserving Collaborative Learning: A Comprehensive Survey  
 ```mermaid
 graph LR
 a2[Robust and Privacy-Preserving Collaborative Learning: A comprehensive Survey]  
@@ -131,40 +79,5 @@ a2b9 ---> a2b9b[Certified Backdoor Defenses]
 a2b9 ---> a2b9c[Privacy-performance Tradeoff in Differential Privacy]
 a2b9 ---> a2b9d[Basis Datasets in Property Inference Attacks]
 a2b9 ---> a2b9e[Performance Improvement in Sample Inference Defenses]
-
-```
-
-```mermaid
-graph LR
-
-a3[An overview of Federated Deep Learning Privacy Attacks and Defensive Strategies]
-
-a3 ---> b1[1.Introduction]  
-a3 ---> b2[2.Threat Model]  
-b2 ---> b2a[A.Attack surface]
-b2 ---> b2b[B.Client or server-side attacks]
-b2 ---> b2c[C.Black-box or white-box attacks]
-b2 ---> b2d[D.Active or passive attacks]
-b2 ---> b2e[E.Attacker goal]
-a3 ---> b3[3.Attack Methods]
-b3 ---> b3a[A. Attacks targeting reconstruction]
-b3 ---> b3b[B. Attacks targeting inference]
-b3 ---> b3c[C. Attacks targeting misclassification]
-b3 ---> b3d[D. Attacks targeting model corruption]
-
-
-a3 ---> b4[4.Defensive Measures]   
-b4 ---> b4a[A. Gradient subset]
-b4 ---> b4b[B. Gradient compression]
-b4 ---> b4c[C. Dropout]
-b4 ---> b4d[D. Differential privacy]
-b4 ---> b4e[E. Secure multiparty computation]
-b4 ---> b4f[F. Homomorphic encryption]
-b4 ---> b4g[G. Robust aggregation] 
-
-
-
-a3 ---> b5[5.Relatd Work]
-a3 ---> b6[6.Conclusion]
 
 ```

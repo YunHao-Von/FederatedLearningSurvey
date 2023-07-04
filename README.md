@@ -168,3 +168,81 @@ a3 ---> b5[5.Relatd Work]
 a3 ---> b6[6.Conclusion]
 
 ```
+
+   ```mermaid
+   graph LR
+    a[Survey on federated learning threats:<br> Concepts, taxonomy on attacks and defences, <br>experimental study and challenges]
+    a ---> b1[1.Introduction]
+    a ---> b2[2.Background concepts on <br>Federated Learning Threats]
+    b2 ---> b2a[2.1Federated Learning]
+    b2 ---> b2b[2.2Differential Privacy]
+    b2 ---> b2c[2.3Threat Model]
+    b2c ---> b2c1[Insider vs Outsider]
+    b2c ---> b2c2[Client vs Server]
+    b2c ---> b2c3[Attacker knowledge]
+
+
+
+    a ---> b3[3.Adversarial Attacks in <br>Federated Learning:Taxonomies]  
+    b3 ---> b3a[First Categorisation]  
+    b3a ---> b3a1[3.1 Adversarial attacks to the federated model ] 
+    b3a1 --->b3a1a[3.1.1 Taxonomy according to the attack moment]  
+    b3a1 --->b3a1b[3.1.2 Taxonomy according to the objective]  
+    b3a1 --->b3a1c[3.1.3. Taxonomy according to the poisoned part of the FL scheme]
+    b3a1 --->b3a1d[3.1.4. Taxonomy according to the frequency]
+
+    b3a ---> b3a2[Privacy attacks] 
+    b3a2 ---> b3a2a[3.2.1. Feature inference attacks]
+    b3a2 ---> b3a2b[3.2.2. Membership inference attacks]
+    b3a2 ---> b3a2c[3.2.3. Property inference attacks]
+
+    a ---> b4[4.Defence methods against <br>adversarial attacks:Taxonomy]
+    b4 ---> b4a[4.1. Server defences]
+    b4a ---> b4a1[4.1.1. Robust aggregation operators]
+    b4a ---> b4a2[4.1.2. Anomaly detection]
+    b4a ---> b4a3[4.1.3. Based on differential privacy]
+    b4a ---> b4a4[4.1.4. Modification of the learning rate]
+    b4a ---> b4a5[4.1.5. Less is more]
+
+    b4 ---> b4b[4.2. Client defences]
+    b4b ---> b4b1[4.2.1. Based on differential privacy]
+    b4b ---> b4b2[4.2.2. Perturbation methods]
+    b4b ---> b4b3[4.2.3. Optimized training]
+
+    b4 ---> b4v[4.3. Communication channel defences]
+
+    a ---> b5[5.Expermental study]
+    a ---> b6[6.Guidelines for the application <br>of defences against adversarial attacks]
+    a ---> b7[7.Lessons Learned]
+    a ---> b8[8.Challenges of addressing <br>federated learning threats]
+    a ---> b9[9.Conclusions]
+
+
+   ```
+
+
+``` mermaid  
+graph LR  
+a[联邦学习攻击与防御综述]  
+a --->a1[1.联邦学习中的攻击类型]
+a --->a2[2.联邦学习中的防御设施]
+
+
+a1 ---> a1a[1.1 数据中毒]  
+a1 --->a1b[1.2 模型攻击]  
+a1 ---> a1c[1.3 推理攻击]
+a1 ---> a1d[1.4 服务器漏洞]  
+
+a2 ---> a2a[2.1 联邦学习通用隐私保护设施]  
+a2a ---> a2a1[2.1.1 差分隐私]  
+a2a ---> a2a2[2.1.2 同态加密] 
+a2a ---> a2a3[2.1.3 秘密共享]  
+
+a2 ---> a2b[2.2 联邦学习针对性防御措施]
+a2b ---> a2b1[2.2.1 防御数据中毒]
+a2b ---> a2b2[2.2.2 防御模型攻击]
+a2b ---> a2b3[2.2.3 防御推理攻击]
+a2b ---> a2b4[2.2.4 防御服务器漏洞]
+```
+
+

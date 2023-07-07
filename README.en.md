@@ -43,7 +43,8 @@
     a ---> b3[3.Poisoning Attack]
     a ---> b4[4.Defenses about Poisoning Attack]
     a ---> b5[5.Adversarial Attack]
-    a ---> b6[6.Adversarial Defenses]
+    a ---> b6[6.Adversarial Defenses]  
+    a ---> b7[7.Hrbrid Defenses]
     a ---> b8[8.Advanced Research and Problems]  
     a ---> b9[9.Conclusion]
 

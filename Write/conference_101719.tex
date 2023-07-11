@@ -31,7 +31,7 @@ houyinjian18@nudt.edu.cn}
 As people's awareness of the importance of personal privacy protection has grown, 
 there has been a surge of interest in federated learning, 
 which is a machine learning paradigm that enables training without requiring 
-access to users' private data.
+access to users' private data. 
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -39,8 +39,24 @@ Federated Laearning
 \end{IEEEkeywords}
 
 \section{Introduction}
-Due to the rapid development of digital technology, the diversification, informationization,
-and diversity of digital data have become the main topics of the curent era.
+The rapid development of digital technology has made the diversification, informationization, 
+and diversity of digital data the main topics of the current era. Meanwhile, deep learning (DL) has 
+demonstrated tremendous success in multiple fields, including computer vision, natural language 
+processing, and graphic networks. Clearly, using diverse data in deep learning models can effectively 
+improve their ability. However, there is also a growing interest in data privacy protection, 
+such as the General Data Protection Regulation (GDPR)\cite{b1}. On the other hand, data sources may 
+encounter the challenge of distributed storage, as is the case with data from mobile smart devices 
+or Internet of Things (IoT) scenarios\cite{b2},\cite{b3}. Therefore, utilizing these data to train models requires 
+overcoming limitations related to distribution and privacy\cite{b4}.  
+
+To solve these problems, federated learning(FL) is a machine learning paradigm proposed as a possible response to these 
+challenges\cite{b5}. FL enables collaborative model building among distributed members while ensuring sensitive data remains 
+within each participant's control\cite{b6}. Specifically, federated learning allows two or more participants to collaboratively 
+train a shared global DL model while keeping their training datasets locally. Each participant trains the shared model on its own 
+training data and exchanges and updates model parameters with other participants. Federated learning can improve the training speed 
+and the performance of the shared model while protecting privacy of the participants' training datasets\cite{b7}. Thus, it is a promising 
+technique for the scenarios where the training data is sensitive (e.g., medical records, personally identifiable information, etc.) \cite{b8},\cite{b9}.
+
 
 \section{Ease of Use}
 
@@ -245,16 +261,18 @@ For papers published in translation journals, please give the English
 citation first, followed by the original foreign-language citation \cite{b6}.
 
 \begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+\bibitem{b1} M. Goddard, The EU General Data Protection Regulation (GDPR): European regulation that has a global impact, International Journal of Market Research 59 (2017) 703–705.
+\bibitem{b2} O. Gómez-Carmona, D. Casado-Mansilla, F. A. Kraemer, D. L. de Ipiña, J. GarcíaZubia, Exploring the computational cost of machine learning at the edge for human-centric internet of things, Future Generation Computer Systems 112 (2020) 670–683.
+\bibitem{b3} J. Zhang, D. Tao, Empowering things with intelligence: A survey of the progress, challenges, and opportunities in artificial intelligence of things, IEEE Internet of Things Journal 8 (2021) 7789–7817.
+\bibitem{b4} C. Ma, J. Koneˇcný, M. Jaggi, V. Smith, M. Jordan, P. Richtárik, M. Takáˇc, Distributed optimization with arbitrary local solvers, Optimization Methods and Software 32 (2017) 813–848.  
+\bibitem{b5} Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera y Arcas. Communication-Efficient Learning of Deep Networks from Decentralized Data. In Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, volume 54 of Proceedings of Machine Learning Research, pages 1273–1282. PMLR, 20–22 Apr 2017.   
+\bibitem{b6} GlobalFederatedLearningMarketbyApplication (Drug Discovery, Industrial IoT, Risk Management), Vertical (Healthcare  Life Sciences, BFSI, Manufacturing, Automotive Transportation, Energy  Utilities), and Region - Forecast to 2028, "researchandmarkets.com", Accessed date: May 12, 2023.     
+\bibitem{b7} Q. Yang, Y. Liu, Y. Cheng, Y. Kang, T. Chen, H. Yu, Federated Learning, Synthesis Lectures on Artificial Intelligence and Machine Learning, 2019.   
+\bibitem{b8} M. Househ, E. Borycki, and A. Kushniruk. Multiple Perspectives on Artificial Intelligence in Healthcare. Springer, 2021.  
+\bibitem{b9} R. Rau, R. Wardrop, and L. Zingales. The Palgrave Handbook of Technological Finance. Springer, 2021.  
+
+
 \end{thebibliography}
-\vspace{12pt}
-\color{red}
-IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
 
 \end{document}

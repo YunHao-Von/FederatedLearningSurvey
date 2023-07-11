@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  7 JUL 2023 16:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  11 JUL 2023 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -328,47 +328,48 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 41.
 
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 99.
-LaTeX Font Info:    No file TUpcr.fd. on input line 99.
-
-LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 99.
-
 [1
 
 
 ]
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 151.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 191.
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 115.
+LaTeX Font Info:    No file TUpcr.fd. on input line 115.
 
 
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 191.
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 115.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 193.
+(Font)              using `TU/ptm/bx/n' instead on input line 167.
+
+[2]
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 207.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 193.
+(Font)              using `TU/ptm/bx/n' instead on input line 207.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 193.
+(Font)              using `TU/ptm/bx/n' instead on input line 209.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 193.
+(Font)              using `TU/ptm/bx/n' instead on input line 209.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 209.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 209.
 
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
-[2]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -386,10 +387,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3801 strings out of 476191
- 60485 string characters out of 5812073
- 387231 words of memory out of 5000000
- 24514 multiletter control sequences out of 15000+600000
+ 3803 strings out of 476191
+ 60493 string characters out of 5812073
+ 388231 words of memory out of 5000000
+ 24516 multiletter control sequences out of 15000+600000
  476981 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,11n,62p,644b,332s stack positions out of 5000i,500n,10000p,200000b,80000s

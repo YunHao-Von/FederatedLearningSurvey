@@ -73,10 +73,10 @@ types such as federated learning for clustering\cite{b16},\cite{b17}, federated 
 The fourth way to classify federated learning is based on the optimization approach used between the participants, resulting in several types such as
 federated averaging\cite{b21},\cite{b22}, federated learning optimization, federated meta-learning\cite{b23}, and so on.
 
-Federated learning methods currently face significant challenges related to their robustness, including backdoor attacks\cite{b24},\cite{b25},\cite{b26},\cite{b27},\cite{b28}, adversarial attacks\cite{b31},\cite{b32},\cite{b33},\cite{b34}, and Byzantine attacks\cite{b29},\cite{b30}. 
+Federated learning methods currently face significant challenges related to their robustness. This article focuses on three main attacks. including backdoor attacks\cite{b24},\cite{b25},\cite{b26},\cite{b27},\cite{b28}, adversarial attacks\cite{b31},\cite{b32},\cite{b33},\cite{b34}, and Byzantine attacks\cite{b29},\cite{b30}. 
 A backdoor attack involves a malicious participant in the federated learning process adding a backdoor to the model being trained, which can be triggered by a specific input pattern, 
 allowing the attacker to control the output of the model in a targeted way. Adversarial attacks, on the other hand, entail adding small, 
-carefully crafted perturbations to the input data to deceive the model and cause it to make incorrect predictions\cite{31},\cite{32}.   
+carefully crafted perturbations to the input data to deceive the model and cause it to make incorrect predictions\cite{b31},\cite{b32}.   
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.4\linewidth]{picture/f4.jpg}}
@@ -123,186 +123,41 @@ and Byzantine attacks in federated learning. A new classification method is prop
 Moreover, this paper investigates a multi-level defense system against these attacks, and identifies open problems and future research directions for improving 
 the robustness of federated learning.
 
-\section{Ease of Use}
+\section{Thraet Model}
+Prior to delving into the details of the threats to federal learning, it is essential
+to establish the connections between these threats based on different criteria. 
+Specifically, we can categorize these threats into two main stages: 
+the training phase and the inference phase. Additionally, we can 
+differentiate between untargeted attacks and targeted attacks based 
+on whether a specific target is present or not.\cite{b38},\cite{b39},\cite{b40},\cite{b41}.  
 
-\subsection{Maintaining the Integrity of the Specifications}
+\subsection{Training Phase and Inference Phase}  
+\subsubsection{Training Phase}Attacks that occur during the model training process are 
+intended to either disrupt or impact the federated learning model itself. Backdoors are 
+inserted into the model during the training phase to influence the resulting model outcomes\cite{b45},\cite{b46}. 
+On the other hand, Byzantine attacks disrupt the convergence of the model by utilizing malicious 
+clients or servers\cite{b29}.  
+\subsubsection{Inference Phase}Attacks that occur during the reasoning phase are 
+typically intended to alter the model's reasoning outcomes and deceive it 
+into generating incorrect outputs\cite{b47}. During the training stage, backdoor 
+attacks involve the insertion of a backdoor into the model, whereas 
+input deception models with triggers are utilized during the 
+reasoning stage to cause the model to generate incorrect results. 
+Adversarial attacks, on the other hand, leverage the model's vulnerability 
+to disturbances and utilize samples with adversarial perturbations as input 
+to the model, causing it to produce erroneous outcomes.  
 
-The IEEEtran class file is used to format your paper and style the text. All margins,
-column widths, line spaces, and text fonts are prescribed; please do not
-alter them. You may note peculiarities. For example, the head margin
-measures proportionately more than is customary. This measurement
-and others are deliberate, using specifications that anticipate your paper
-as one part of the entire proceedings, and not as an independent document.
-Please do not revise any of the current designations.
+\subsection{Untargeted and Targeted}  
+\subsubsection{Untargeted attack}Untargeted attacks are designed to compromise 
+the integrity of the target model in an arbitrary manner.
+Byzantine attack is one form of an untargeted attack that involves 
+uploading malicious gradients to the server in an arbitrary manner, 
+with the goal of causing the global model to fail\cite{b48},\cite{b49},\cite{b50},\cite{b51}.
+\subsubsection{Targeted Attack}A targeted attack is executed with 
+the aim of inducing the model to produce the target label specified by the 
+adversary for specific testing examples, while keeping the testing error for 
+other testing examples unaffected.
 
-\section{Prepare Your Paper Before Styling}
-Before you begin to format your paper, first write and save the content as a
-separate text file. Complete all content and organizational editing before
-formatting. Please note sections \ref{AA}--\ref{SCM} below for more information on
-proofreading, spelling and grammar.
-
-Keep your text and graphic files separate until after the text has been
-formatted and styled. Do not number text heads---{\LaTeX} will do that
-for you.
-
-\subsection{Abbreviations and Acronyms}\label{AA}
-Define abbreviations and acronyms the first time they are used in the text,
-even after they have been defined in the abstract. Abbreviations such as
-IEEE, SI, MKS, CGS, ac, dc, and rms do not have to be defined. Do not use
-abbreviations in the title or heads unless they are unavoidable.
-
-\subsection{Units}
-\begin{itemize}
-    \item Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
-    \item Avoid combining SI and CGS units, such as current in amperes and magnetic field in oersteds. This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
-    \item Do not mix complete spellings and abbreviations of units: ``Wb/m\textsuperscript{2}'' or ``webers per square meter'', not ``webers/m\textsuperscript{2}''. Spell out units when they appear in text: ``. . . a few henries'', not ``. . . a few H''.
-    \item Use a zero before decimal points: ``0.25'', not ``.25''. Use ``cm\textsuperscript{3}'', not ``cc''.)
-\end{itemize}
-
-\subsection{Equations}
-Number equations consecutively. To make your
-equations more compact, you may use the solidus (~/~), the exp function, or
-appropriate exponents. Italicize Roman symbols for quantities and variables,
-but not Greek symbols. Use a long dash rather than a hyphen for a minus
-sign. Punctuate equations with commas or periods when they are part of a
-sentence, as in:
-\begin{equation}
-    a+b=\gamma\label{eq}
-\end{equation}
-
-Be sure that the
-symbols in your equation have been defined before or immediately following
-the equation. Use ``\eqref{eq}'', not ``Eq.~\eqref{eq}'' or ``equation \eqref{eq}'', except at
-the beginning of a sentence: ``Equation \eqref{eq} is . . .''
-
-\subsection{\LaTeX-Specific Advice}
-
-Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
-of ``hard'' references (e.g., \verb|(1)|). That will make it possible
-to combine sections, add equations, or change the order of figures or
-citations without having to go through the file line by line.
-
-Please don't use the \verb|{eqnarray}| equation environment. Use
-\verb|{align}| or \verb|{IEEEeqnarray}| instead. The \verb|{eqnarray}|
-environment leaves unsightly spaces around relation symbols.
-
-Please note that the \verb|{subequations}| environment in {\LaTeX}
-will increment the main equation counter even when there are no
-equation numbers displayed. If you forget that, you might write an
-article in which the equation numbers skip from (17) to (20), causing
-the copy editors to wonder if you've discovered a new method of
-counting.
-
-    {\BibTeX} does not work by magic. It doesn't get the bibliographic
-data from thin air but from .bib files. If you use {\BibTeX} to produce a
-bibliography you must send the .bib files.
-
-    {\LaTeX} can't read your mind. If you assign the same label to a
-subsubsection and a table, you might find that Table I has been cross
-referenced as Table IV-B3.
-
-{\LaTeX} does not have precognitive abilities. If you put a
-\verb|\label| command before the command that updates the counter it's
-supposed to be using, the label will pick up the last counter to be
-cross referenced instead. In particular, a \verb|\label| command
-should not go before the caption of a figure or a table.
-
-Do not use \verb|\nonumber| inside the \verb|{array}| environment. It
-will not stop equation numbers inside \verb|{array}| (there won't be
-any anyway) and it might stop a wanted equation number in the
-surrounding equation.
-
-\subsection{Some Common Mistakes}\label{SCM}
-\begin{itemize}
-    \item The word ``data'' is plural, not singular.
-    \item The subscript for the permeability of vacuum $\mu_{0}$, and other common scientific constants, is zero with subscript formatting, not a lowercase letter ``o''.
-    \item In American English, commas, semicolons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
-    \item A graph within a graph is an ``inset'', not an ``insert''. The word alternatively is preferred to the word ``alternately'' (unless you really mean something that alternates).
-    \item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
-    \item In your paper title, if the words ``that uses'' can accurately replace the word ``using'', capitalize the ``u''; if not, keep using lower-cased.
-    \item Be aware of the different meanings of the homophones ``affect'' and ``effect'', ``complement'' and ``compliment'', ``discreet'' and ``discrete'', ``principal'' and ``principle''.
-    \item Do not confuse ``imply'' and ``infer''.
-    \item The prefix ``non'' is not a word; it should be joined to the word it modifies, usually without a hyphen.
-    \item There is no period after the ``et'' in the Latin abbreviation ``et al.''.
-    \item The abbreviation ``i.e.'' means ``that is'', and the abbreviation ``e.g.'' means ``for example''.
-\end{itemize}
-An excellent style manual for science writers is \cite{b7}.
-
-\subsection{Authors and Affiliations}
-\textbf{The class file is designed for, but not limited to, six authors.} A
-minimum of one author is required for all conference articles. Author names
-should be listed starting from left to right and then moving down to the
-next line. This is the author sequence that will be used in future citations
-and by indexing services. Names should not be listed in columns nor group by
-affiliation. Please keep your affiliations as succinct as possible (for
-example, do not differentiate among departments of the same organization).
-
-\subsection{Identify the Headings}
-Headings, or heads, are organizational devices that guide the reader through
-your paper. There are two types: component heads and text heads.
-
-Component heads identify the different components of your paper and are not
-topically subordinate to each other. Examples include Acknowledgments and
-References and, for these, the correct style to use is ``Heading 5''. Use
-``figure caption'' for your Figure captions, and ``table head'' for your
-table title. Run-in heads, such as ``Abstract'', will require you to apply a
-style (in this case, italic) in addition to the style provided by the drop
-down menu to differentiate the head from the text.
-
-Text heads organize the topics on a relational, hierarchical basis. For
-example, the paper title is the primary text head because all subsequent
-material relates and elaborates on this one topic. If there are two or more
-sub-topics, the next level head (uppercase Roman numerals) should be used
-and, conversely, if there are not at least two sub-topics, then no subheads
-should be introduced.
-
-\subsection{Figures and Tables}
-\paragraph{Positioning Figures and Tables} Place figures and tables at the top and
-bottom of columns. Avoid placing them in the middle of columns. Large
-figures and tables may span across both columns. Figure captions should be
-below the figures; table heads should appear above the tables. Insert
-figures and tables after they are cited in the text. Use the abbreviation
-``Fig.~\ref{fig}'', even at the beginning of a sentence.
-
-\begin{table}[htbp]
-    \caption{Table Type Styles}
-    \begin{center}
-        \begin{tabular}{|c|c|c|c|}
-            \hline
-            \textbf{Table} & \multicolumn{3}{|c|}{\textbf{Table Column Head}}                                                         \\
-            \cline{2-4}
-            \textbf{Head}  & \textbf{\textit{Table column subhead}}           & \textbf{\textit{Subhead}} & \textbf{\textit{Subhead}} \\
-            \hline
-            copy           & More table copy$^{\mathrm{a}}$                   &                           &                           \\
-            \hline
-            \multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-        \end{tabular}
-        \label{tab1}
-    \end{center}
-\end{table}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics{fig1.png}}
-    \caption{Example of a figure caption.}
-    \label{fig}
-\end{figure}
-
-Figure Labels: Use 8 point Times New Roman for Figure labels. Use words
-rather than symbols or abbreviations when writing Figure axis labels to
-avoid confusing the reader. As an example, write the quantity
-``Magnetization'', or ``Magnetization, M'', not just ``M''. If including
-units in the label, present them within parentheses. Do not label axes only
-with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization
-\{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of
-quantities and units. For example, write ``Temperature (K)'', not
-``Temperature/K''.
-
-\section*{Acknowledgment}
-
-The preferred spelling of the word ``acknowledgment'' in America is without
-an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B.
-G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor
-acknowledgments in the unnumbered footnote on the first page.
 
 
 
@@ -351,6 +206,13 @@ acknowledgments in the unnumbered footnote on the first page.
     \bibitem{b42} Tariq, Asadullah, et al. "Trustworthy Federated Learning: A Survey." arXiv preprint arXiv:2305.11537 (2023).   
     \bibitem{b43} Zhang, Yifei, et al. "A Survey of Trustworthy Federated Learning with Perspectives on Security, Robustness, and Privacy." arXiv preprint arXiv:2302.10637 (2023).  
     \bibitem{b44} Dal Fabbro, Nicolò, Aritra Mitra, and George J. Pappas. "Federated TD Learning over Finite-Rate Erasure Channels: Linear Speedup under Markovian Sampling." IEEE Control Systems Letters (2023).  
+    \bibitem{b45} Miao, Chenglin, et al. "Towards data poisoning attacks in crowd sensing systems." Proceedings of the Eighteenth ACM International Symposium on Mobile Ad Hoc Networking and Computing. 2018.  
+    \bibitem{b46} Zhang, Hengtong, et al. "Data poisoning attack against knowledge graph embedding." arXiv preprint arXiv:1904.12052 (2019).   
+    \bibitem{b47} Barreno, Marco, et al. "Can machine learning be secure?." Proceedings of the 2006 ACM Symposium on Information, computer and communications security. 2006.  
+    \bibitem{b48} Lamport, Leslie, Robert Shostak, and Marshall Pease. "The Byzantine generals problem." Concurrency: the works of leslie lamport. 2019. 203-226.   
+    \bibitem{b49} Xie, Cong, Oluwasanmi Koyejo, and Indranil Gupta. "Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation." Uncertainty in Artificial Intelligence. PMLR, 2020.  
+    \bibitem{b50} Bernstein, Jeremy, et al. "signSGD with majority vote is communication efficient and fault tolerant." arXiv preprint arXiv:1810.05291 (2018).  
+    \bibitem{b51} Damaskinos, Georgios, et al. "Aggregathor: Byzantine machine learning via robust gradient aggregation." Proceedings of Machine Learning and Systems 1 (2019): 81-106.
 
 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  12 JUL 2023 17:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  13 JUL 2023 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,20 +326,6 @@ LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
 
 File: picture/f1.png Graphic file (type bmp)
 <picture/f1.png>
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 79.
-
-
-LaTeX Warning: Citation `31' on page 1 undefined on input line 79.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 79.
-
-
-LaTeX Warning: Citation `32' on page 1 undefined on input line 79.
-
 File: picture/f4.jpg Graphic file (type bmp)
 <picture/f4.jpg>
 [1
@@ -353,47 +339,13 @@ File: picture/f2.png Graphic file (type bmp)
 File: picture/f5.jpg Graphic file (type bmp)
 <picture/f5.jpg>
  [2]
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 180.
-LaTeX Font Info:    No file TUpcr.fd. on input line 180.
-
-
-LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 180.
+Underfull \hbox (badness 4832) in paragraph at lines 194--195
+[]\TU/ptm/bx/it/8 Guo, Shangwei, et al. Byzantine-Resilient Decentralized
+ []
 
 [3]
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 232.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 272.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 272.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 274.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 274.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 274.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 274.
-
-File: fig1.png Graphic file (type bmp)
-<fig1.png>
-[4]
-Underfull \hbox (badness 4832) in paragraph at lines 339--340
-[]\TU/ptm/m/sc/8 Guo, Shangwei, et al. Byzantine-Resilient Decentralized
+Underfull \hbox (badness 1888) in paragraph at lines 210--211
+[]\TU/ptm/bx/it/8 Zhang, Hengtong, et al. ”Data poisoning attack against
  []
 
 
@@ -407,24 +359,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (./conference_101719.aux)
+[4
+
+] (./conference_101719.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3887 strings out of 476191
- 61413 string characters out of 5812073
- 386231 words of memory out of 5000000
- 24593 multiletter control sequences out of 15000+600000
- 476981 words of font info for 71 fonts, out of 8000000 for 9000
+ 3849 strings out of 476191
+ 60986 string characters out of 5812073
+ 388231 words of memory out of 5000000
+ 24561 multiletter control sequences out of 15000+600000
+ 473094 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,11n,62p,648b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,62p,461b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on conference_101719.pdf (5 pages).
+Output written on conference_101719.pdf (4 pages).

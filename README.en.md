@@ -3,7 +3,7 @@
    This is our first paper, which is called A Review Of Security Issues In Federated Learning.  
 
 ---
-另一种结构是:
+本文结构是:
 
  ```mermaid
    graph LR
@@ -17,7 +17,12 @@
 
     a ---> b2[2.Threat Model]  
     b2 ---> b2a[A.Poisoning Attack]
+    b2a ---> b2a1[Model Poisoning attack]  
+    b2a ---> b2a2[Data Poisoning attack]  
+
     b2 ---> b2b[B.Adversarial Attack]  
+    b2b ---> b2b1[Digital Attack]  
+    b2b ---> b2b2[Physical Attack]
     a ---> b3[3.Poisoning Attack]
     a ---> b4[4.Defenses about Poisoning Attack]
     a ---> b5[5.Adversarial Attack]

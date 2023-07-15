@@ -156,7 +156,32 @@ with the goal of causing the global model to fail\cite{b48},\cite{b49},\cite{b50
 \subsubsection{Targeted Attack}A targeted attack is executed with 
 the aim of inducing the model to produce the target label specified by the 
 adversary for specific testing examples, while keeping the testing error for 
-other testing examples unaffected.
+other testing examples unaffected.   
+
+\section{Backdoor Attack}   
+A backdoor attack on deep neural networks entails surreptitiously implanting 
+a malicious backdoor within the model. This enables the model to function 
+normally when processing benign inputs, but triggers a pre-defined 
+malicious behavior when presented with a specific malicious trigger.
+The first neural backdoor in centralized settings can be traced 
+back to 2013\cite{b52}. A common strategy used by attackers is to embed 
+an attacker-chosen trigger into clean samples, creating trigger samples, 
+and then modify the labels of these samples to match the targeted class. 
+By training the model on both normal and trigger samples, the model learns 
+to associate the trigger with the targeted class while maintaining a similar 
+level of accuracy on clean samples as a normal model would. This approach 
+allows the attacker to achieve their goal without significantly impacting 
+the model's performance on clean data\cite{b53}. 
+
+
+\section{Defenses against Backdoor Attack}  
+\section{Byzantine Attack}  
+\section{Defenses against Byzantine Attack}  
+\section{Adversarial Attack}  
+\section{Defenses against Adversarial Attack}  
+\section{Hrbrid Defenses}  
+\section{Advanced Research and Problems}  
+\section{Conclusion}
 
 
 
@@ -212,7 +237,10 @@ other testing examples unaffected.
     \bibitem{b48} Lamport, Leslie, Robert Shostak, and Marshall Pease. "The Byzantine generals problem." Concurrency: the works of leslie lamport. 2019. 203-226.   
     \bibitem{b49} Xie, Cong, Oluwasanmi Koyejo, and Indranil Gupta. "Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation." Uncertainty in Artificial Intelligence. PMLR, 2020.  
     \bibitem{b50} Bernstein, Jeremy, et al. "signSGD with majority vote is communication efficient and fault tolerant." arXiv preprint arXiv:1810.05291 (2018).  
-    \bibitem{b51} Damaskinos, Georgios, et al. "Aggregathor: Byzantine machine learning via robust gradient aggregation." Proceedings of Machine Learning and Systems 1 (2019): 81-106.
+    \bibitem{b51} Damaskinos, Georgios, et al. "Aggregathor: Byzantine machine learning via robust gradient aggregation." Proceedings of Machine Learning and Systems 1 (2019): 81-106.   
+    \bibitem{b52} Geigel, Arturo. "Neural network trojan." Journal of Computer Security 21.2 (2013): 191-232.   
+    \bibitem{b53} Gu, Tianyu, Brendan Dolan-Gavitt, and Siddharth Garg. "Badnets: Identifying vulnerabilities in the machine learning model supply chain." arXiv preprint arXiv:1708.06733 (2017).
+
 
 
 

@@ -164,14 +164,7 @@ a malicious backdoor within the model. This enables the model to function
 normally when processing benign inputs, but triggers a pre-defined 
 malicious behavior when presented with a specific malicious trigger.
 The first neural backdoor in centralized settings can be traced 
-back to 2013\cite{b52}. A common strategy used by attackers is to embed 
-an attacker-chosen trigger into clean samples, creating trigger samples, 
-and then modify the labels of these samples to match the targeted class. 
-By training the model on both normal and trigger samples, the model learns 
-to associate the trigger with the targeted class while maintaining a similar 
-level of accuracy on clean samples as a normal model would. This approach 
-allows the attacker to achieve their goal without significantly impacting 
-the model's performance on clean data\cite{b53}. 
+back to 2013\cite{b52},\cite{b53}. 
 
 
 \section{Defenses against Backdoor Attack}  

@@ -255,18 +255,18 @@ they face many practical limitations due to the unique distributed characteristi
 This is because the data distribution and model aggregation steps in federated learning tend to neutralize
 most of the contributions of the backdoor model, leading to rapid forgetting of the backdoor by the global model.
 In light of this situation, Wang et al.\cite{b25} proposed selecting poisoning samples from edge data to reduce the
-forgetting effect caused by model updating. Dai et al.\cite{b64} proposed a new backdoor attack called Champeleon, 
-which enables attackers to create more persistent visual backdoors by adapting 
-to peer-to-peer images. The durability of the backdoor largely depends 
-on the existence of two types of identical benign images that are closely 
-related to the toxic image: 1) interferers, which are images that share 
-the same original tag as the toxic image, and 2) facilitators, which are 
-images with the target back tag. Interferers can cause update conflicts 
-between toxic updates and benign updates, which may reduce the accuracy of 
-the backdoor. Conversely, facilitators can help reintroduce backdoor 
-information into the federated learning model and mitigate the catastrophic 
-forgetting effect after the attacker leaves the training process. Inspired by 
-these observations, Champeleon is designed to amplify these effects and enhance 
+forgetting effect caused by model updating. Dai et al.\cite{b64} proposed a new backdoor attack called Champeleon,
+which enables attackers to create more persistent visual backdoors by adapting
+to peer-to-peer images. The durability of the backdoor largely depends
+on the existence of two types of identical benign images that are closely
+related to the toxic image: 1) interferers, which are images that share
+the same original tag as the toxic image, and 2) facilitators, which are
+images with the target back tag. Interferers can cause update conflicts
+between toxic updates and benign updates, which may reduce the accuracy of
+the backdoor. Conversely, facilitators can help reintroduce backdoor
+information into the federated learning model and mitigate the catastrophic
+forgetting effect after the attacker leaves the training process. Inspired by
+these observations, Champeleon is designed to amplify these effects and enhance
 the durability of the backdoor.
 
 \subsection{Model Poisoning Attack}
@@ -298,30 +298,96 @@ relies on the empirical observation that the norm of a stochastic gradient
 is primarily concentrated in a small number of "heavy hitter" coordinates.
 Neurotoxin identifies these heavy hitters using the top-k heuristic and
 avoids them. By avoiding directions that are most likely to receive large
-updates from benign devices, the chance of the backdoor being erased is mitigated.  
+updates from benign devices, the chance of the backdoor being erased is mitigated.
 
-Sun et al. \cite{b65}proposed a distance-aware attack (ADA), which enhances poisoning attacks 
-by identifying optimized target classes in the feature space. They addressed the challenge of 
-limited prior knowledge of customer data that competitors may face. To overcome this problem, 
-ADA infers the pairwise distances between different categories in the potential feature space 
-from the shared model parameters using backward error analysis. They conducted an extensive 
-empirical evaluation of ADA by varying attack frequency in three different image classification 
-tasks. As a result, ADA successfully improved the attack performance by 1.8 times in the most 
+Sun et al. \cite{b65}proposed a distance-aware attack (ADA), which enhances poisoning attacks
+by identifying optimized target classes in the feature space. They addressed the challenge of
+limited prior knowledge of customer data that competitors may face. To overcome this problem,
+ADA infers the pairwise distances between different categories in the potential feature space
+from the shared model parameters using backward error analysis. They conducted an extensive
+empirical evaluation of ADA by varying attack frequency in three different image classification
+tasks. As a result, ADA successfully improved the attack performance by 1.8 times in the most
 challenging cases with attack frequency of 0.01x.
 
-\subsection{Summary Of Federated Backdoor Attack}  
-The primary challenge of backdoor attacks in federated learning is how 
-to leverage the distributed nature of this approach, evade detector checks, 
-and ensure the persistence of the backdoors during multiple rounds of update 
-iterations. We identify three research directions for federated backdoor 
-attacks: using multiple malicious clients to insert backdoor attacks, 
-combining generation technology with backdoor attacks, and conducting 
+\subsection{Summary Of Federated Backdoor Attack}
+The primary challenge of backdoor attacks in federated learning is how
+to leverage the distributed nature of this approach, evade detector checks,
+and ensure the persistence of the backdoors during multiple rounds of update
+iterations. We identify three research directions for federated backdoor
+attacks: using multiple malicious clients to insert backdoor attacks,
+combining generation technology with backdoor attacks, and conducting
 research on persistent backdoor attacks in federated learning.
 
-\section{Defenses against Backdoor Attack}
+\section{Defenses against Backdoor Attack}  
+To mitigate the problem of backdoor attacks in 
+federated learning, various defensive techniques have been proposed. 
+Given that we previously categorized backdoor attacks as data poisoning 
+attacks and model poisoning attacks, we will now discuss defensive strategies 
+for each of these attack types.
+
+\subsection{Defense Against Data Poisoning}
+The simplest approach is to filter out poisoned data samples, 
+which aims to remove the poisoned samples from the training dataset. 
+After the filtering process, only benign samples or purified poisoned 
+samples are used during the training process, thus eliminating the 
+creation of a backdoor from the source.  
+
+Tran et al.\cite{b67} were the first to investigate methods for filtering out malicious 
+samples from the training set. They demonstrated that poisoned samples tend to 
+leave detectable traces within the covariance range of the feature representation. 
+Exploiting this insight, it is possible to filter out poisoned samples from 
+the training set.Zeng et al. \cite{b68} revealed that poisoned samples of 
+existing attacks had some high-frequency artifacts even if their trigger 
+patterns are invisible in the input space. Based on this observation, 
+they designed a simple yet effective filtering method based on those artifacts.
+Similarly, Chen et al. \cite{b69}proposed a two-stage filtering approach. 
+In the first stage, activation values of samples in each class are clustered 
+into two groups, and in the second stage, it is determined which clusters 
+correspond to poisoned samples. 
+As is well known, backdoors are triggered during the inference stage. 
+Filtering out malicious samples from the testing samples during the inference stage can prevent the backdoor 
+from being activated. Gao et al. \cite{b71} proposed to filter attacked samples by overlaying various image patterns 
+on suspicious samples. The smaller the randomness of the input perturbation prediction, the higher the probability 
+that the suspicious sample is attacked. In \cite{b72}, Subedar et al. used model uncertainty to distinguish between 
+benign and attacked samples. Later, Du et al. \cite{b73} regarded filtering as outlier detection and proposed a 
+differential privacy-based filtering method. Recently, \cite{b74} proposed a lightweight method that can filter 
+attacked samples or prior hypotheses of trigger patterns without labeled samples.
+However, Tang et al.\cite{b70} demonstrated that
+simple target contamination can result in malicious and benign samples being 
+indistinguishable in the feature representation space. Therefore, most 
+sample filtering techniques are ineffective.
+
+
+
 \section{Byzantine Attack}
 \section{Defenses against Byzantine Attack}
-\section{Adversarial Attack}
+\section{Adversarial Attack}  
+Both adversarial attacks and backdoor attacks are techniques used to modify benign 
+testing samples in order to make models misbehave during the inference process. 
+While adversarial perturbations are sample-agnostic in universal adversarial attacks, 
+these attacks can seem similar to backdoor attacks. Consequently, researchers who are 
+not familiar with backdoor attacks may question their significance, as these attacks 
+require additional controls on the training process to some extent.
+However, despite certain similarities, these attacks have essential differences. 
+Firstly, adversarial attackers need to control the inference process (to a certain extent) 
+but not the training process of models. They need to query the model results or even gradients 
+multiple times to generate adversarial perturbations by optimization given a fixed targeted model. 
+On the other hand, backdoor attackers require modifying some training stages (e.g., data collection, 
+model training) without any additional requirements in the inference process.
+Secondly, from the perspective of attacked samples, backdoor attackers use known 
+(i.e., non-optimized) perturbations, whereas adversarial attackers need to obtain them through 
+the optimization process based on the output of the model. This optimization in adversarial attacks 
+requires multiple queries, making them unable to be real-time in many cases.
+Finally, the mechanisms of these attacks are also essentially different. 
+Adversarial vulnerability results from the differences in behaviors of models and humans, 
+while backdoor attackers utilize the excessive learning ability of deep neural networks (DNNs) 
+to build a latent connection between trigger patterns and target labels. Recently, 
+there have been some works studying the latent connection between adversarial attacks 
+and backdoor attacks. For example, Weng et al. \cite{b66}empirically demonstrated that defending 
+against adversarial attacks via adversarial training may increase the risks of backdoor attacks.
+
+
+
 \section{Defenses against Adversarial Attack}
 \section{Hrbrid Defenses}
 \section{Advanced Research and Problems}
@@ -386,19 +452,25 @@ research on persistent backdoor attacks in federated learning.
     \bibitem{b53} Gu, Tianyu, Brendan Dolan-Gavitt, and Siddharth Garg. "Badnets: Identifying vulnerabilities in the machine learning model supply chain." arXiv preprint arXiv:1708.06733 (2017).
     \bibitem{b54} Shen, Shiqi, Shruti Tople, and Prateek Saxena. "Auror: Defending against poisoning attacks in collaborative deep learning systems." Proceedings of the 32nd Annual Conference on Computer Security Applications. 2016.
     \bibitem{b55} Steinhardt, Jacob, Pang Wei W. Koh, and Percy S. Liang. "Certified defenses for data poisoning attacks." Advances in neural information processing systems 30 (2017).
-    \bibitem{b56} Tolpegin, Vale, et al. "Data poisoning attacks against federated learning systems." Computer Security–ESORICS 2020: 25th European Symposium on Research in Computer Security, ESORICS 2020, Guildford, UK, September 14–18, 2020, Proceedings, Part I 25. Springer International Publishing, 2020.
+    \bibitem{b56} Tolpegin, Vale, et al. "Data poisoning attacks against federated learning systems." Computer Security ESORICS 2020: 25th European Symposium on Research in Computer Security, ESORICS 2020, Guildford, UK, September 14–18, 2020, Proceedings, Part I 25. Springer International Publishing, 2020.
     \bibitem{b57} Shafahi, Ali, et al. "Poison frogs! targeted clean-label poisoning attacks on neural networks." Advances in neural information processing systems 31 (2018).
     \bibitem{b58} Zhu, Chen, et al. "Transferable clean-label poisoning attacks on deep neural nets." International Conference on Machine Learning. PMLR, 2019.
     \bibitem{b59} Xie, Chulin, et al. “DBA: Distributed Backdoor Attacks against Federated Learning.” International Conference on Learning Representations,International Conference on Learning Representations, Apr. 2020.
-    \bibitem{b60} In order to enhance the effectiveness of data poisoning attacks, dynamic triggers have been proposed and applied. Salem et al conducted a clear and systematic study on the feasibility of dynamic flip-flops, which can facilitate the backdoor attacks by generating antagonistic network algorithms to create triggers. This way, the same tags can be hijacked with different trigger patterns that share similar potential representations and positions. Et al also conducted a direct investigation of dynamic triggers. These triggers can be flexibly produced during the physical attack phase, as they maintain their effectiveness even under substantial changes. The results of the study show that dynamically triggered backdoor attacks are more powerful, and they require new techniques to be defeated because they break the static trigger hypothesis of most current defense systems.
+    \bibitem{b60} Salem, Ahmed, et al. "Dynamic backdoor attacks against machine learning models." 2022 IEEE 7th European Symposium on Security and Privacy (EuroSP). IEEE, 2022.
     \bibitem{b61} Li, Yiming, et al. “Rethinking the Trigger of Backdoor Attack.” arXiv: Cryptography and Security,arXiv: Cryptography and Security, May 2021.
     \bibitem{b62} Zhang, Zhengming, et al. "Neurotoxin: Durable backdoors in federated learning." International Conference on Machine Learning. PMLR, 2022.
-    \bibitem{b63} Zhou et al. proposed an optimization-based model poisoning attack that involves injecting adversarial neurons into the redundant space of a neural network to maintain the attack's concealment and persistence. To identify the redundant space, the Hessian matrix is used to measure the update distance and direction of each neuron's main task (i.e. "importance"). An additional term is then added to the loss function to prevent poisoned neurons from being injected in locations that are particularly relevant to the main task.
+    \bibitem{b63} Zhou, Xingchen, et al. "Deep model poisoning attack on federated learning." Future Internet 13.3 (2021): 73.
     \bibitem{b64} Dai, Yanbo, and Songze Li. "Chameleon: Adapting to Peer Images for Planting Durable Backdoors in Federated Learning." arXiv preprint arXiv:2304.12961 (2023).
     \bibitem{b65} Sun, Yuwei, Hideya Ochiai, and Jun Sakuma. "Semi-targeted model poisoning attack on federated learning via backward error analysis." 2022 International Joint Conference on Neural Networks (IJCNN). IEEE, 2022.
-
-
-
+    \bibitem{b66} Weng, Cheng-Hsin, Yan-Ting Lee, and Shan-Hung Brandon Wu. "On the trade-off between adversarial and backdoor robustness." Advances in Neural Information Processing Systems 33 (2020): 11973-11983.
+    \bibitem{b67} Tran, Brandon, Jerry Li, and Aleksander Madry. "Spectral signatures in backdoor attacks." Advances in neural information processing systems 31 (2018).
+    \bibitem{b68} Zeng, Yi, et al. "Rethinking the backdoor attacks' triggers: A frequency perspective." Proceedings of the IEEE/CVF international conference on computer vision. 2021.  
+    \bibitem{b69} Chen, Bryant, et al. "Detecting backdoor attacks on deep neural networks by activation clustering." arXiv preprint arXiv:1811.03728 (2018).  
+    \bibitem{b70} Tang, Di, et al. "Demon in the variant: Statistical analysis of {DNNs} for robust backdoor contamination detection." 30th USENIX Security Symposium (USENIX Security 21). 2021.
+    \bibitem{b71} Gao, Yansong, et al. “STRIP: A Defence Against Trojan Attacks on Deep Neural Networks.” Cornell University - arXiv,Cornell University - arXiv, Feb. 2019.  
+    \bibitem{b72} M. Subedar, N. Ahuja, R. Krishnan, I. J. Ndiour, and O. Tickoo, "Deep probabilistic models to detect data poisoning attacks," in NeurIPS Workshop, 2019.  
+    \bibitem{b73} M. Du, R. Jia, and D. Song, "Robust anomaly detection and backdoor attack detection via differential privacy," in ICLR, 2020.  
+    \bibitem{b74} M. Javaheripi, M. Samragh, G. Fields, T. Javidi, and F. Koushanfar, "Cleann: Accelerated trojan shield for embedded neural networks," inICCAD, 2020.
 
 
 

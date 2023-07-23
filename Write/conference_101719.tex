@@ -167,7 +167,7 @@ The first neural backdoor in centralized settings can be traced
 back to 2013\cite{b52},\cite{b53}.
 
 Due to the unique nature of federated learning, whereby the model is trained
-on individual clients, it is more susceptible to backdoor attacks compared
+on individual clients, it is more susceptible to backdoor attacks compared
 to the general centralized training model. These types of attacks in federated
 learning can be divided into two categories based on the different stages at
 which the adversary inserts the backdoor into the training pipeline: data
@@ -318,72 +318,189 @@ attacks: using multiple malicious clients to insert backdoor attacks,
 combining generation technology with backdoor attacks, and conducting
 research on persistent backdoor attacks in federated learning.
 
-\section{Defenses against Backdoor Attack}  
-To mitigate the problem of backdoor attacks in 
-federated learning, various defensive techniques have been proposed. 
-Given that we previously categorized backdoor attacks as data poisoning 
-attacks and model poisoning attacks, we will now discuss defensive strategies 
+\section{Defenses against Backdoor Attack}
+To mitigate the problem of backdoor attacks in
+federated learning, various defensive techniques have been proposed.
+Given that we previously categorized backdoor attacks as data poisoning
+attacks and model poisoning attacks, we will now discuss defensive strategies
 for each of these attack types.
 
 \subsection{Defense Against Data Poisoning}
-The simplest approach is to filter out poisoned data samples, 
-which aims to remove the poisoned samples from the training dataset. 
-After the filtering process, only benign samples or purified poisoned 
-samples are used during the training process, thus eliminating the 
-creation of a backdoor from the source.  
+The simplest approach is to filter out poisoned data samples,
+which aims to remove the poisoned samples from the training dataset.
+After the filtering process, only benign samples or purified poisoned
+samples are used during the training process, thus eliminating the
+creation of a backdoor from the source.
 
-Tran et al.\cite{b67} were the first to investigate methods for filtering out malicious 
-samples from the training set. They demonstrated that poisoned samples tend to 
-leave detectable traces within the covariance range of the feature representation. 
-Exploiting this insight, it is possible to filter out poisoned samples from 
-the training set.Zeng et al. \cite{b68} revealed that poisoned samples of 
-existing attacks had some high-frequency artifacts even if their trigger 
-patterns are invisible in the input space. Based on this observation, 
+Tran et al.\cite{b67} were the first to investigate methods for filtering out malicious
+samples from the training set. They demonstrated that poisoned samples tend to
+leave detectable traces within the covariance range of the feature representation.
+Exploiting this insight, it is possible to filter out poisoned samples from
+the training set.Zeng et al. \cite{b68} revealed that poisoned samples of
+existing attacks had some high-frequency artifacts even if their trigger
+patterns are invisible in the input space. Based on this observation,
 they designed a simple yet effective filtering method based on those artifacts.
-Similarly, Chen et al. \cite{b69}proposed a two-stage filtering approach. 
-In the first stage, activation values of samples in each class are clustered 
-into two groups, and in the second stage, it is determined which clusters 
-correspond to poisoned samples. 
-As is well known, backdoors are triggered during the inference stage. 
-Filtering out malicious samples from the testing samples during the inference stage can prevent the backdoor 
-from being activated. Gao et al. \cite{b71} proposed to filter attacked samples by overlaying various image patterns 
-on suspicious samples. The smaller the randomness of the input perturbation prediction, the higher the probability 
-that the suspicious sample is attacked. In \cite{b72}, Subedar et al. used model uncertainty to distinguish between 
-benign and attacked samples. Later, Du et al. \cite{b73} regarded filtering as outlier detection and proposed a 
-differential privacy-based filtering method. Recently, \cite{b74} proposed a lightweight method that can filter 
+Similarly, Chen et al. \cite{b69}proposed a two-stage filtering approach.
+In the first stage, activation values of samples in each class are clustered
+into two groups, and in the second stage, it is determined which clusters
+correspond to poisoned samples.
+
+As is well known, backdoors are triggered during the inference stage.
+Filtering out malicious samples from the testing samples during the inference stage can prevent the backdoor
+from being activated. Gao et al. \cite{b71} proposed to filter attacked samples by overlaying various image patterns
+on suspicious samples. The smaller the randomness of the input perturbation prediction, the higher the probability
+that the suspicious sample is attacked. In \cite{b72}, Subedar et al. used model uncertainty to distinguish between
+benign and attacked samples. Later, Du et al. \cite{b73} regarded filtering as outlier detection and proposed a
+differential privacy-based filtering method. Recently, \cite{b74} proposed a lightweight method that can filter
 attacked samples or prior hypotheses of trigger patterns without labeled samples.
 However, Tang et al.\cite{b70} demonstrated that
-simple target contamination can result in malicious and benign samples being 
-indistinguishable in the feature representation space. Therefore, most 
+simple target contamination can result in malicious and benign samples being
+indistinguishable in the feature representation space. Therefore, most
 sample filtering techniques are ineffective.
 
+Based on data-driven defense methods, in addition to filtering out samples,
+it is also possible to consider directly preprocessing the samples,
+specifically by erasing any backdoors within them to prevent them from being embedded in the model.
+Liu et al.\cite{b75} proposed a pre-trained autoencoder as a preprocessor to prevent malicious samples from embedding backdoors
+by preprocessing the input samples without affecting data classification accuracy.
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.8\linewidth,height=0.4\linewidth]{picture/f9.png}}
+    \caption{Overview of the Februus System.}
+    \label{fig9}
+\end{figure}
+Doan et al. \cite{b76}proposed a two-stage image processing method called Februus, in which,
+in the first stage, Februus uses GradCAM to identify influential regions, which are then
+removed and replaced with a neutral color frame. Subsequently, Februus uses a GAN-based
+repair method to reconstruct the masked regions to mitigate their adverse effects (such as benign accuracy reduction).
+Li et al. \cite{b77} discussed the properties of existing poisoning-based static trigger mode attacks. They demonstrated
+that the attack performance may sharply decrease if the appearance or location of the trigger is slightly changed.
+Based on this observation, they recommended using spatial transformations (such as contraction, flipping)
+for defense. Compared to previous methods, this method is more efficient because it requires almost no additional computational cost.
+
+\subsection{Defense Against Model Poisoning}  
+\subsubsection{Filtering}
+Similar to defense methods against poisoned data, defense methods against poisoned models also begin with model filtering. 
+Fung et al. proposed FoolsGold \cite{b78}, which checks for and eliminates suspicious updates during local updates. 
+FoolsGold is based on the fact that when a global model is trained by a group of attackers, they will submit updates with 
+the same backdoor objectives throughout the training process, resulting in similar behavior.   
+
+However, this similarity does not occur among honest participants because each user's training dataset is unique and not shared with others. 
+Therefore, malicious attackers can be separated from benign attackers through gradient updates. After detecting such anomalies, 
+FoolGold maintains the learning rate of benign users (submitting only unique gradient updates) and reduces the learning rate of malicious users 
+(repeatedly uploading similar gradient updates) to mitigate backdoor attacks. However, experimental results show that 
+FoolsGold cannot defend against adaptive attacks. Li et al. \cite{b79} proposed a spectral anomaly detection framework for a 
+central aggregator that detects and erases backdoor model updates through strong detection model detection. 
+The key idea of spectral anomaly detection is that there is a significant difference between the embedding 
+of benign updates and backdoor updates in a low-dimensional latent space. One practical method for approximating 
+low-dimensional embedding is to build a model using an encoder-decoder structure, where the encoder takes 
+in the raw update and returns a low-dimensional embedding, and the decoder is fed the embedding and outputs 
+the generation error. After training the encoder-decoder model on benign updates, it can be used to identify 
+backdoor updates, generating errors much higher than benign errors; malicious updates will be excluded from 
+the aggregation process. However, this defense method cannot handle multi-trigger backdoor attacks, i.e., 
+injecting various backdoors simultaneously.   
+
+Nguyen et al. proposed FlGuard \cite{b80}, a two-layer defense method that checks 
+for locally updated updates with clear backdoor effects and eliminates residual backdoors through pruning, smoothing, and noise 
+addition. Unlike FoolsGold\cite{b78}, it also applies to multi-trigger backdoor attacks while maintaining high prediction accuracy for benign primary tasks. 
+Additionally, FLDetector \cite{b81} proposed a method to detect malicious clients by checking the consistency of model updates. Essentially, 
+the server predicts the client's model update based on past updates in each iteration. If the model update received by the client 
+differs significantly from the predicted update over multiple iterations, the client is marked as malicious. Overall, the focus of 
+these methods is mainly divided into two types: the first is to remove toxic updates from malicious clients before model aggregation, 
+and the second is to reduce the impact of malicious clients on the aggregated model, such as reducing the learning rate of suspicious clients.
+
+\subsubsection{Robust Training}  
+After filtering techniques, another class of techniques aims to directly mitigate backdoor attacks during model training through robust joint training. 
+Differential privacy algorithms have been shown to be effective against backdoors \cite{b82}, but they may compromise model performance under data imbalance 
+commonly found in federated learning \cite{b83}. DP-FedAvg \cite{b84} (Central-DP) is a differential private aggregation strategy that eliminates 
+outliers by clipping the norm of model updates and adding Gaussian noise, but the required amount of noise significantly reduces 
+task accuracy. Sun et al. \cite{b27} proposed weak DP, which adds sufficient Gaussian noise to defeat backdoors while maintaining task accuracy, 
+but it is ineffective against constraint-based backdoor attacks \cite{b25}. 
+Additionally, DP-based defenses can potentially impact the benign performance of the global model, 
+as the clipping factor also changes the weights of benign model updates.   
+
+In addition to DP-based defenses, Andreina et al. \cite{b85}proposed Feedback-based Federated Learning (BaFFle) to eliminate backdoors.  
+The key idea of BaFFle is to leverage participants to verify the global model. BaFFle includes a super-digit verification process for each 
+round of federated learning. Specifically, each selected participant checks the current global model by computing a verification function on 
+their secret data and reports to the central server whether the model is backdoored or not. The central server then decides whether 
+to accept or reject the current global model based on feedback from all users. The verification function compares the error rate of 
+a specific class of the current global model with the error rate of previously accepted global models. If the error rate is significantly different, 
+the central server rejects the current global model as it may be backdoored and issues an alert. Unlike anomaly detection, BaFFle is compliant with secure aggregation.
+
+Considering that all of the above defense works lack robustness certification, 
+Xie et al. \cite{b86} proposed the first general defense framework CRFL for training certifiably robust FL models against backdoor attacks. 
+CRFL controls the model smoothness through pruning and smoothing of model parameters and generates sample robustness 
+certification against amplitude-limited backdoor attacks. Smoothness and perturbation methods are also used as an 
+additional component to constrain the L2 norm of individual updates to enhance defense performance \cite{b87}. 
+In addition, the FL-WBC \cite{b88} method aims to identify the fragile parameter space in FL and perturb it 
+during client training. FL-WBC also provides robustness guarantees against backdoor attacks and convergence guarantees for FedAvg. 
+These developments demonstrate promising steps towards improving FL's robustness against backdoor attacks. In FLARE \cite{b89}, a trust 
+evaluation method is proposed that calculates a trust score for each model update based on the difference between all model updates and 
+their penultimate layer representation values. FLARE assumes that most clients are trustworthy and assigns low scores 
+to updates that are far from benign update clusters. The model updates are then aggregated with their trust scores as 
+weights and the global model is updated accordingly.
+
+In \cite{b98}, the concept of anti-backdoor learning is introduced, which involves training a clean model given infected data, 
+dividing the overall learning task into a dual task of learning the clean part of the data and the backdoor part. 
+The article leverages two inherent weaknesses of backdoor attacks: models learn backdoor data faster than clean data, 
+and the stronger the attack, the faster the model converges on the backdoor data. Additionally, backdoor tasks are mutually 
+associated with specific classes. Based on these two weaknesses, a generic learning scheme is proposed to automatically prevent 
+backdoor attacks during training. A two-stage gradient ascent mechanism is introduced to isolate and separate backdoor samples 
+from the target class during the early training stage and break the association between backdoor samples and the target class during the later training stage.
+\subsubsection{Model Reconstruction}  
+The model reconstruction-based approach aims to eliminate hidden backdoors in infected models by directly modifying suspicious models. 
+Therefore, even if triggers are included in the attack samples, the reconstructed model will still correctly predict them because 
+the hidden backdoors have been removed.
+
+As mentioned earlier, the forgetting mechanism of federated backdoor attacks means that as training and model aggregation progress, 
+the backdoor will be forgotten in successive iterations. As a defense, this forgetting mechanism can also be utilized to create many defensive methods.
+
+Zeng et al. \cite{b90}defined multiple training as a min-max problem and used implicit hyper-gradients to 
+explain the interdependence between internal and external optimization.  
+In \cite{b91}, Zhao et al. showed that hidden backdoors infecting DNNs can be repaired using pattern connectivity techniques with a certain number of benign samples. 
+Yoshida et al.  and Li et al. \cite{b92} perturbed backdoor-related neurons based on the distillation process, reconstructed (infected) DNNs using knowledge 
+distillation techniques , and thus removed hidden backdoors.
+In addition to directly eliminating hidden backdoors, defense based on trigger synthesis first 
+synthesizes backdoor triggers, and then in the second phase, eliminates hidden backdoors by suppressing the influence of triggers. 
+These defenses have some similarities in the second phase with reconstruction-based defenses. For example, 
+pruning and retraining are commonly used techniques to remove hidden backdoors in both defenses. However, 
+compared to reconstruction-based defenses, the trigger-based defenses' trigger information makes the removal process more effective and efficient.
+
+A GAN-based method was proposed in \cite{b93} to synthesize trigger distributions. 
+In \cite{b94}, they showed that the detection process used in \cite{b95} to determine synthesized 
+triggers has several failure modes and proposed a new defense method based on this observation. 
+Additionally, Cheng et al. \cite{b96} revealed that the '∞ norm of activation values can be used to 
+distinguish backdoor-related neurons based on synthesized triggers. Therefore, they propose performing an 
+'∞-based neuron pruning to remove neurons with high activation values in response to triggers. 
+Similarly, Aiken et al.\cite{b97} also propose removing hidden backdoors 
+by pruning DNNs based on synthesized triggers from another perspective. 
 
 
 \section{Byzantine Attack}
 \section{Defenses against Byzantine Attack}
-\section{Adversarial Attack}  
-Both adversarial attacks and backdoor attacks are techniques used to modify benign 
-testing samples in order to make models misbehave during the inference process. 
-While adversarial perturbations are sample-agnostic in universal adversarial attacks, 
-these attacks can seem similar to backdoor attacks. Consequently, researchers who are 
-not familiar with backdoor attacks may question their significance, as these attacks 
+\section{Adversarial Attack}
+Both adversarial attacks and backdoor attacks are techniques used to modify benign
+testing samples in order to make models misbehave during the inference process.
+While adversarial perturbations are sample-agnostic in universal adversarial attacks,
+these attacks can seem similar to backdoor attacks. Consequently, researchers who are
+not familiar with backdoor attacks may question their significance, as these attacks
 require additional controls on the training process to some extent.
-However, despite certain similarities, these attacks have essential differences. 
-Firstly, adversarial attackers need to control the inference process (to a certain extent) 
-but not the training process of models. They need to query the model results or even gradients 
-multiple times to generate adversarial perturbations by optimization given a fixed targeted model. 
-On the other hand, backdoor attackers require modifying some training stages (e.g., data collection, 
+However, despite certain similarities, these attacks have essential differences.
+Firstly, adversarial attackers need to control the inference process (to a certain extent)
+but not the training process of models. They need to query the model results or even gradients
+multiple times to generate adversarial perturbations by optimization given a fixed targeted model.
+On the other hand, backdoor attackers require modifying some training stages (e.g., data collection,
 model training) without any additional requirements in the inference process.
-Secondly, from the perspective of attacked samples, backdoor attackers use known 
-(i.e., non-optimized) perturbations, whereas adversarial attackers need to obtain them through 
-the optimization process based on the output of the model. This optimization in adversarial attacks 
+Secondly, from the perspective of attacked samples, backdoor attackers use known
+(i.e., non-optimized) perturbations, whereas adversarial attackers need to obtain them through
+the optimization process based on the output of the model. This optimization in adversarial attacks
 requires multiple queries, making them unable to be real-time in many cases.
-Finally, the mechanisms of these attacks are also essentially different. 
-Adversarial vulnerability results from the differences in behaviors of models and humans, 
-while backdoor attackers utilize the excessive learning ability of deep neural networks (DNNs) 
-to build a latent connection between trigger patterns and target labels. Recently, 
-there have been some works studying the latent connection between adversarial attacks 
-and backdoor attacks. For example, Weng et al. \cite{b66}empirically demonstrated that defending 
+Finally, the mechanisms of these attacks are also essentially different.
+Adversarial vulnerability results from the differences in behaviors of models and humans,
+while backdoor attackers utilize the excessive learning ability of deep neural networks (DNNs)
+to build a latent connection between trigger patterns and target labels. Recently,
+there have been some works studying the latent connection between adversarial attacks
+and backdoor attacks. For example, Weng et al. \cite{b66}empirically demonstrated that defending
 against adversarial attacks via adversarial training may increase the risks of backdoor attacks.
 
 
@@ -397,7 +514,7 @@ against adversarial attacks via adversarial training may increase the risks of b
 
 
 \begin{thebibliography}{00}
-    \bibitem{b1} M. Goddard, The EU General Data Protection Regulation (GDPR): European regulation that has a global impact, International Journal of Market Research 59 (2017) 703–705.
+    \bibitem{b1} M. Goddard, The EU General Data Protection Regulation (GDPR): European regulation that has a global impact, International Journal of Market Research 59 (2017) 703~705.
     \bibitem{b2} O. Gómez-Carmona, D. Casado-Mansilla, F. A. Kraemer, D. L. de Ipiña, J. GarcíaZubia, Exploring the computational cost of machine learning at the edge for human-centric internet of things, Future Generation Computer Systems 112 (2020) 670–683.
     \bibitem{b3} J. Zhang, D. Tao, Empowering things with intelligence: A survey of the progress, challenges, and opportunities in artificial intelligence of things, IEEE Internet of Things Journal 8 (2021) 7789–7817.
     \bibitem{b4} C. Ma, J. Koneˇcný, M. Jaggi, V. Smith, M. Jordan, P. Richtárik, M. Takáˇc, Distributed optimization with arbitrary local solvers, Optimization Methods and Software 32 (2017) 813–848.
@@ -408,13 +525,13 @@ against adversarial attacks via adversarial training may increase the risks of b
     \bibitem{b9} R. Rau, R. Wardrop, and L. Zingales. The Palgrave Handbook of Technological Finance. Springer, 2021.
     \bibitem{b10} Fang, Xiuwen, and Mang Ye. "Robust federated learning with noisy and heterogeneous clients." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
     \bibitem{b11} Tang, Zhenheng, et al. "Virtual homogeneity learning: Defending against data heterogeneity in federated learning." International Conference on Machine Learning. PMLR, 2022.
-    \bibitem{b12} Kairouz, Peter, et al. "Advances and open problems in federated learning." Foundations and Trends® in Machine Learning 14.1–2 (2021): 1-210.
+    \bibitem{b12} Kairouz, Peter, et al. "Advances and open problems in federated learning." Foundations and Trends® in Machine Learning 14.1~2 (2021): 1-210.
     \bibitem{b13} Yang, Qiang, et al. "Federated machine learning: Concept and applications." ACM Transactions on Intelligent Systems and Technology (TIST) 10.2 (2019): 1-19.
     \bibitem{b14} Huang, Wei, et al. "Fairness and accuracy in horizontal federated learning." Information Sciences 589 (2022): 170-185.
     \bibitem{b15} Liu, Yang, et al. "Vertical federated learning." arXiv preprint arXiv:2211.12814 (2022).
     \bibitem{b16} Ghosh, Avishek, et al. "An efficient framework for clustered federated learning." Advances in Neural Information Processing Systems 33 (2020): 19586-19597.
     \bibitem{b17} Briggs, Christopher, Zhong Fan, and Peter Andras. "Federated learning with hierarchical clustering of local updates to improve training on non-IID data." 2020 International Joint Conference on Neural Networks (IJCNN). IEEE, 2020.
-    \bibitem{b18} Hsu, Tzu-Ming Harry, Hang Qi, and Matthew Brown. "Federated visual classification with real-world data distribution." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part X 16. Springer International Publishing, 2020.
+    \bibitem{b18} Hsu, Tzu-Ming Harry, Hang Qi, and Matthew Brown. "Federated visual classification with real-world data distribution." Computer Vision ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part X 16. Springer International Publishing, 2020.
     \bibitem{b19} Wahab, Omar Abdel, et al. "Federated machine learning: Survey, multi-level classification, desirable criteria and future directions in communication and networking systems." IEEE Communications Surveys and Tutorials 23.2 (2021): 1342-1397.
     \bibitem{b20} Yang, Shengwen, et al. "Parallel distributed logistic regression for vertical federated learning without third-party coordinator." arXiv preprint arXiv:1911.09824 (2019).
     \bibitem{b21} Deng, Yuyang, Mohammad Mahdi Kamani, and Mehrdad Mahdavi. "Distributionally robust federated averaging." Advances in neural information processing systems 33 (2020): 15111-15122.
@@ -464,17 +581,37 @@ against adversarial attacks via adversarial training may increase the risks of b
     \bibitem{b65} Sun, Yuwei, Hideya Ochiai, and Jun Sakuma. "Semi-targeted model poisoning attack on federated learning via backward error analysis." 2022 International Joint Conference on Neural Networks (IJCNN). IEEE, 2022.
     \bibitem{b66} Weng, Cheng-Hsin, Yan-Ting Lee, and Shan-Hung Brandon Wu. "On the trade-off between adversarial and backdoor robustness." Advances in Neural Information Processing Systems 33 (2020): 11973-11983.
     \bibitem{b67} Tran, Brandon, Jerry Li, and Aleksander Madry. "Spectral signatures in backdoor attacks." Advances in neural information processing systems 31 (2018).
-    \bibitem{b68} Zeng, Yi, et al. "Rethinking the backdoor attacks' triggers: A frequency perspective." Proceedings of the IEEE/CVF international conference on computer vision. 2021.  
-    \bibitem{b69} Chen, Bryant, et al. "Detecting backdoor attacks on deep neural networks by activation clustering." arXiv preprint arXiv:1811.03728 (2018).  
+    \bibitem{b68} Zeng, Yi, et al. "Rethinking the backdoor attacks' triggers: A frequency perspective." Proceedings of the IEEE/CVF international conference on computer vision. 2021.
+    \bibitem{b69} Chen, Bryant, et al. "Detecting backdoor attacks on deep neural networks by activation clustering." arXiv preprint arXiv:1811.03728 (2018).
     \bibitem{b70} Tang, Di, et al. "Demon in the variant: Statistical analysis of {DNNs} for robust backdoor contamination detection." 30th USENIX Security Symposium (USENIX Security 21). 2021.
-    \bibitem{b71} Gao, Yansong, et al. “STRIP: A Defence Against Trojan Attacks on Deep Neural Networks.” Cornell University - arXiv,Cornell University - arXiv, Feb. 2019.  
-    \bibitem{b72} M. Subedar, N. Ahuja, R. Krishnan, I. J. Ndiour, and O. Tickoo, "Deep probabilistic models to detect data poisoning attacks," in NeurIPS Workshop, 2019.  
-    \bibitem{b73} M. Du, R. Jia, and D. Song, "Robust anomaly detection and backdoor attack detection via differential privacy," in ICLR, 2020.  
+    \bibitem{b71} Gao, Yansong, et al. “STRIP: A Defence Against Trojan Attacks on Deep Neural Networks.” Cornell University - arXiv,Cornell University - arXiv, Feb. 2019.
+    \bibitem{b72} M. Subedar, N. Ahuja, R. Krishnan, I. J. Ndiour, and O. Tickoo, "Deep probabilistic models to detect data poisoning attacks," in NeurIPS Workshop, 2019.
+    \bibitem{b73} M. Du, R. Jia, and D. Song, "Robust anomaly detection and backdoor attack detection via differential privacy," in ICLR, 2020.
     \bibitem{b74} M. Javaheripi, M. Samragh, G. Fields, T. Javidi, and F. Koushanfar, "Cleann: Accelerated trojan shield for embedded neural networks," inICCAD, 2020.
-
-
-
-
+    \bibitem{b75} Liu, Yuntao, Yang Xie, and Ankur Srivastava. "Neural trojans." 2017 IEEE International Conference on Computer Design (ICCD). IEEE, 2017.
+    \bibitem{b76} Doan, Bao Gia, et al. “Februus: Input Purification Defense Against Trojan Attacks on Deep Neural Network Systems.” Annual Computer Security Applications Conference, 2020, https://doi.org/10.1145/3427228.3427264.
+    \bibitem{b77} Li, Yiming, et al. “Backdoor Attack in the Physical World.” arXiv: Cryptography and Security,arXiv: Cryptography and Security, Apr. 2021.  
+    \bibitem{b78} Fung, Clement, Chris JM Yoon, and Ivan Beschastnikh. "Mitigating sybils in federated learning poisoning." arXiv preprint arXiv:1808.04866 (2018).  
+    \bibitem{b79} Li, Suyi, et al. "Learning to detect malicious clients for robust federated learning." arXiv preprint arXiv:2002.00211 (2020).  
+    \bibitem{b80} Nguyen, ThienDuc, et al. “FLGUARD: Secure and Private Federated Learning.” arXiv: Cryptography and Security,arXiv: Cryptography and Security, Jan. 2021.  
+    \bibitem{b81} Zhang, Zaixi, et al. FLDetector: Defending Federated Learning Against Model Poisoning Attacks via Detecting Malicious Clients. July 2022. 
+    \bibitem{b82} Naseri, MohammadKazemGharib, et al. “Toward Robustness and Privacy in Federated Learning: Experimenting with Local and Central Differential Privacy.” Cornell University - arXiv,Cornell University - arXiv, Sept. 2020.
+    \bibitem{b83} Bagdasaryan, Eugene, et al. “Differential Privacy Has Disparate Impact on Model Accuracy.” Neural Information Processing Systems,Neural Information Processing Systems, May 2019.   
+    \bibitem{b84} McMahan, H. Brendan, et al. “Learning Differentially Private Recurrent Language Models.” arXiv: Learning,arXiv: Learning, Oct. 2017.  
+    \bibitem{b85} Andreina, Sebastien, et al. “BaFFLe: Backdoor Detection via Feedback-Based Federated Learning.” 2021 IEEE 41st International Conference on Distributed Computing Systems (ICDCS), 2021, https://doi.org/10.1109/icdcs51616.2021.00086.
+    \bibitem{b86} Xie, Chulin, et al. “CRFL: Certifiably Robust Federated Learning against Backdoor Attacks.” arXiv: Learning,arXiv: Learning, June 2021.  
+    \bibitem{b87} Nguyen, ThienDuc, et al. FLAME: Taming Backdoors in Federated Learning.  
+    \bibitem{b88} Sun, Jingwei, et al. “FL-WBC: Enhancing Robustness against Model Poisoning Attacks in Federated Learning from a Client Perspective.” Neural Information Processing Systems,Neural Information Processing Systems, Oct. 2021.  
+    \bibitem{b89} Wang, Ning, et al. FLARE: Defending Federated Learning against Model Poisoning Attacks via Latent Space Representations.
+    \bibitem{b90} Zeng, YiXin, et al. “Adversarial Unlearning of Backdoors via Implicit Hypergradient.” Cornell University - arXiv,Cornell University - arXiv, Oct. 2021.  
+    \bibitem{b91} Zhao, Pu, et al. “Bridging Mode Connectivity in Loss Landscapes and Adversarial Robustness.” International Conference on Learning Representations,International Conference on Learning Representations, Apr. 2020.
+    \bibitem{b92} Yoshida, Kota, and Takeshi Fujino. “Disabling Backdoor and Identifying Poison Data by Using Knowledge Distillation in Backdoor Attacks on Deep Neural Networks.” Proceedings of the 13th ACM Workshop on Artificial Intelligence and Security, 2020, https://doi.org/10.1145/3411508.3421375.
+    \bibitem{b93} Zhu, Liuwan, et al. “GangSweep: Sweep out Neural Backdoors by GAN.” Proceedings of the 28th ACM International Conference on Multimedia, 2020, https://doi.org/10.1145/3394171.3413546.  
+    \bibitem{b94} Guo, Wenbo, et al. “Towards Inspecting and Eliminating Trojan Backdoors in Deep Neural Networks.” 2020 IEEE International Conference on Data Mining (ICDM), 2020, https://doi.org/10.1109/icdm50108.2020.00025.
+    \bibitem{b95} Wang, Bolun, et al. “Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks.” 2019 IEEE Symposium on Security and Privacy (SP), 2019, https://doi.org/10.1109/sp.2019.00031.
+    \bibitem{b96} Cheng, Hao, et al. “Defending against Backdoor Attack on Deep Neural Networks.” arXiv: Cryptography and Security,arXiv: Cryptography and Security, Feb. 2020. 
+    \bibitem{b97} Aiken, William, et al. "Neural network laundering: Removing black-box backdoor watermarks from deep neural networks." Computers  Security 106 (2021): 102277.
+    \bibitem{b98} Li, Yige, et al. "Anti-backdoor learning: Training clean models on poisoned data." Advances in Neural Information Processing Systems 34 (2021): 14900-14912.
 
 \end{thebibliography}
 

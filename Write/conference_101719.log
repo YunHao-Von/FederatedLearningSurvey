@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  22 JUL 2023 20:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  23 JUL 2023 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -346,19 +346,70 @@ File: picture/f7.jpg Graphic file (type bmp)
  [3]
 File: picture/f8.jpg Graphic file (type bmp)
 <picture/f8.jpg>
- [4] [5]
-Underfull \hbox (badness 4832) in paragraph at lines 429--430
+ [4]
+File: picture/f9.png Graphic file (type bmp)
+<picture/f9.png>
+ [5]
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 443.
+
+
+LaTeX Warning: Citation `b98' on page 6 undefined on input line 443.
+
+[6] [7]
+Underfull \hbox (badness 4832) in paragraph at lines 546--547
 []\TU/ptm/bx/it/8 Guo, Shangwei, et al. Byzantine-Resilient Decentralized
  []
 
-[6]
-Underfull \hbox (badness 1888) in paragraph at lines 445--446
+
+Underfull \hbox (badness 1888) in paragraph at lines 562--563
 []\TU/ptm/bx/it/8 Zhang, Hengtong, et al. ”Data poisoning attack against
  []
 
-
-Underfull \hbox (badness 1881) in paragraph at lines 468--469
+[8]
+Underfull \hbox (badness 1881) in paragraph at lines 585--586
 \TU/ptm/bx/it/8 neural networks by activation clustering.” arXiv preprint
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 607--608
+\TU/ptm/bx/it/8 scapes and Adversarial Robustness.” International Confer-
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 609--610
+[]\TU/ptm/bx/it/8 Zhu, Liuwan, et al. “GangSweep: Sweep out Neural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+\TU/ptm/bx/it/8 Backdoors by GAN.” Proceedings of the 28th
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+\TU/ptm/bx/it/8 ACM International Conference on Multimedia, 2020,
+ []
+
+[9]
+Underfull \hbox (badness 1688) in paragraph at lines 610--611
+\TU/ptm/bx/it/8 International Conference on Data Mining (ICDM), 2020,
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 611--612
+[]\TU/ptm/bx/it/8 Wang, Bolun, et al. “Neural Cleanse: Identifying and
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 611--612
+\TU/ptm/bx/it/8 Mitigating Backdoor Attacks in Neural Networks.” 2019
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 611--612
+\TU/ptm/bx/it/8 IEEE Symposium on Security and Privacy (SP), 2019,
  []
 
 
@@ -372,18 +423,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7] (./conference_101719.aux)
+[10
+
+] (./conference_101719.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3899 strings out of 476191
- 61536 string characters out of 5812073
- 390340 words of memory out of 5000000
- 24608 multiletter control sequences out of 15000+600000
+ 3932 strings out of 476191
+ 61801 string characters out of 5812073
+ 391442 words of memory out of 5000000
+ 24640 multiletter control sequences out of 15000+600000
  473094 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,11n,62p,461b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on conference_101719.pdf (7 pages).
+Output written on conference_101719.pdf (10 pages).

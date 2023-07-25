@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  24 JUL 2023 18:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  25 JUL 2023 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,18 +307,9 @@ LaTeX Font Warning: Font shape `TU/ptm/b/it' undefined
 (Font)              using `TU/ptm/bx/it' instead on input line 12.
 
 -- Lines per column: 56 (exact).
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 30.
+(Font)              using `TU/ptm/bx/n' instead on input line 28.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
@@ -328,114 +319,164 @@ File: picture/f1.png Graphic file (type bmp)
 <picture/f1.png>
 File: picture/f4.jpg Graphic file (type bmp)
 <picture/f4.jpg>
-[1
+File: picture/f3.jpg Graphic file (type bmp)
+<picture/f3.jpg>
+
+Underfull \vbox (badness 3780) has occurred while \output is active []
+
+ [1
 
 
 ]
-File: picture/f3.jpg Graphic file (type bmp)
-<picture/f3.jpg>
 File: picture/f2.png Graphic file (type bmp)
 <picture/f2.png>
 File: picture/f5.jpg Graphic file (type bmp)
 <picture/f5.jpg>
  [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3]
 File: picture/f6.jpg Graphic file (type bmp)
 <picture/f6.jpg>
 File: picture/f7.jpg Graphic file (type bmp)
 <picture/f7.jpg>
- [3]
 File: picture/f8.jpg Graphic file (type bmp)
 <picture/f8.jpg>
- [4]
+ [4] [5]
+File: picture/two-stage-cluster.png Graphic file (type bmp)
+<picture/two-stage-cluster.png>
 File: picture/f9.png Graphic file (type bmp)
 <picture/f9.png>
- [5] [6] [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8] [9] [10]
-Overfull \hbox (3.68764pt too wide) detected at line 579
+ [6]
+File: picture/CRFL.png Graphic file (type bmp)
+<picture/CRFL.png>
+ [7]
+File: picture/sybil.jpg Graphic file (type bmp)
+<picture/sybil.jpg>
+ [8]
+File: picture/ddos.jpg Graphic file (type bmp)
+<picture/ddos.jpg>
+ [9]
+File: picture/gause.jpg Graphic file (type bmp)
+<picture/gause.jpg>
+File: picture/robot.jpg Graphic file (type bmp)
+<picture/robot.jpg>
+ [10]
+File: picture/de-ddos.jpg Graphic file (type bmp)
+<picture/de-ddos.jpg>
+ [11]
+File: picture/vote.jpg Graphic file (type bmp)
+<picture/vote.jpg>
+File: picture/diff.jpg Graphic file (type bmp)
+<picture/diff.jpg>
+ [12]
+Overfull \hbox (3.68764pt too wide) detected at line 886
 []\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + [](\OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 L\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R; x[]; y\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 ^^O[]; x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^O[]; x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
  []
 
-[11]
-Underfull \hbox (badness 2126) in paragraph at lines 663--664
+[13]
+File: picture/db.png Graphic file (type bmp)
+<picture/db.png>
+ [14]
+Underfull \hbox (badness 2126) in paragraph at lines 1027--1031
 []\TU/ptm/m/sc/10 From the perspective of variance-bias decomposi-
  []
 
 
-Underfull \vbox (badness 1616) has occurred while \output is active []
-
-
-
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 704.
+(Font)              using `TU/ptm/bx/n' instead on input line 1036.
 
 
-LaTeX Warning: Citation `103' on page 12 undefined on input line 704.
+LaTeX Warning: Citation `103' on page 15 undefined on input line 1036.
 
-[12]
-Underfull \hbox (badness 4832) in paragraph at lines 765--766
+[15] [16]
+Underfull \hbox (badness 4832) in paragraph at lines 1127--1128
 []\TU/ptm/bx/it/8 Guo, Shangwei, et al. Byzantine-Resilient Decentralized
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 781--782
+Underfull \hbox (badness 1888) in paragraph at lines 1143--1144
 []\TU/ptm/bx/it/8 Zhang, Hengtong, et al. ”Data poisoning attack against
  []
 
-[13]
-Underfull \hbox (badness 1881) in paragraph at lines 804--805
+
+Underfull \hbox (badness 1881) in paragraph at lines 1166--1167
 \TU/ptm/bx/it/8 neural networks by activation clustering.” arXiv preprint
  []
 
-
-Underfull \hbox (badness 1383) in paragraph at lines 826--827
+[17]
+Underfull \hbox (badness 1383) in paragraph at lines 1188--1189
 \TU/ptm/bx/it/8 scapes and Adversarial Robustness.” International Confer-
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 828--829
+Underfull \hbox (badness 7595) in paragraph at lines 1190--1191
 []\TU/ptm/bx/it/8 Zhu, Liuwan, et al. “GangSweep: Sweep out Neural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
 \TU/ptm/bx/it/8 Backdoors by GAN.” Proceedings of the 28th
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
 \TU/ptm/bx/it/8 ACM International Conference on Multimedia, 2020,
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 829--830
+Underfull \hbox (badness 1688) in paragraph at lines 1191--1192
 \TU/ptm/bx/it/8 International Conference on Data Mining (ICDM), 2020,
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 830--831
+Underfull \hbox (badness 4699) in paragraph at lines 1192--1193
 []\TU/ptm/bx/it/8 Wang, Bolun, et al. “Neural Cleanse: Identifying and
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 830--831
+Underfull \hbox (badness 2591) in paragraph at lines 1192--1193
 \TU/ptm/bx/it/8 Mitigating Backdoor Attacks in Neural Networks.” 2019
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 830--831
+Underfull \hbox (badness 2772) in paragraph at lines 1192--1193
 \TU/ptm/bx/it/8 IEEE Symposium on Security and Privacy (SP), 2019,
  []
 
-[14]
-Underfull \hbox (badness 3229) in paragraph at lines 834--835
+
+Underfull \hbox (badness 3229) in paragraph at lines 1196--1197
 \TU/ptm/bx/it/8 ”Explaining and harnessing adversarial examples.” arXiv
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 842--843
+Underfull \hbox (badness 5667) in paragraph at lines 1204--1205
 []\TU/ptm/bx/it/8 Shah, Devansh, et al. ”Adversarial training in com-
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 1209--1210
+\TU/ptm/bx/it/8 erated learning: Attacks and defenses.” arXiv preprint
+ []
+
+[18]
+Underfull \hbox (badness 3138) in paragraph at lines 1221--1222
+[]\TU/ptm/bx/it/8 Jiang, Yanna, et al. ”A Secure Aggregation for Fed-
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 1221--1222
+\TU/ptm/bx/it/8 erated Learning on Long-Tailed Data.” arXiv preprint
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 1230--1231
+[]\TU/ptm/bx/it/8 Portnoy, Amit, and Danny Hendler. ”Towards realistic
  []
 
 
@@ -449,7 +490,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[15
+[19
 
 ] (./conference_101719.aux)
 
@@ -460,12 +501,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3951 strings out of 476191
- 61961 string characters out of 5812073
- 416495 words of memory out of 5000000
- 24659 multiletter control sequences out of 15000+600000
- 474793 words of font info for 62 fonts, out of 8000000 for 9000
+ 4036 strings out of 476191
+ 63417 string characters out of 5812073
+ 391721 words of memory out of 5000000
+ 24739 multiletter control sequences out of 15000+600000
+ 471038 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,11n,62p,1215b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,62p,683b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on conference_101719.pdf (15 pages).
+Output written on conference_101719.pdf (19 pages).

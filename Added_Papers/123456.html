@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://cdnai.gameax.cn/#/login -->
+<html lang="en" class="van-theme-light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<link rel="icon" type="image/x-icon" href="https://cdnai.gameax.cn/chat8.ico">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+		<title>chat8</title>
+		<style>
+			.loadingBox {
+				text-align: center;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+			}
+			.apploading {
+				width: 40%;
+				height: 22px;
+				border-radius: 20px;
+				color: rgb(16, 163, 127);
+				border: 2px solid;
+				position: relative;
+				margin: auto;
+			}
+
+			.apploading::before {
+				content: "";
+				position: absolute;
+				left: 0;
+				margin: 2px;
+				inset: 0 100% 0 0;
+				border-radius: inherit;
+				background: rgb(16, 163, 127);
+				animation: p 3s infinite;
+			}
+			.apploading::after {
+				content: "loading...";
+				color: #333;
+				width: 100%;
+				line-height: 1.1;
+				margin: 0 auto;
+				position: absolute;
+				margin: 2px;
+				left: 0;
+				inset: 0 100% 0 0;
+				border-radius: inherit;
+				animation: q 3s infinite;
+			}
+
+			@keyframes p {
+				100% {
+					inset: 0;
+				}
+			}
+			@keyframes q {
+				100% {
+					color: #fff;
+				}
+			}
+		</style>
+		<script type="module" crossorigin="" src="./123456_files/index-931f7998.js"></script>
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/@vue-2fc1c7cc.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/axios-9e336316.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/@babel-9867481d.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/crypto-js-467eec84.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/@vant-7647c83a.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/vant-7370c660.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/auth-fd3f9091.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/vue-router-2e9b4a11.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/preload-helper-706a0e5c.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/pinia-07c6e02c.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/index-90bd202c.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/pinia-plugin-persist-70d140bd.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/store-7bb144d5.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/_plugin-vue_export-helper-1b428a4d.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/request-498cbb6f.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/mitt-6b013584.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/vue-f3322f83.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/toggle-selection-21c1b11c.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/copy-to-clipboard-dcd42dfe.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/@kangc-2df09285.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/prismjs-6ddea55d.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/js-md5-1d91d9cf.js">
+		<link rel="modulepreload" crossorigin="" href="https://cdnai.gameax.cn/js/lodash-a6667fa2.js">
+		<link rel="stylesheet" href="./123456_files/vant-c3299b73.css">
+		<link rel="stylesheet" href="./123456_files/request-2ee1d3f8.css">
+		<link rel="stylesheet" href="./123456_files/@kangc-7f385f2c.css">
+		<link rel="stylesheet" href="./123456_files/index-5389edeb.css">
+	<link rel="modulepreload" as="script" crossorigin="" href="https://cdnai.gameax.cn/js/redirect-4198ef5c.js"><link rel="modulepreload" as="script" crossorigin="" href="https://cdnai.gameax.cn/js/vue-clipboard3-aa03b205.js"><link rel="modulepreload" as="script" crossorigin="" href="https://cdnai.gameax.cn/js/clipboard-b4908114.js"><link rel="stylesheet" href="./123456_files/redirect-e62b4da3.css"><link rel="modulepreload" as="script" crossorigin="" href="https://cdnai.gameax.cn/js/login-f0d6b851.js"><link rel="stylesheet" href="./123456_files/login-fac297f9.css"></head>
+	<body>
+		<div id="app" style="display: block;" data-v-app=""><div data-v-fe97b893="" class="van-config-provider"><div data-v-fe97b893="" class="AppPage"><div data-v-d2e303fe="" data-v-fe97b893="" class="loginPage barStateStyle"><div data-v-d2e303fe="" class="van-nav-bar__placeholder" style="height: 46px;"><div class="van-nav-bar van-nav-bar--fixed van-safe-area-top"><div class="van-nav-bar__content"><div class="van-nav-bar__left van-haptics-feedback"><i class="van-badge__wrapper van-icon van-icon-arrow-left van-nav-bar__arrow"><!----><!----><!----></i><!----></div><div class="van-nav-bar__title van-ellipsis">登录</div><!----></div></div></div><div data-v-d2e303fe="" class="main"><div data-v-d2e303fe="" class="slogan">Chat8</div><form data-v-d2e303fe="" class="van-form"><div data-v-d2e303fe="" class="van-cell-group van-cell-group--inset"><div data-v-d2e303fe="" class="van-cell van-field" style="background: rgb(255, 255, 255);"><!----><div class="van-cell__title van-field__label"><label id="van-field-1-label" for="van-field-1-input">手机号</label><!----></div><div class="van-cell__value van-field__value"><div class="van-field__body"><input type="tel" id="van-field-1-input" name="tel" class="van-field__control" placeholder="请输入手机号" aria-labelledby="van-field-1-label"><!----><!----><!----></div><!----><!----></div><!----><!----></div><div data-v-d2e303fe="" class="van-cell van-field" style="background: rgb(255, 255, 255);"><!----><div class="van-cell__title van-field__label"><label id="van-field-2-label" for="van-field-2-input">密码</label><!----></div><div class="van-cell__value van-field__value"><div class="van-field__body"><input type="password" id="van-field-2-input" name="psd" class="van-field__control" placeholder="请输入密码" aria-labelledby="van-field-2-label"><!----><div class="van-field__right-icon"><i data-v-d2e303fe="" class="van-badge__wrapper van-icon van-icon-closed-eye" style="color: rgb(51, 51, 51);"><!----><!----><!----></i></div><!----></div><!----><!----></div><!----><!----></div></div><div data-v-d2e303fe="" class="tips1">忘记密码</div><div data-v-d2e303fe="" style="margin: 16px;"><button data-v-d2e303fe="" type="submit" class="van-button van-button--primary van-button--normal van-button--block" style="color: white; background: rgb(16, 163, 127); border-color: rgb(16, 163, 127);"><div class="van-button__content"><!----><span class="van-button__text"> 登录 </span><!----></div></button></div></form></div><div data-v-d2e303fe="" class="tips">还没有账号?去注册</div><div data-v-d2e303fe="" class="tips2" style="display: none;"><div data-v-d2e303fe="" role="checkbox" class="van-checkbox van-checkbox--label-disabled" tabindex="0" aria-checked="false"><div class="van-checkbox__icon van-checkbox__icon--round" style="font-size: 22px;"><i class="van-badge__wrapper van-icon van-icon-success"><!----><!----><!----></i></div><span class="van-checkbox__label">勾选即表示您已阅读并同意chat8<br data-v-d2e303fe=""><span data-v-d2e303fe="" style="color: rgb(0, 124, 243);">[隐私政策]</span>和<span data-v-d2e303fe="" style="color: rgb(0, 124, 243);">[用户协议]</span></span></div></div><div data-v-d2e303fe="" class="tips3"><span data-v-d2e303fe="" style="color: rgb(153, 153, 153);">用户使用Chat8过程中，请遵守所在国家的法律法规及相关政策</span></div><!----><!----><div data-v-d2e303fe="" class="van-overlay loadingPopup" style="display: none;"><div data-v-d2e303fe="" class="van-loading van-loading--circular" aria-live="polite" aria-busy="true"><span class="van-loading__spinner van-loading__spinner--circular" style="color: rgb(25, 137, 250);"><svg class="van-loading__circular" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span><!----></div></div></div><!----><div data-v-1f43ad79="" data-v-fe97b893="" class="redirectPage slide"><!----><!----></div></div></div></div>
+		<div class="loadingBox" id="apploading" style="display: none;">
+			<div class="apploading"></div>
+		</div>
+		
+		<!-- <script nomodule src="/src/main.js"></script> -->
+	
+
+<div data-v-app=""></div><!----><div role="dialog" tabindex="0" class="van-popup van-popup--center van-toast van-toast--middle van-toast--fail" style="z-index: 2001; display: none;"><i class="van-badge__wrapper van-icon van-icon-fail van-toast__icon"><!----><!----><!----></i><div class="van-toast__text">用户名或者密码错误</div><!----></div></body></html>

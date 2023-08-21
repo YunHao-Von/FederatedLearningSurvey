@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  18 AUG 2023 17:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.3)  20 AUG 2023 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/yunhao/桌面/Project/federated-learning-survey/Write/conference_101719
-(/home/yunhao/桌面/Project/federated-learning-survey/Write/conference_101719.tex
+**/home/yunhao/桌面/Project/federated-learning-survey/WriteV2/conference_101719
+(/home/yunhao/桌面/Project/federated-learning-survey/WriteV2/conference_101719.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -313,200 +313,16 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 39.
+(Font)              using `TU/ptm/m/n' instead on input line 34.
 
 File: picture/f1.png Graphic file (type bmp)
 <picture/f1.png>
-File: picture/f4.jpg Graphic file (type bmp)
-<picture/f4.jpg>
-File: picture/f3.jpg Graphic file (type bmp)
-<picture/f3.jpg>
-
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
- [1
+[1
 
 
 ]
-File: picture/f2.png Graphic file (type bmp)
-<picture/f2.png>
-File: picture/f5.jpg Graphic file (type bmp)
-<picture/f5.jpg>
- [2]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 145.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 145.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3]
-File: picture/f6.jpg Graphic file (type bmp)
-<picture/f6.jpg>
-File: picture/f7.jpg Graphic file (type bmp)
-<picture/f7.jpg>
-File: picture/f8.jpg Graphic file (type bmp)
-<picture/f8.jpg>
- [4] [5]
-File: picture/two-stage-cluster.png Graphic file (type bmp)
-<picture/two-stage-cluster.png>
-File: picture/f9.png Graphic file (type bmp)
-<picture/f9.png>
- [6]
-File: picture/CRFL.png Graphic file (type bmp)
-<picture/CRFL.png>
- [7]
-File: picture/sybil.jpg Graphic file (type bmp)
-<picture/sybil.jpg>
- [8]
-File: picture/ddos.jpg Graphic file (type bmp)
-<picture/ddos.jpg>
- [9]
-File: picture/gause.jpg Graphic file (type bmp)
-<picture/gause.jpg>
-File: picture/robot.jpg Graphic file (type bmp)
-<picture/robot.jpg>
- [10]
-File: picture/de-ddos.jpg Graphic file (type bmp)
-<picture/de-ddos.jpg>
- [11]
-File: picture/vote.jpg Graphic file (type bmp)
-<picture/vote.jpg>
-File: picture/diff.jpg Graphic file (type bmp)
-<picture/diff.jpg>
- [12]
-Overfull \hbox (3.68764pt too wide) detected at line 886
-[]\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + [](\OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 L\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R; x[]; y\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 ^^O[]; x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^O[]; x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
- []
-
-[13]
-File: picture/db.png Graphic file (type bmp)
-<picture/db.png>
- [14]
-Underfull \hbox (badness 2126) in paragraph at lines 1027--1031
-[]\TU/ptm/m/sc/10 From the perspective of variance-bias decomposi-
- []
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 1036.
-
-
-LaTeX Warning: Citation `103' on page 15 undefined on input line 1036.
-
-[15] [16]
-Underfull \hbox (badness 4832) in paragraph at lines 1127--1128
-[]\TU/ptm/bx/it/8 Guo, Shangwei, et al. Byzantine-Resilient Decentralized
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 1143--1144
-[]\TU/ptm/bx/it/8 Zhang, Hengtong, et al. ”Data poisoning attack against
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 1166--1167
-\TU/ptm/bx/it/8 neural networks by activation clustering.” arXiv preprint
- []
-
-[17]
-Underfull \hbox (badness 1383) in paragraph at lines 1188--1189
-\TU/ptm/bx/it/8 scapes and Adversarial Robustness.” International Confer-
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 1190--1191
-[]\TU/ptm/bx/it/8 Zhu, Liuwan, et al. “GangSweep: Sweep out Neural
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
-\TU/ptm/bx/it/8 Backdoors by GAN.” Proceedings of the 28th
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
-\TU/ptm/bx/it/8 ACM International Conference on Multimedia, 2020,
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 1191--1192
-\TU/ptm/bx/it/8 International Conference on Data Mining (ICDM), 2020,
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 1192--1193
-[]\TU/ptm/bx/it/8 Wang, Bolun, et al. “Neural Cleanse: Identifying and
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 1192--1193
-\TU/ptm/bx/it/8 Mitigating Backdoor Attacks in Neural Networks.” 2019
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 1192--1193
-\TU/ptm/bx/it/8 IEEE Symposium on Security and Privacy (SP), 2019,
- []
-
-
-Underfull \hbox (badness 3229) in paragraph at lines 1196--1197
-\TU/ptm/bx/it/8 ”Explaining and harnessing adversarial examples.” arXiv
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 1204--1205
-[]\TU/ptm/bx/it/8 Shah, Devansh, et al. ”Adversarial training in com-
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 1209--1210
-\TU/ptm/bx/it/8 erated learning: Attacks and defenses.” arXiv preprint
- []
-
-[18]
-Underfull \hbox (badness 3138) in paragraph at lines 1221--1222
-[]\TU/ptm/bx/it/8 Jiang, Yanna, et al. ”A Secure Aggregation for Fed-
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 1221--1222
-\TU/ptm/bx/it/8 erated Learning on Long-Tailed Data.” arXiv preprint
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 1230--1231
-[]\TU/ptm/bx/it/8 Portnoy, Amit, and Danny Hendler. ”Towards realistic
- []
-
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[19
-
-] (./conference_101719.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 4036 strings out of 476191
- 63417 string characters out of 5812073
- 391721 words of memory out of 5000000
- 24739 multiletter control sequences out of 15000+600000
- 471038 words of font info for 46 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 55i,8n,62p,683b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on conference_101719.pdf (19 pages).
+File: picture/backdoor_attack.png Graphic file (type bmp)
+<picture/backdoor_attack.png>
+File: picture/byattack.png Graphic file (type bmp)
+<picture/byattack.png>
+File: picture/adversarial_attack.png Graphic file (typ

@@ -2,6 +2,7 @@
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
+\usepackage{authblk}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -11,22 +12,26 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{A Survey of Security Issues in federated laearning}
+\title{A Survey of Security Threats in Federated Laearning}
 
-\author{\IEEEauthorblockN{ Yunhao Feng}
-    \IEEEauthorblockA{\textit{National University of Defense and Technology} \\
-        fengyunhaonudt@nudt.edu.cn}
-    \and
-    \IEEEauthorblockN{ Yinjian Hou}
-    \IEEEauthorblockA{\textit{National University of Defense and Technology} \\
-        houyinjian18@nudt.edu.cn}
-
-}
+\author[1]{Yunhao Feng}
+\author[1]{Yinjian Hou}
+\author[1]{Yanming Guo}
+\affil[1]{National University of Defense Technology}
 
 \maketitle
 
 \begin{abstract}
-    Comming Soon.
+    Federated learning is a distributed machine learning paradigm that emerged as a solution to the need for privacy protection in artificial intelligence. 
+    Federated learning, like traditional machine learning, is threatened by backdoor attacks, Byzantine attacks, and adversarial attacks. 
+    This weakness is exacerbated by the inaccessibility of data in federated learning, 
+    which makes it more difficult to defend against these threats.
+    This points to the need for further research into defensive approaches to make federated learning a real solution for distributed machine learning paradigm with securing data privacy.
+    In this article, we provide an extensive survey of the threats to federal learning, 
+    and their countermeasures accordingly. 
+    This survey provides a taxonomy of these threats and their defense methods, 
+    describing the general situation of this vulnerability in federal learning and how to overcome it. 
+    We also sort out the relationship between these methods, their advantages and disadvantages, and put forward the future research directions.
 \end{abstract}
 
 
@@ -444,28 +449,30 @@ for each of these attack types.
 
 \subsection{Defense Against Data Poisoning}
 The simplest approach is to filter out poisoned data samples,
-which aims to remove the poisoned samples from the training dataset.
+which aims to remove the poisoned samples from the training datasets.
 After the filtering process, only benign samples or purified poisoned
 samples are used during the training process, thus eliminating the
-creation of a backdoor from the source.
+creation of backdoors from the source.
 
-Tran et al.\cite{b67} were the first to investigate methods for filtering out malicious
-samples from the training set. They demonstrated that poisoned samples tend to
+Tran et al.\cite{b67} are the first to investigate methods for filtering out malicious
+samples from the training sets. They demonstrated that poisoned samples tend to
 leave detectable traces within the covariance range of the feature representation.
 Exploiting this insight, it is possible to filter out poisoned samples from
-the training set.Zeng et al. \cite{b68} revealed that poisoned samples of
+the training sets. Zeng et al. \cite{b68} revealed that poisoned samples of
 existing attacks had some high-frequency artifacts even if their trigger
 patterns are invisible in the input space. Based on this observation,
 they designed a simple yet effective filtering method based on those artifacts.
 Similarly, Chen et al. \cite{b69}proposed a two-stage filtering approach.
 As shown in Fig.\ref{fig9}, in the first stage, activation values of samples in each class are clustered
-into two groups, and in the second stage, it is determined which clusters
+into two groups. And in the second stage, it is determined which clusters
 correspond to poisoned samples.
 
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.3\linewidth]{picture/two-stage-cluster.png}}
-    \caption{two-stage-cluster}
+    \caption{In the first stage, activation values of samples in each class are clustered
+    into two groups. And in the second stage, it is determined which clusters
+    correspond to poisoned samples}
     \label{fig9}
 \end{figure}
 
@@ -491,11 +498,14 @@ Liu et al.\cite{b75} proposed a pre-trained autoencoder as a preprocessor to pre
 by preprocessing the input samples without affecting data classification accuracy.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/f9.png}}
-    \caption{Overview of the Februus System.}
+    \centerline{\includegraphics[width=1.0\linewidth,height=0.5\linewidth]{picture/f9.png}}
+    \caption{Februus uses a GAN-based
+    repair method to reconstruct the masked regions to mitigate their 
+    adverse effects (such as benign accuracy reduction).}
     \label{fig10}
 \end{figure}
-Doan et al. \cite{b76}proposed a two-stage image processing method called Februus, in which,
+
+Doan et al. \cite{b76} proposed a two-stage image processing method called Februus, in which,
 in the first stage, Februus uses GradCAM to identify influential regions, which are then
 removed and replaced with a neutral color frame. Subsequently, as shown in Fig.\ref{fig10}, Februus uses a GAN-based
 repair method to reconstruct the masked regions to mitigate their adverse effects (such as benign accuracy reduction).
@@ -509,7 +519,7 @@ for defense. Compared to previous methods, this method is more efficient because
 Similar to defense methods against poisoned data, defense methods against poisoned models also begin with model filtering.
 Fung et al. proposed FoolsGold \cite{b78}, which checks for and eliminates suspicious updates during local updates.
 FoolsGold is based on the fact that when a global model is trained by a group of attackers, they will submit updates with
-the same backdoor objectives throughout the training process, resulting in similar behavior.
+the same backdoor objectives throughout the training process, resulting in similar behaviors.
 
 However, this similarity does not occur among honest participants because each user's training dataset is unique and not shared with others.
 Therefore, malicious attackers can be separated from benign attackers through gradient updates. After detecting such anomalies,
@@ -518,7 +528,7 @@ FoolGold maintains the learning rate of benign users (submitting only unique gra
 FoolsGold cannot defend against adaptive attacks.
 
 Li et al. \cite{b79} proposed a spectral anomaly detection framework for a
-central aggregator that detects and erases backdoor model updates through strong detection model detection.
+central aggregator that detects and erases malicious updates through strong detection model detection.
 The key idea of spectral anomaly detection is that there is a significant difference between the embedding
 of benign updates and backdoor updates in a low-dimensional latent space. One practical method for approximating
 low-dimensional embedding is to build a model using an encoder-decoder structure, where the encoder takes
@@ -557,7 +567,9 @@ the central server rejects the current global model as it may be backdoored and 
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/CRFL.png}}
-    \caption{Overview of certifiably robust federated learning (CRFL).}
+    \caption{Overview of certifiably robust federated learning (CRFL). CRFL controls the model smoothness through pruning and smoothing of model parameters and generates sample robustness
+    certification against amplitude-limited backdoor attacks. Smoothness and perturbation methods are also used as 
+    additional components to constrain the L2 norm of individual updates to enhance defense performance}
     \label{fig11}
 \end{figure}
 
@@ -565,8 +577,8 @@ the central server rejects the current global model as it may be backdoored and 
 Considering that all of the above defense works lack robustness certification,
 Xie et al. \cite{b86} proposed the first general defense framework CRFL for training certifiably robust FL models against backdoor attacks.
 As shown in Fig.\ref{fig11},CRFL controls the model smoothness through pruning and smoothing of model parameters and generates sample robustness
-certification against amplitude-limited backdoor attacks. Smoothness and perturbation methods are also used as an
-additional component to constrain the L2 norm of individual updates to enhance defense performance \cite{b87}.
+certification against amplitude-limited backdoor attacks. Smoothness and perturbation methods are also used as
+additional components to constrain the L2 norm of individual updates to enhance defense performance \cite{b87}.
 
 In addition, the FL-WBC \cite{b88} method aims to identify the fragile parameter space in FL and perturb it
 during client training. FL-WBC also provides robustness guarantees against backdoor attacks and convergence guarantees for FedAvg.
@@ -610,203 +622,243 @@ compared to reconstruction-based defenses, the trigger-based defenses' trigger i
 A GAN-based method was proposed in \cite{b93} to synthesize trigger distributions.
 In \cite{b94}, they showed that the detection process used in \cite{b95} to determine synthesized
 triggers has several failure modes and proposed a new defense method based on this observation.
-Additionally, Cheng et al. \cite{b96} revealed that the ∞ norm of activation values can be used to
-distinguish backdoor-related neurons based on synthesized triggers. Therefore, they propose performing an
+Additionally, Cheng et al. \cite{b96} revealed that the $\infty$ norm of activation values can be used to
+distinguish backdoor-related neurons based on synthesized triggers. Therefore, they proposed performing an
 ∞-based neuron pruning to remove neurons with high activation values in response to triggers.
-Similarly, Aiken et al.\cite{b97} also propose removing hidden backdoors
+Similarly, Aiken et al.\cite{b97} also proposed removing hidden backdoors
 by pruning DNNs based on synthesized triggers from another perspective.
 
 In general, we do not consider filtering techniques to be a viable solution for mitigating backdoor attacks.
+Because filtering technologies are generally designed for specific types of attacks, they can be easily spoofed by attackers.
 Instead, we believe that the focus of research on backdoor defense should be on model reconstruction and robust training.
 
 \section{Byzantine Attack}
-The first type of attack is the Sybil attack.  As shown in Fig.\ref{fig12}, the Sybil attack is a type of network security attack where the attacker creates
-multiple fake identities or nodes to undermine the network's trust mechanism and disrupt its normal operation.
-The Sybil attack was first proposed by John Douceur in 2002 \cite{b110}.
+The Byzantine attack is a malicious attack that typically occurs in distributed systems with malicious participants. 
+In the field of computer science and cryptography, the Byzantine Generals Problem describes the scenario of distributed systems with malicious participants. 
+The essence of the Byzantine Generals Problem lies in how to achieve consensus among all nodes in the system when facing potential malicious participants.
+
+Byzantine attacks pose a significant threat to the security and reliability of distributed systems. 
+This chapter focuses on categorizing Byzantine attacks into three types and provides an overview of the challenges faced and future directions for development.
+
+The first type of Byzantine attacks is the Sybil attack. It was first proposed by John Douceur in 2002 \cite{b110}. 
+As shown in Fig.\ref{fig12},it is a type of network security attack where the attacker creates multiple fake identities or nodes to undermine the network's trust mechanism and disrupt its normal operation.
+
+The principle behind this attack is that the attacker creates a large number of fake identities, nodes, or accounts that appear independent and genuine to the network but are actually controlled by the attacker. 
+The attacker can use various means to create these fake entities, including using forged IP addresses, anonymous proxy servers, virtual machines, and more. 
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/sybil.jpg}}
-    \caption{Sybil attack}
+    \caption{The schematic of the Sybil attack. Malicious users create a large number of fake nodes and control them to disrupt the normal operation of the network}
     \label{fig12}
 \end{figure}
 
-The principle behind this attack is that the attacker creates a large number of fake identities, nodes,
-or accounts that appear independent and genuine to the network but are actually controlled by the attacker.
-The attacker can use various means to create these fake entities, including using forged IP addresses, anonymous proxy servers, virtual machines, and more.
-This attack was initially introduced in peer-to-peer networks.
+This attack mainly targets systems that rely on trust and identity verification mechanisms, 
+such as peer-to-peer networks, social networks, and blockchains. Attackers can use a large number of fake identities to control the resources of the system, deceive other users,
+and disrupt consensus mechanisms. For example, in a peer-to-peer network, attackers can create numerous fake nodes to control the distribution process of files,
+leading to uneven resource distribution or network performance degradation.
 
-The Sybil attack mainly targets systems that rely on trust and identity verification mechanisms, such as peer-to-peer networks, social networks, and blockchains. Attackers can use a large number of fake identities to control the resources of the system, deceive other users, and disrupt consensus mechanisms. For example, in a peer-to-peer network, attackers can create numerous fake nodes to control the distribution process of files, leading to uneven resource distribution or network performance degradation.
-Since its introduction, the Sybil attack has posed significant threats to various network security systems.
+The Sybil attack has posed significant threats to various network security systems since it was 
+proposed. Bhagoji \cite{b111} explored some attack strategies against deep neural networks by enhancing 
+malicious agent updates and employing alternating minimization strategies for stealth and adversarial 
+targets. They demonstrated the possibility of effective and covert model poisoning attacks. 
+Jun  \cite{b112} and others were the first to explore the Freerider attack in federated learning and proposed 
+an incremental weight attack method that can evade most defense monitoring methods at that time. 
+They also introduced a new high-dimensional anomaly detection method called STD-DAGMM, which is 
+particularly useful for detecting freeriders. This method has potential applications for detecting 
+other models' weight anomalies as well, which will be discussed in the next chapter.
 
-Bhagoji \cite{b111} explored some attack strategies against deep neural networks by enhancing malicious agent
-updates and employing alternating minimization strategies for stealth and adversarial targets. They demonstrated
-the possibility of effective and covert model poisoning attacks. Jun \cite{b112} and others were the first to explore the Freerider attack in federated learning and proposed an incremental weight attack method that can evade most defense monitoring methods at that time. They also introduced a new high-dimensional anomaly detection method called STD-DAGMM, which is particularly useful for detecting freeriders. This method has potential applications for detecting other models' weight anomalies as well, which will be discussed in the next chapter.
-In recent years, Sybil attacks have undergone significant development.
-Attackers employ more advanced techniques to create counterfeit identities, making Sybil nodes more realistic and difficult to distinguish.
+In recent years, Sybil attacks have undergone significant development. 
+Attackers employ more advanced techniques to create false identities, making Sybil nodes 
+more realistic and difficult to distinguish.For instance, they might use virtualization technology
+to create multiple independent virtual machines, each with its own IP address and network identifier.
+Attackers can also utilize social engineering tactics and information acquisition methods to disguise 
+themselves as genuine users or obtain additional fake identities through the authorization of l
+egitimate users. Furthermore, attackers might construct more complex and realistic Sybil networks 
+by leveraging shared information in social networks. 
 
-For instance, they might use virtualization technology to create multiple independent virtual machines,
-each with its own IP address and network identifier. Attackers can also utilize social engineering tactics and information acquisition methods
-to disguise themselves as genuine users or obtain additional fake identities through the authorization of legitimate users.
-Furthermore, attackers might construct more complex and realistic Sybil networks by leveraging shared information in social networks.
+Haonan Yang \cite{b113} focused on the problem of vehicular ad hoc networks and criticized previous 
+studies for only considering the security threats and impacts of Sybil attacks in VANETs without 
+analyzing the potential threats and impacts in VFCs (Vehicular Fog Computing). 
+Therefore, the author summarized four types of Sybil attacks that could affect VFCs in areas such 
+as routing, vehicle decision-making, voting, and reputation systems.
 
-Haonan Yang \cite{b113} focused on the problem of vehicular ad hoc networks and criticized previous studies for only considering the security threats and impacts of Sybil attacks in VANETs without analyzing the potential threats and impacts in VFCs (Vehicular Fog Computing). The author summarized four types of Sybil attacks that could affect VFCs in areas such as routing, vehicle decision-making, voting, and reputation systems.
-With the proliferation of mobile devices and the widespread use of wireless networks, Sybil attacks have also started to increase in these environments. Attackers can jeopardize the security of location services, social networks, and mobile applications by utilizing false identities and location information on mobile devices. In the future, Sybil attacks can be more extensively applied to blockchain technology, enabling attackers to manipulate consensus algorithms, launch double-spending attacks, or undermine the fairness of blockchain networks by controlling a large number of counterfeit identities.
-The second type of attack is based on the transmission process. Byzantine attacks can occur during the communication process between participants. Attackers can tamper with, delete, or insert malicious messages to disrupt the transmission of model updates.
+With the widespread use of mobile devices and the wireless networks, Sybil attacks have also 
+started to increase in these environments. Attackers can threaten the security of location services, 
+social networks, and mobile applications by utilizing false identities and location information on
+ mobile devices. In the future, Sybil attacks can be more extensively applied to blockchain 
+ technology, which enable attackers to manipulate consensus algorithms, launch double-spending 
+ attacks, or undermine the fairness of blockchain networks by controlling a large number of 
+ counterfeit identities.
 
-Linyuan Zhang \cite{b114} proposed a centralized related probability small-scale attack (CDPS), which utilizes additional information.
-For example, fusion rules in fault diagnosis \cite{b115} can be known as prior knowledge available for optimizing attack strategies.
-One type of CDPS attack is collaborative attacks among malicious users who communicate with each other.
-Additionally, information exchange can guide malicious users in designing effective attack strategies.
-Generally, colluding malicious users \cite{b116},\cite{b117} first exchange measurement values to ensure more accurate
-decisions on the licensed channel state and then report the coordinated forged results to enhance attack power.
+ The second type of Byzantine attacks is based on the transmission process. Byzantine attacks can 
+ occur during the communication process between participants. Attackers can tamper with, delete, or 
+ insert malicious messages to disrupt the transmission of model updates.
+
+Linyuan Zhang \cite{b114} proposed a centralized related probability small-scale attack (CDPS), 
+which utilizes additional information. For instance, fusion rules in fault diagnosis \cite{b115} can be 
+considered as existing knowledge usable for optimizing attack tactics. One form of CDPS attack 
+involves collaborative efforts among malicious users who engage in communication. Moreover, sharing 
+of information can assist malicious users in devising efficient attack strategies. Generally, 
+colluding malicious users \cite{b116},\cite{b117} first exchange measurement values to ensure more accurate decisions 
+on the licensed channel state and then report the coordinated forged results to enhance attack power. 
 Moreover, Omid Fatemieh introduced another attack model called the full-knowledge attack \cite{b118}.
-Cooperative spectrum sensing (CSS) is considered a promising method for identifying available spectrum.
 
-However, it not only requires a significant amount of communication resources but also introduces vulnerabilities to Byzantine attacks.
-Jun Wu \cite{b119} mentioned that attackers keep reporting false information to the fusion center consistently.
-In fact, attackers may attack intermittently while appearing normal during rest periods.
-The author proposed a low-complexity sequential 0/1 (S0/1) method for CSS in the presence of strategic Byzantine attacks.
-It does not require strong assumptions or any prior knowledge, and this method will be discussed in the next chapter.
-With the proliferation of IoT devices and enhanced interconnectivity, attackers may exploit communication vulnerabilities and weaknesses 
-between IoT devices to launch future attacks. Attackers may also utilize high-speed, low-latency 5G/6G networks to carry out 
-larger-scale distributed denial-of-service (DDoS) attacks as shown in Fig.\ref{fig13}, bypass security measures using network slicing and virtualization technologies, or exploit vulnerabilities in mobile communication protocols to invade devices and systems.
-The third type of attack is known as attack model aggregation.
-In this type of attack, Byzantine attackers manipulate the model parameters of the participants in order
-to influence the aggregation results.
+Cooperative spectrum sensing (CSS) is considered a promising method for identifying available 
+spectrum. However, it not only requires a significant amount of communication resources but also 
+introduces vulnerabilities to Byzantine attacks. Jun Wu \cite{b119} mentioned that attackers keep reporting 
+false information to the fusion center consistently. In fact, attackers may attack discontinuously
+ while appearing normal during rest periods. The author proposed a low-complexity sequential 0/1 
+ (S0/1) method for CSS in the presence of strategic Byzantine attacks. It does not require strong 
+ assumptions or any prior knowledge, and this method will be discussed in the next chapter.
 
+ With the development of IoT devices, attackers may exploit communication vulnerabilities and 
+ weaknesses between IoT devices to launch future attacks. Attackers may also utilize high-speed, 
+ low-latency 5G/6G networks to carry out larger-scale distributed denial-of-service (DDoS) attacks,
+  bypass security measures using network slicing and virtualization technologies, or exploit 
+  vulnerabilities in mobile communication protocols to attack devices and systems.
+
+  The third type of Byzantine attacks is known as model aggregation attack. In this type of attack, 
+  Byzantine attackers manipulate the model parameters of the participants in order to influence the 
+  aggregation results. 
+  
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/ddos.jpg}}
-    \caption{DDOS attack}
+    \caption{The schematic of a DDOS attack. Through the central control system, the attacker uses specific software or malicious code to remotely control multiple zombies, making them send a large number of requests to the target system at the same time to exhaust the processing power, network bandwidth or resources of the target system, thus causing the target system to fail to work normally}
     \label{fig13}
 \end{figure}
 
+As discussed by El Mhamdi \cite{b120}, these attacks by Byzantine workers may not 
+prevent the model from converging but can instead lead to convergence on suboptimal solutions. 
 
-As discussed by El Mhamdi \cite{b120}, these attacks by Byzantine workers may not prevent the model from converging but can instead
-lead to convergence on suboptimal solutions.
+Cong Xie \cite{b121} proposed a form of attack called Gamber. In this attack, an attacker can modify 
+some of the data communicated between participants. The attacker randomly selects data and makes 
+malicious changes to them. 
 
-Another common type of attack is called Gamber, as described by Cong Xie \cite{b121}.
-In this attack, an attacker can modify some of the data communicated between participants.
-The attacker randomly selects data and makes malicious changes to them.
 A different type of attack is called omniscient.
 The attacker needs to have knowledge of the gradients sent by all the staff members.
-The attacker then replaces some gradient vectors by taking the sum of all gradients, scaled by large negative values.
+The attacker then replaces some gradient vectors by taking the sum of all gradients, scaled by 
+large negative values.
 
 The objective is to mislead the Stochastic Gradient Descent (SGD) algorithm into moving in the opposite direction with larger step sizes.
-Weaker attacks, such as Gaussian attacks, are also possible.
+
+Weaker attacks, such as Gaussian attacks, are also possible.In these attacks, some gradient vectors are replaced with random vectors sampled from a Gaussian distribution that has a large variance.
+Such attackers do not require any information from the staff members.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/gause.jpg}}
-    \caption{Omniscient attack and Gaussian attack}
+    \caption{The schematic of Gaussian attack and Omniscient attack.In a Gauss attack, an attacker enters incorrect packets into the network, affecting the normal running of network flows.An omniscient attack is a hypothetical scenario where an adversary has complete and perfect knowledge or awareness of the system they are targeting. In this type of attack, the adversary has access to all the information and capabilities necessary to exploit vulnerabilities in the system. With this all-encompassing knowledge, the attacker can strategically plan and execute attacks to maximally exploit the system’s weaknesses.
+    }
     \label{fig14}
 \end{figure}
 
-In these attacks, some gradient vectors are replaced with random vectors sampled from a Gaussian distribution that has a large variance.
-Such attackers do not require any information from the staff members.
-In many applications, multiple sources can provide descriptions of the same object or event, which can inevitably
-lead to conflicts in data or information. Resolving conflicts in data is an important challenge in
-achieving convergence in federated learning. Qi Li \cite{b122}, Harry Hsu \cite{b123}, and Yanna Jiang \cite{b124} have all
-explored questions related to data differences and conflicts.Byzantine attackers have the ability to exploit these
-issues in order to manipulate the convergence of the model.
-In future attacks, attackers may attempt to achieve their objectives by making modifications to the trained model.
+In many applications, multiple sources can provide descriptions of the same object or event, which 
+can inevitably lead to conflicts in data or information. Resolving conflicts in data is an important
+challenge in achieving convergence in federated learning. Byzantine attackers have the ability to 
+exploit these issues in order to manipulate the convergence of the model. 
+Qi Li \cite{b122}, Harry Hsu \cite{b123}, and Yanna Jiang \cite{b124} have all explored questions related to data differences and conflicts.
+ 
+In future attacks, attackers may attempt to achieve their objectives by making modifications to the 
+trained model. This can involve incorporating backdoors into the model, which would produce 
+incorrect outputs under specific conditions, or tampering with the model parameters to disrupt its robustness. 
 
-This can involve incorporating backdoors into the model, which would produce incorrect outputs under specific conditions,
-or tampering with the model parameters to disrupt its robustness.
-In order to evade detection, future attack strategies could involve the development of more advanced and covert
-techniques to camouflage malicious modifications. Additionally, malicious insiders who have access to the
-model parameters may exploit this privilege to launch attacks. They could manipulate the parameters to
-compromise the model's performance or even embed sensitive information within the model itself.
-In the coming years, attackers may explore more sophisticated techniques and algorithms to bypass security monitoring and detection mechanisms.
-The aim would be to implement internal personnel attacks more efficiently.
+In order to evade detection, future attack strategies could involve the development of more advanced 
+and covert techniques to camouflage malicious modifications. Additionally, malicious insiders who 
+have access to the model parameters may exploit this privilege to launch attacks. They could
+manipulate the parameters to compromise the model's performance or even insert sensitive
+information within the model itself.
 
-These advancements would allow attackers to circumvent existing safeguards and carry out their malicious activities with greater precision and effectiveness.
-
+In the coming years, attackers may explore more complicated techniques and algorithms to 
+bypass security monitoring and detection mechanisms. The aim would be to implement internal
+personnel attacks more efficiently. These advancements would allow attackers to bypass 
+existing safeguards and carry out their malicious activities with greater precision and 
+effectiveness.
 
 
 \section{Defenses against Byzantine Attack}
 
-Based on the different types of Byzantine attacks discussed in the previous chapter, we categorize the Byzantine defense methods into the following classes:
+With the advancement of Byzantine attacks, the corresponding defense methods are constantly evolving and being updated.
+Based on the different types of Byzantine attacks discussed in the previous chapter, we categorize the Byzantine defense methods into three classes:
+
 For Sybil attacks, the defense methods include trust-based evaluation methods and machine learning models for detecting fake nodes.
 
-
-Stephanie Gil \cite{b125} proposed a novel algorithm that analyzes received wireless signals to detect the presence of deceptive clients created by adversaries. I
-t does not require specialized hardware or encrypted key exchanges; commercial Wi-Fi cards and software are sufficient.
-It utilizes the physical characteristics of wireless signals to "perceive" deceivers.
-The author conducted experiments using the AscTec quadcopter server team and iRobot Create ground clients,
-demonstrating a deception detection rate exceeding 96 percents.
+Stephanie Gil \cite{b125} proposed a novel algorithm that analyzes received wireless signals to 
+detect the presence of deceptive clients created by adversaries. It does not require specialized
+hardware or private key exchanges; commercial Wi-Fi cards and software are enough. It utilizes 
+the physical characteristics of wireless signals to "perceive" deceivers. The author conducted 
+experiments using the AscTec quadcopter server team and iRobot Create ground clients, which show 
+that a deception detection rate exceeding 96%.
 
 
 Blanchard et al. \cite{b126} introduced Krum, which detects and removes outliers in gradient aggregation, allowing convergence
-even in the presence of multiple Byzantine attackers, with low complexity.
-Luis Muñoz-González \cite{b127} proposed a novel algorithm for robust federated learning called Adaptive Federated Averaging,
-aiming to detect faults, attacks, and malicious updates provided by participants in a collaborative model.
-The author also proposed a Hidden Markov model to simulate and learn the quality of model updates provided by each participant during training.
-Defense methods against Sybil attacks in robot networks have also seen rapid development.
+even in the presence of multiple Byzantine attackers, and with low complexity.
 
+Luis Muñoz-González \cite{b127} proposed a new algorithm for robust federated learning called 
+Adaptive Federated Averaging, aiming to detect faults, attacks, and malicious updates provided 
+by participants in a collaborative model. The author also proposed a Hidden Markov model to simulate
+and learn the quality of model updates provided by each participant during training.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/robot.jpg}}
-    \caption{Global consensus on robot trust}
+    \caption{Robots can communicate with neighbors to get information, combined with their own information, in a certain round can eliminate the interference of malicious robots, reach a consensus.}
     \label{fig15}
 \end{figure}
 
-In Frederik Mallmann-Trenn's work \cite{b128}, a combination of wireless signal analysis and observations
-from sociological learning was used to demonstrate rapid convergence of correct trust values
-for all robots in the team when facing attacks. All robots develop their own opinions about
-network trust by observing messages sent through the network as shown in Fig.\ref{fig15}. They then compare their
-opinions with those of their neighbors to reach a consensus on whether the robots
-can be trusted. By leveraging their neighbors' opinions, each robot effectively increases
-the number of observations available to them about the network, thereby eliminating
-messages with a high probability of coming from malicious robots through
-cross-validation. Experiments showed that in a limited number of
-communication rounds, all robots agreed on the global consensus of trustworthiness in their neighborhood.
-Sybil attacks are not easily solved because attackers
-can flexibly forge multiple identities, making it challenging
-to detect and differentiate false identities.
-Therefore, designing secure systems requires considering
-multiple defense mechanisms and selecting the most suitable
-solutions based on specific application scenarios.
+Defense methods against Sybil attacks in robot networks have also seen rapid development. 
+In Frederik Mallmann-Trenn's work \cite{b128}, a combination of wireless signal analysis and 
+observations from sociological learning was used to demonstrate rapid convergence of correct trust 
+values for all robots in the team when facing attacks. All robots develop their own opinions 
+about network trust by observing messages sent through the network as shown in Fig.\ref{fig15}. They 
+then compare their opinions with those of their neighbors to reach a consensus on whether the 
+robots can be trusted. By utilizing their neighbors' opinions, each robot effectively increases 
+the number of observations available to them about the network, thereby eliminating messages with 
+a high probability of coming from malicious robots through cross-validation. Experiments showed 
+that in a limited number of communication rounds, all robots agreed on the global consensus of 
+trustworthiness in their neighborhood.
 
+Sybil attacks pose a significant challenge as attackers can create a large number of false 
+identities, making it difficult to detect and differentiate them. Therefore, developing 
+secure systems requires consideration of multiple defense methods and selecting appropriate
+solutions based on specific application contexts. 
 
-Future prospects for such defense methods mainly focus on the following aspects:
-improving identity authentication mechanisms for distinguishing genuine users from Sybil nodes
-and establishing more robust trust mechanisms to help identify and filter out Sybil nodes with
-malicious behavior. The application of blockchain technology in recent years provides a decentralized,
-tamper-resistant, and secure shared ledger that can be used to defend against Sybil attacks.
-By integrating identity authentication and trust mechanisms with blockchain technology,
-the detection and prevention capabilities of Sybil nodes can be enhanced.
+The future outlook for such defense techniques primarily focuses on the following areas:
+enhancing identity verification mechanisms to distinguish genuine users from Sybil nodes 
+and establishing stronger trust mechanisms to identify and filter out Sybil nodes displaying
+malicious behavior. In recent years, the emergence of blockchain technology has provided a 
+decentralized, tamper-resistant, and secure shared ledger, offering a potential defense against 
+Sybil attacks. By combining identity verification, trust mechanisms, and blockchain technology, 
+the ability to detect and prevent Sybil nodes can be improved.
 
 
 Defense methods against attacks during the transmission process include designing secure communication protocols and encryption mechanisms.
-Previous malicious detection and suppression algorithms focused only on simple
-"always attack" scenarios, where attackers continuously report false information
-to the central entity. In reality, attackers may intermittently attack while
-behaving normally at other times. Under the assumption of simple attack strategies,
-Ruiliang Chen \cite{b129} proposed sequential hypothesis testing to defend against Byzantine attacks,
-but it requires significant computation and prior knowledge.
+
+Previous malicious detection and suppression algorithms focused only on simple "always attack" 
+scenarios, where attackers continuously report false information to the central entity. 
+In reality, attackers may intermittently attack while behaving normally at other times. 
+Under the assumption of simple attack strategies, Ruiliang Chen \cite{b129} proposed sequential hypothesis
+testing to defend against Byzantine attacks, but it requires significant computation and prior 
+knowledge. 
+
+Therefore, Jun Wu \cite{b119} introduced S0/1 using support vector regression (SVR) to offset 
+strategic Byzantine attack defense. Even in a blind scenario, this approach greatly reduces the 
+sample size while providing higher correct sensing ratios.
 
 
-Therefore, Jun Wu \cite{b119} introduced S0/1 using support vector regression (SVR) to offset strategic
-Byzantine attack defense. Even in a blind scenario,
-this approach greatly reduces the sample size while providing higher correct sensing ratios.
-Luis Muñoz-González \cite{b127} also proposed a robust aggregation
-rule that detects and discards malicious or poor local model
-updates during each training iteration.
-It includes mechanisms for blocking unwanted participants, thereby enhancing computational and communication efficiency.
+Luis Muñoz-González \cite{b127} alsoproposed a robust aggregation rule that detects and discards malicious or poor local model updates during each training iteration. It includes mechanisms for blocking unwanted participants, thereby enhancing computational and communication efficiency.
+In traditional federated learning, the performance of models may decline due to variations in data distributions across devices. 
 
-
-In traditional federated learning, the performance of models may deteriorate due to variations in data distributions across devices.
-To address this issue, Hesham Mostafa (7) proposed a technique called "representation matching."
-This technique improves model performance by matching features between the global model
-and local models. For clients with homogeneous data distributions, this approach
-consistently improves accuracy. For heterogeneous clients, in addition to
-improving accuracy, this approach enhances training robustness and avoids
-catastrophic training failures without the need for manual hyperparameter tuning for each task.
+To address this issue, Hesham Mostafa (7) proposed a technique called "representation matching." 
+This technique improves model performance by matching features between the global model and 
+local models. For clients with homogeneous data distributions, this approach consistently 
+improves accuracy. For heterogeneous clients, in addition to improving accuracy, this approach 
+enhances training robustness and avoids catastrophic training failures without the need for manual 
+hyperparameter tuning for each task.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/de-ddos.jpg}}
-    \caption{DDOS defense method of secret moving proxy nodes}
+    \caption{DDOS defense method of secret moving proxy nodes.The proxy node is constantly moving its position, confusing the attacker so that it cannot find the real target server}
     \label{fig16}
 \end{figure}
+
 Huangxin Wang \cite{b131} proposed a mobile target defense mechanism that specifically addresses DDoS
 attacks targeting authenticated clients of Internet services.
 This mechanism utilizes a set of dynamic and hidden proxies to relay
@@ -822,84 +874,82 @@ of DDoS attacks. Neha Agrawal \cite{b132} conducted a comprehensive classificati
 of all possible variants of cloud DDoS attack solutions and provided detailed insights
 into characterization, prevention, detection, and mitigation mechanisms.
 
+In the future, these defense methods can be further developed by constructing more secure and
+robust encryption protocols and algorithms. Additionally, more effective Identity verification 
+technologies can be developed to ensure the trustworthiness of communication parties. Continual 
+improvement and enhancement of transport layer protocols, such as SSL/TLS, can provide stronger 
+security and defense capabilities, including the ability to resist man-in-the-middle attacks, 
+data tampering, and replay attacks. The development of real-time threat detection systems capable 
+of detecting and responding to attacks during the transmission process can also be explored.With 
+the advancement of quantum computing, traditional encryption algorithms may be threatened. 
 
-In the future, these defense methods can be further developed by constructing more secure and robust encryption protocols and algorithms.
-Additionally, more effective identity authentication technologies can be developed to ensure the trustworthiness of communication parties.
-Continual improvement and enhancement of transport layer protocols, such as SSL/TLS, can provide stronger security and defense capabilities,
-including the ability to resist man-in-the-middle attacks, data tampering, and replay attacks.
-The development of real-time threat detection systems capable of detecting and responding to attacks
-during the transmission process can also be explored. With the advancement of quantum computing,
-traditional encryption algorithms may be threatened.
+Therefore, researching and developing quantum-safe communication protocols and algorithms is also 
+important to ensure security during the transmission process and protect data confidentiality in a 
+quantum computing environment.
 
-
-Therefore, researching and developing
-quantum-safe communication protocols and algorithms is important to
-ensure security during the transmission process and protect data confidentiality in a quantum computing environment.
-Defense methods against model aggregation attacks include designing robust aggregation algorithms and
-using differential privacy techniques to protect model parameters.
-
-
-Qi Li \cite{b122} modeled the problem using an optimization framework where ground truth and
-source reliability are defined as two sets of unknown variables. The objective
-is to minimize the overall weighted discrepancy between the ground truth and
-multiple-source observations, with each source weighted by its reliability.
-This framework can incorporate different loss functions to identify features
-of various data types and has developed efficient computing methods that
-effectively identify the true information among conflicting data sources.
+Defense methods against model aggregation attacks include designing robust aggregation 
+algorithms and using differential privacy techniques to protect model parameters.
 
 
-El Mahdi El Mhamdi \cite{b120} argues that mere convergence of the Byzantine resilient rules is not sufficient.
-It is possible that Byzantine workers' attacks can lead to convergence to the worst suboptimal solution.
-To address this, he proposes a generic enhancement method called Bulyan.
-This method significantly reduces the leeway for Byzantine workers, constraining
-them within narrow boundaries. For commonly used batch sizes, Bulyan achieves performance comparable to average speed.
-Cong Xie \cite{b121} introduces three robust aggregation rules for stochastic
-gradient descent (SGD) with low computational costs.
-These rules are the first to be theoretically and empirically studied under the non-convex setting, based on median aggregation.
-Harry Hsu \cite{b123} presents a method for synthesizing datasets
-with continuous identical ranges and provides performance metrics for the federated averaging algorithm.
-Experimental results demonstrate that performance deteriorates with distribution differences,
-prompting the introduction of a mitigation strategy using server momentum.
-It has been shown that using momentum on top of SGD for non-iid problems has
-achieved significant success in accelerating network training.
-The proposed method suppresses oscillations through the accumulation of gradient history.
+Qi Li \cite{b122} modeled the problem using an optimization framework where ground 
+truth and source reliability are defined as two sets of unknown variables. The objective 
+is to minimize the overall weighted differences between the ground truth and multiple-source 
+observations, with each source weighted by its reliability. This framework can incorporate 
+different loss functions to identify features of various data types and has developed efficient 
+computing methods that effectively identify the true information among conflicting data sources.
 
 
-Amit Portnoy \cite{b133} proposes a novel method called Byzantine
-Robust Client Weighting (BRCW) to minimize the impact of
-malicious clients in federated learning. BRCW assigns different
-weights to each client based on their credibility and contribution
-to the overall model accuracy. During training, the weights are dynamically updated according to
-each client's performance and behavior. Unlike previous work, this study considers the sample
-size provided by clients as untrustworthy, as it may come from malicious clients.
-BRCW exhibits robustness against various forms of attacks, including communication disruptions and data poisoning.
+El Mahdi El Mhamdi \cite{b120} argues that mere convergence of the Byzantine resilient 
+rules is not enough. It is possible that Byzantine workers' attacks can lead to convergence 
+to the worst suboptimal solution. To address this, he proposes a generic enhancement method 
+called Bulyan. This method significantly reduces the leeway for Byzantine workers, constraining 
+them within narrow boundaries. For common batch sizes, Bulyan achieves performance comparable to 
+average speed.
+
+Cong Xie \cite{b121} introduces three robust aggregation rules for stochastic gradient 
+descent (SGD) with low computational costs. These rules are the first to be theoretically 
+and empirically studied under the non-convex setting, based on median aggregation.
+
+Harry Hsu \cite{b123} presents a method for synthesizing datasets with continuous identical 
+ranges and provides performance metrics for the federated averaging algorithm. Experimental 
+results demonstrate that performance deteriorates with distribution differences. The proposed 
+method suppresses oscillations through the accumulation of gradient history, and it has been 
+shown that using momentum on top of SGD for non-iid problems has achieved significant success 
+in accelerating network training.
 
 
-Krishna Pillutla \cite{b134} designs a novel robust aggregation oracle based on classical
-geometric medians and demonstrates its robustness in federated learning with limited
-heterogeneity, even when up to half of the devices are faulty. The proposed RFA algorithm
-outperforms the standard FedAvg in high damage scenarios and nearly matches
-FedAvg's performance in low damage scenarios, but with 1-3 times higher communication costs.
+Amit Portnoy \cite{b133} proposes a novel method called Byzantine Robust Client Weighting (BRCW) to 
+minimize the impact of malicious clients in federated learning. BRCW assigns different weights to 
+each client based on their credibility and contribution to the overall model accuracy. 
+During training, the weights are dynamically updated according to each client's performance 
+and behavior. Unlike previous work, this study considers the sample size provided by clients 
+as untrustworthy, as it may come from malicious clients. BRCW exhibits robustness against various 
+forms of attacks, including communication disruptions and data poisoning.
+
+Krishna Pillutla \cite{b134} designs a novel robust aggregation oracle based on classical 
+geometric medians and demonstrates its robustness in federated learning with limited heterogeneity, 
+even when up to half of the devices are faulty. The proposed RFA algorithm outperforms the standard 
+FedAvg (14) in high damage scenarios and nearly matches FedAvg's performance in low damage scenarios, 
+but with 1-3 times higher communication costs.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/vote.jpg}}
-    \caption{DTwo-layer polymerization method}
+    \caption{The structure of two-layer aggregation method.Participants share the global model, and models discarded by the filter layer are not directly abandoned, but are voted by participants to participate in the final aggregation process.}
     \label{fig17}
 \end{figure}
 
-Yanna Jiang \cite{b124} introduces the combination of handling imbalanced data and Byzantine attacks
-in the context of federated learning for the first time. The concept of an intelligence pool
-is proposed to separate the task of judging the shared local model values from the aggregator,
-avoiding the limitations of a single criterion through two-layer verification as shown in Fig.\ref{fig17}.
-Future prospects for such defense methods will focus on more stringent authentication and
-authorization mechanisms, as well as parameter integrity protection. Mechanisms such as
-hash algorithms or digital signatures can be adopted to safeguard the integrity of
-parameters, preventing tampering during transmission and storage.
+Yanna Jiang \cite{b124} introduces the combination of handling imbalanced data and Byzantine attacks 
+in the context of federated learning for the first time. The concept of an intelligence pool is 
+proposed to separate the task of judging the shared local model values from the aggregator, 
+avoiding the limitations of a single criterion through two-layer verification shown in Fig.\ref{fig17}.
 
+Future prospects for such defense methods will focus on more stricter authentication 
+and authorization mechanisms, as well as parameter integrity protection. Mechanisms such 
+as Hash algorithms or digital signatures can be adopted to safeguard the integrity of parameters, 
+preventing tampering during transmission and storage. 
 
-Detection of
-malicious parameter modifications and corresponding response measures are also required.
-By comprehensively applying these methods, the defense capability against malicious parameter
+Detection of malicious parameter modifications and corresponding response measures are also required. 
+By comprehensively applying these methods, the defense capability against malicious parameter 
 modification attacks can be enhanced, ensuring the security and integrity of systems and applications.
 
 
@@ -913,13 +963,7 @@ these attacks can appear similar to backdoor attacks. Consequently, researchers 
 as these attacks require additional controls on the training process to some extent.
 However, despite certain similarities, these attacks have essential differences.
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/diff.jpg}}
-    \caption{The differences between adversarial attack and backdoor attack}
-    \label{fig18}
-\end{figure}
-
-As shown in Fig.\ref{fig18}, firstly, adversarial attackers need to control the inference process to a certain degree
+Firstly, adversarial attackers need to control the inference process to a certain degree
 but not the training process of models. They must query the model results or even gradients multiple
 times to generate adversarial perturbations by optimization, given a fixed targeted model.
 On the other hand, backdoor attackers require modifying certain training stages,
@@ -1117,7 +1161,7 @@ algorithm to improve the global model's adversarial robustness.
 As mentioned earlier, privacy protection is crucial in federated learning.
 In \cite{b106},it is proved that the model of confrontation training is more prone to
 privacy disclosure than the model of normal training.
-Zhou et al.\cite{103} argues that conventional federated learning frameworks are vulnerable
+Zhou et al.\cite{b103} argues that conventional federated learning frameworks are vulnerable
 to strong adversarial attacks, even if adversarial training using locally
 generated adversarial examples is performed on each client. To address this
 problem, the paper proposes a new framework called FedBVA (Federated Learning
@@ -1137,7 +1181,8 @@ algorithm, and proposes a new algorithm called FedDynAT to simultaneously improv
 speed and adversarial robustness.
 
 
-\section{Hrbrid Defenses}
+\section{Advanced Research and Problems}
+
 Recently, some works have studied the latent connection between adversarial attacks and backdoor attacks.
 For example, Weng et al. \cite{b66}empirically demonstrated that defending
 against adversarial attacks via adversarial training may increase the risks of backdoor attacks.
@@ -1147,33 +1192,45 @@ When sending gradient information to the server, we can perform malicious gradie
 Model distillation can also serve as a hybrid defense mechanism. 
 By training a more robust teacher model and using its output as labels to train a student model, 
 model distillation can effectively mitigate the impact of backdoor attacks and adversarial sample attacks.
-\section{Advanced Research and Problems}  
 \subsection{Attack}  
-\begin{itemize}
-    \item Backdoor attackers need to effectively hide backdoors to make them difficult to detect.
-    \item Backdoor attackers should use different types of backdoors, such as hardcoding and model parameter optimization.  This paper suggests that using generation techniques to create backdoor samples for dynamic attacks is a solution.
-    \item How do Byzantine attackers leverage larger networks to launch attacks while evading detection.  
-    \item How to better exploit communication protocol vulnerabilities for device and system intrusion.  
-    \item How to improve the transferability of adversarial samples.
-\end{itemize}
+Backdoor attackers need to effectively hide backdoors to make them difficult to detect.For example, by taking 
+advantage of the distributed nature of federated learning, multiple clients can work together to inject backdoors into the global model.
+Backdoor attackers should use different types of backdoors, such as hardcoding and model parameter optimization.  
+This paper suggests that using generation techniques to create backdoor samples for dynamic attacks is a solution.
+How to conduct persistent backdoor attacks is also a problem. 
+One solution we give in this paper is to ensure that the injected backdoor can exist for a long time through edge samples, 
+because the injected backdoor will be less affected by updates.
+
+In Byzantine attacks,  how do Byzantine attackers leverage larger networks to launch attacks while evading detection is to be solved.  
+Then how to make better use of the communication protocol vulnerability for device and system intrusion is also a key issue.
+
+How to improve the transferability of adversarial samples.A possible solution is achieved by optimizing disturbances that affect common characteristics or patterns between different models.
 
 \subsection{Defense}
-\begin{itemize}
-    \item In federated learning, client data is distributed among multiple participants. It is an important challenge to ensure data privacy while implementing defenses.  
-    \item Detecting malicious participants quickly and accurately is a key issue. Existing solutions rely mainly on consistency verification and anomaly detection, but there is still room for improvement in large-scale federated learning scenarios.  
-    \item Effective defense mechanisms, such as fault-tolerant algorithms and majority voting, are needed to counter Byzantine attacks. However, these mechanisms need to strike a balance with factors like privacy preservation and computational efficiency.
-    \item Adversarial training can enhance model robustness but may compromise generalization capability. Balancing the trade-off between adversarial robustness and generalization is a problem that requires exploration and resolution.
-    \item Designing models that can withstand zero-knowledge adversarial sample attacks remains an open question. It demands models to possess robustness without prior knowledge of adversarial samples during training.
-\end{itemize}
+In federated learning, client data is distributed among multiple participants. The protection of privacy is a important reason why federated learning is so popular. So it is an important challenge to ensure data privacy while implementing defenses.  
+Detecting malicious participants quickly and accurately is also a key issue. Existing solutions rely mainly on consistency verification and anomaly detection, but there is still room for improvement in large-scale federated learning scenarios.  
+Effective defense mechanisms, such as fault-tolerant algorithms and majority voting, are needed to counter Byzantine attacks. However, these mechanisms need to strike a balance with factors like privacy preservation and computational efficiency.
+Adversarial training can enhance model robustness but may compromise generalization capability. Balancing the trade-off between adversarial robustness and generalization is a problem that requires exploration and resolution.
+Designing models that can withstand zero-knowledge adversarial sample attacks remains an open question. It demands models to possess robustness without prior knowledge of adversarial samples during training.
 
+Recently, some works have studied the latent connection between adversarial attacks and backdoor attacks.
+For example, Weng et al. \cite{b66}empirically demonstrated that defending
+against adversarial attacks via adversarial training may increase the risks of backdoor attacks.
+We can introduce sample filtering to prevent backdoor samples from entering the training dataset. 
+Then, we can enhance adversarial robustness by introducing adversarial training on the client side. 
+When sending gradient information to the server, we can perform malicious gradient filtering to construct a hybrid defense mechanism.
+Model distillation can also serve as a hybrid defense mechanism. 
+By training a more robust teacher model and using its output as labels to train a student model, 
+model distillation can effectively mitigate the impact of backdoor attacks and adversarial sample attacks.
 
 
 \section{Conclusion}
 In this survey, we systematically introduce state-of-the-art threats in federated learning systems,
 which mainly include byzantine attacks, backdoor attacks and adversarial attacks. 
 And we also detailed describe corresponding defensive policies.
+We also introduce the advantages and disadvantages of these methods and how they work, and sort out the relationship between them.
 Additionally, we discuss a number of open problems of current defense methods,
-hoping it could help researchers identify and solve issues more quickly in the area of robust federated learning.
+hoping them could help researchers identify and solve issues more quickly in the area of robust federated learning.
 
 
 
@@ -1213,6 +1270,21 @@ hoping it could help researchers identify and solve issues more quickly in the a
     \bibitem{b29} Dal Fabbro, Nicolò, Aritra Mitra, and George J. Pappas. "Federated TD Learning over Finite-Rate Erasure Channels: Linear Speedup under Markovian Sampling." IEEE Control Systems Letters (2023).
     \bibitem{b30} Miao, Chenglin, et al. "Towards data poisoning attacks in crowd sensing systems." Proceedings of the Eighteenth ACM International Symposium on Mobile Ad Hoc Networking and Computing. 2018.
     \bibitem{b31} Zhang, Hengtong, et al. "Data poisoning attack against knowledge graph embedding." arXiv preprint arXiv:1904.12052 (2019).
+    \bibitem{b32} Chen, Chen, et al. "Calfat: Calibrated federated adversarial training with label skewness." Advances in Neural Information Processing Systems 35 (2022): 3569-3581.
+    \bibitem{b33} Li, Xiaoxiao, Zhao Song, and Jiaming Yang. "Federated adversarial learning: A framework with convergence analysis." International Conference on Machine Learning. PMLR, 2023.
+    \bibitem{b34} Zhang, Jie, et al. "Delving into the adversarial robustness of federated learning." arXiv preprint arXiv:2302.09479 (2023).
+    \bibitem{b35} Prakash, Saurav, and Amir Salman Avestimehr. "Mitigating byzantine attacks in federated learning." arXiv preprint arXiv:2010.07541 (2020).
+    \bibitem{b36} Huang, Hanxun, et al. "Distilling Cognitive Backdoor Patterns within an Image." arXiv preprint arXiv:2301.10908 (2023).
+    \bibitem{b37} Blanchard, Peva, et al. "Machine learning with adversaries: Byzantine tolerant gradient descent." Advances in neural information processing systems 30 (2017).
+    \bibitem{b38} Lyu, Lingjuan, et al. "Privacy and robustness in federated learning: Attacks and defenses." IEEE transactions on neural networks and learning systems (2022).
+    \bibitem{b39} Guo, Shangwei, et al. "Robust and privacy-preserving collaborative learning: A comprehensive survey." arXiv preprint arXiv:2112.10183 (2021).
+    \bibitem{b40} Enthoven, David, and Zaid Al-Ars. "An overview of federated deep learning privacy attacks and defensive strategies." Federated Learning Systems: Towards Next-Generation AI (2021): 173-196.
+    \bibitem{b41} Rodríguez-Barroso, Nuria, et al. "Survey on federated learning threats: Concepts, taxonomy on attacks and defences, experimental study and challenges." Information Fusion 90 (2023): 148-173.
+    \bibitem{b42} Tariq, Asadullah, et al. "Trustworthy Federated Learning: A Survey." arXiv preprint arXiv:2305.11537 (2023).
+    \bibitem{b43} Zhang, Yifei, et al. "A Survey of Trustworthy Federated Learning with Perspectives on Security, Robustness, and Privacy." arXiv preprint arXiv:2302.10637 (2023).
+    \bibitem{b44} Dal Fabbro, Nicolò, Aritra Mitra, and George J. Pappas. "Federated TD Learning over Finite-Rate Erasure Channels: Linear Speedup under Markovian Sampling." IEEE Control Systems Letters (2023).
+    \bibitem{b45} Miao, Chenglin, et al. "Towards data poisoning attacks in crowd sensing systems." Proceedings of the Eighteenth ACM International Symposium on Mobile Ad Hoc Networking and Computing. 2018.
+    \bibitem{b46} Zhang, Hengtong, et al. "Data poisoning attack against knowledge graph embedding." arXiv preprint arXiv:1904.12052 (2019).
     \bibitem{b47} Barreno, Marco, et al. "Can machine learning be secure?." Proceedings of the 2006 ACM Symposium on Information, computer and communications security. 2006.
     \bibitem{b48} Lamport, Leslie, Robert Shostak, and Marshall Pease. "The Byzantine generals problem." Concurrency: the works of leslie lamport. 2019. 203-226.
     \bibitem{b49} Xie, Cong, Oluwasanmi Koyejo, and Indranil Gupta. "Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation." Uncertainty in Artificial Intelligence. PMLR, 2020.

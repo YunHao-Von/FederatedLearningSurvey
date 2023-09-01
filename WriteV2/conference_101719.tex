@@ -17,16 +17,16 @@
 \maketitle
 
 \begin{abstract}
-    Federated learning is a distributed machine learning paradigm that emerged as a solution to the need for privacy protection in artificial intelligence. 
-    Federated learning, like traditional machine learning, is threatened by backdoor attacks, Byzantine attacks, and adversarial attacks. 
-    This weakness is exacerbated by the inaccessibility of data in federated learning, 
-    which makes it more difficult to defend against these threats.
-    This points to the need for further research into defensive approaches to make federated learning a real solution for distributed machine learning paradigm with securing data privacy.
-    In this article, we provide an extensive survey of the threats to federal learning, 
-    and their countermeasures accordingly. 
-    This survey provides a taxonomy of these threats and their defense methods, 
-    describing the general situation of this vulnerability in federated learning and how to overcome it. 
-    We also sort out the relationship between these methods, their advantages and disadvantages, and put forward the future research directions.
+Federated learning is a distributed machine learning paradigm that emerged as a solution to the need for privacy protection in artificial intelligence. 
+Federated learning, like traditional machine learning, is threatened by backdoor attacks, Byzantine attacks, and adversarial attacks. 
+This weakness is exacerbated by the inaccessibility of data in federated learning, 
+which makes it more difficult to defend against these threats.
+This points to the need for further research into defensive approaches to make federated learning a real solution for distributed machine learning paradigm with securing data privacy.
+In this article, we provide an extensive survey of the threats to federal learning, 
+and their countermeasures accordingly. 
+This survey provides a taxonomy of these threats and their defense methods, 
+describing the general situation of this vulnerability in federated learning and how to overcome it. 
+We also sort out the relationship between these methods, their advantages and disadvantages, and put forward future research directions.
 \end{abstract}
 
 
@@ -42,7 +42,7 @@ FACEBOOK \cite{b1}  built the largest segmented dataset ever,
 building more than 1 billion masks on 11 million images.
 
 However, the more practical reality is that most companies cannot 
-construct such large and high-quality datasets like Facebook 
+construct such large and high-quality datasets as Facebook 
 when training their model. 
 Insufficient samples and low data quality are the actual challenges 
 that most companies face in model training. 
@@ -85,7 +85,7 @@ This approach ensures the protection of data
 from unauthorized access by other clients or the central server, 
 while also reducing communication costs between the clients and the server. 
 Federated learning can also improve the training speed and the performance of the
-shared model while protecting privacy of the participants' training datasets\cite{b4}.
+shared model while protecting the privacy of the participants' training datasets\cite{b4}.
 
 
 \begin{figure}[htbp]
@@ -114,7 +114,7 @@ the trustworthiness of each client.
 Consequently, compared to traditional centralized machine learning, 
 federated learning is more susceptible to attacks.
 
-We primarily enumerates backdoor attacks, adversarial attacks, 
+We primarily enumerate backdoor attacks, adversarial attacks, 
 and Byzantine attacks in federated learning, 
 along with their corresponding defense methods. 
 These attacks pose significant threats to federated learning systems, 
@@ -136,7 +136,7 @@ However, these studies often categorize backdoor attacks
 and Byzantine attacks as data poisoning attacks and 
 rarely delve into adversarial attacks in the field of federated learning. 
 We believe that simply classifying backdoor attacks and Byzantine attacks 
-as data poisoning attacks is insufficient 
+as data poisoning attacks are insufficient 
 because their attack methods are not limited to just data poisoning.
 In this paper, we propose a new classification approach for these two 
 types of attacks and provide an overview of their corresponding defense mechanisms. 
@@ -250,7 +250,7 @@ with the goal of causing the global model to fail\cite{b48},\cite{b49},\cite{b50
 \subsubsection{Targeted Attacks}A targeted attack is executed with
 the aim of inducing the model to produce the target label specified by the
 adversary for specific testing examples, while keeping the testing error for
-other testing examples unaffected\cite{b51}. Backdoor attack is a typical application of targeted attack.
+other testing examples unaffected\cite{b51}. Backdoor attack is a typical application of targeted attacks.
 
 
 \section{Backdoor Attack}
@@ -387,8 +387,8 @@ At the same time, the initial assumption that the attacker has complete control 
 
 \subsection{Model Poisoning Attack}
 To address the limitations of data poisoning attacks, we can not only focus on
-improving the data poisoning technology itself, but also explore the potential
-of model poisoning techniques. Since the average method is the most widely-used
+improving the data poisoning technology itself, but also exploring the potential
+of model poisoning techniques. Since the average method is the most widely used
 approach for aggregating local updates from clients, a simple way to amplify
 the backdoor effect is to prioritize updates from adversarial clients over
 those from benign clients.
@@ -407,7 +407,7 @@ In order to avoid such substitutions,
 Zhou et al.\cite{b63} propose an optimization-based model poisoning attack that
 involves injecting adversarial neurons into the redundant space of a neural network
 to maintain the attack's concealment and persistence. To identify the redundant
-space, the Hessian matrix is used to measure the update distance and direction of each neuron's main task.
+space, the Hessian matrix is used to measure the updated distance and direction of each neuron's main task.
 An additional term is then added to the loss function to prevent poisoned neurons from being injected
 in locations that are particularly relevant to the main task.
 In a similar vein, Zhang et al.\cite{b62}
@@ -537,7 +537,7 @@ injecting various backdoors simultaneously.
 Nguyen et al. propose FlGuard \cite{b80}, a two-layer defense method that checks
 for locally updated updates with clear backdoor effects and eliminates residual backdoors through pruning, smoothing, and noise
 addition. Unlike FoolsGold\cite{b78}, it also applies to multi-trigger backdoor attacks while maintaining high prediction accuracy for benign primary tasks.
-Additionally, FLDetector \cite{b81} propose a method to detect malicious clients by checking the consistency of model updates. Essentially,
+Additionally, FLDetector \cite{b81} proposes a method to detect malicious clients by checking the consistency of model updates. Essentially,
 the server predicts the client's model update based on past updates in each iteration. If the model update received by the client
 differs significantly from the predicted update over multiple iterations, the client is marked as malicious. Overall, the focus of
 these methods is mainly divided into two types: the first is to remove toxic updates from malicious clients before model aggregation,
@@ -578,10 +578,10 @@ additional components to constrain the L2 norm of individual updates to enhance 
 
 In addition, the FL-WBC \cite{b88} method aims to identify the fragile parameter space in FL and perturb it
 during client training. FL-WBC also provides robustness guarantees against backdoor attacks and convergence guarantees for FedAvg.
-These developments demonstrate promising steps towards improving FL's robustness against backdoor attacks. In FLARE \cite{b89}, a trust
-evaluation method is propose that calculates a trust score for each model update based on the difference between all model updates and
+These developments demonstrate promising steps toward improving FL's robustness against backdoor attacks. In FLARE \cite{b89}, a trust
+evaluation method is proposed that calculates a trust score for each model update based on the difference between all model updates and
 their penultimate layer representation values. FLARE assumes that most clients are trustworthy and assigns low scores
-to updates that are far from benign update clusters. The model updates are then aggregate with their trust scores as
+to updates that are far from benign update clusters. The model updates are then aggregated with their trust scores as
 weights and the global model is updated accordingly.
 
 In \cite{b98}, the concept of anti-backdoor learning is introduced, which involves training a clean model given infected data,
@@ -668,8 +668,8 @@ Attackers employ more advanced techniques to create false identities, making Syb
 more realistic and difficult to distinguish.For instance, they might use virtualization technology
 to create multiple independent virtual machines, each with its own IP address and network identifier.
 Attackers can also utilize social engineering tactics and information acquisition methods to disguise 
-themselves as genuine users or obtain additional fake identities through the authorization of l
-egitimate users. Furthermore, attackers might construct more complex and realistic Sybil networks 
+themselves as genuine users or obtain additional fake identities through the authorization of 
+legitimate users. Furthermore, attackers might construct more complex and realistic Sybil networks 
 by leveraging shared information in social networks. 
 
 Haonan Yang \cite{b113} focused on the problem of vehicular ad hoc networks and criticized previous 
@@ -681,14 +681,14 @@ as routing, vehicle decision-making, voting, and reputation systems.
 With the widespread use of mobile devices and the wireless networks, Sybil attacks have also 
 started to increase in these environments. Attackers can threaten the security of location services, 
 social networks, and mobile applications by utilizing false identities and location information on
- mobile devices. In the future, Sybil attacks can be more extensively applied to blockchain 
- technology, which enable attackers to manipulate consensus algorithms, launch double-spending 
- attacks, or undermine the fairness of blockchain networks by controlling a large number of 
- counterfeit identities.
+mobile devices. In the future, Sybil attacks can be more extensively applied to blockchain 
+technology, which enable attackers to manipulate consensus algorithms, launch double-spending 
+attacks, or undermine the fairness of blockchain networks by controlling a large number of 
+counterfeit identities.
 
- The second type of Byzantine attacks is based on the transmission process. Byzantine attacks can 
- occur during the communication process between participants. Attackers can tamper with, delete, or 
- insert malicious messages to disrupt the transmission of model updates.
+The second type of Byzantine attacks is based on the transmission process. Byzantine attacks can 
+occur during the communication process between participants. Attackers can tamper with, delete, or 
+insert malicious messages to disrupt the transmission of model updates.
 
 Linyuan Zhang \cite{b114} proposed a centralized related probability small-scale attack (CDPS), 
 which utilizes additional information. For instance, fusion rules in fault diagnosis \cite{b115} can be 
@@ -703,20 +703,20 @@ Cooperative spectrum sensing (CSS) is considered a promising method for identify
 spectrum. However, it not only requires a significant amount of communication resources but also 
 introduces vulnerabilities to Byzantine attacks. Jun Wu \cite{b119} mentioned that attackers keep reporting 
 false information to the fusion center consistently. In fact, attackers may attack discontinuously
- while appearing normal during rest periods. The author proposed a low-complexity sequential 0/1 
- (S0/1) method for CSS in the presence of strategic Byzantine attacks. It does not require strong 
- assumptions or any prior knowledge, and this method will be discussed in the next chapter.
+while appearing normal during rest periods. The author proposed a low-complexity sequential 0/1 
+(S0/1) method for CSS in the presence of strategic Byzantine attacks. It does not require strong 
+assumptions or any prior knowledge, and this method will be discussed in the next chapter.
 
- With the development of IoT devices, attackers may exploit communication vulnerabilities and 
- weaknesses between IoT devices to launch future attacks. Attackers may also utilize high-speed, 
- low-latency 5G/6G networks to carry out larger-scale distributed denial-of-service (DDoS) attacks,
-  bypass security measures using network slicing and virtualization technologies, or exploit 
-  vulnerabilities in mobile communication protocols to attack devices and systems.
+With the development of IoT devices, attackers may exploit communication vulnerabilities and 
+weaknesses between IoT devices to launch future attacks. Attackers may also utilize high-speed, 
+low-latency 5G/6G networks to carry out large-scale distributed denial-of-service (DDoS) attacks,
+bypass security measures using network slicing and virtualization technologies, or exploit 
+vulnerabilities in mobile communication protocols to attack devices and systems.
 
-  The third type of Byzantine attacks is known as model aggregation attack. In this type of attack, 
-  Byzantine attackers manipulate the model parameters of the participants in order to influence the 
-  aggregation results. 
-  
+The third type of Byzantine attacks is known as model aggregation attack. In this type of attack, 
+Byzantine attackers manipulate the model parameters of the participants in order to influence the 
+aggregation results. 
+
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{picture/ddos.jpg}}
     \caption{The schematic of a DDOS attack. Through the central control system, the attacker uses specific software or malicious code to remotely control multiple zombies, making them send a large number of requests to the target system at the same time to exhaust the processing power, network bandwidth or resources of the target system, thus causing the target system to fail to work normally}
@@ -752,7 +752,7 @@ can inevitably lead to conflicts in data or information. Resolving conflicts in 
 challenge in achieving convergence in federated learning. Byzantine attackers have the ability to 
 exploit these issues in order to manipulate the convergence of the model. 
 Qi Li \cite{b122}, Harry Hsu \cite{b123}, and Yanna Jiang \cite{b124} have all explored questions related to data differences and conflicts.
- 
+
 In future attacks, attackers may attempt to achieve their objectives by making modifications to the 
 trained model. This can involve incorporating backdoors into the model, which would produce 
 incorrect outputs under specific conditions, or tampering with the model parameters to disrupt its robustness. 
@@ -782,14 +782,14 @@ detect the presence of deceptive clients created by adversaries. It does not req
 hardware or private key exchanges; commercial Wi-Fi cards and software are enough. It utilizes 
 the physical characteristics of wireless signals to "perceive" deceivers. The author conducted 
 experiments using the AscTec quadcopter server team and iRobot Create ground clients, which show 
-that a deception detection rate exceeding 96%.
+a deception detection rate exceeding 96%.
 
 
 Blanchard et al. \cite{b126} introduced Krum, which detects and removes outliers in gradient aggregation, allowing convergence
 even in the presence of multiple Byzantine attackers, and with low complexity.
 
 Luis Muñoz-González \cite{b127} proposed a new algorithm for robust federated learning called 
-Adaptive Federated Averaging, aiming to detect faults, attacks, and malicious updates provided 
+Adaptive Federated Averaging, aims to detect faults, attacks, and malicious updates provided 
 by participants in a collaborative model. The author also proposed a Hidden Markov model to simulate
 and learn the quality of model updates provided by each participant during training.
 
@@ -839,7 +839,7 @@ strategic Byzantine attack defense. Even in a blind scenario, this approach grea
 sample size while providing higher correct sensing ratios.
 
 
-Luis Muñoz-González \cite{b127} alsoproposed a robust aggregation rule that detects and discards malicious or poor local model updates during each training iteration. It includes mechanisms for blocking unwanted participants, thereby enhancing computational and communication efficiency.
+Luis Muñoz-González \cite{b127} also proposed a robust aggregation rule that detects and discards malicious or poor local model updates during each training iteration. It includes mechanisms for blocking unwanted participants, thereby enhancing computational and communication efficiency.
 In traditional federated learning, the performance of models may decline due to variations in data distributions across devices. 
 
 To address this issue, Hesham Mostafa (7) proposed a technique called "representation matching." 
@@ -861,7 +861,7 @@ This mechanism utilizes a set of dynamic and hidden proxies to relay
 traffic between authenticated clients and servers. As shown in Fig.\ref{fig16}, by continuously
 replacing the attacked proxies with backup proxies and reallocating attacked clients to new proxies,
 innocent clients are separated from malicious insiders through a series of shuffling.
-In recent years, significant efforts have been made in defending against
+In recent years, significant efforts have been made to defend against
 low-rate DDoS attacks. Attackers easily launch complex low-rate
 DDoS attacks by exploiting prominent features of cloud computing.
 Therefore, research on various DDoS attacks and their corresponding defense
@@ -1054,7 +1054,7 @@ that are more difficult to detect or use more complex attack strategies
 to avoid detection.
 
 Overall, using PGD or FGSM to generate adversarial examples and perform
-adversarial attacks in federated learning requires considering the
+adversarial attacks in federated learning require considering the
 characteristics and limitations of federated learning, including
 the heterogeneity of data distribution, network latency and bandwidth
 limitations, update of attack strategies, and attack detection and defense.
@@ -1074,7 +1074,7 @@ Adversarial training is a defense method against adversarial attacks.
 Its basic idea is to incorporate adversarial examples into the training process,
 enabling the model to better withstand unknown adversarial attacks.
 Specifically, adversarial training combines the original training dataset
-with adversarial samples generated to target the model, and retrains the
+with adversarial samples generated to target the model, and retrain the
 model accordingly. This way, the model encounters adversarial examples
 continuously during the learning process, thereby enhancing its robustness
 and generalization capability.
@@ -1092,7 +1092,7 @@ acknowledge that the experiments were conducted on idealized federated settings 
 further research is needed to evaluate the effectiveness of FAT in more realistic scenarios.
 
 So, there are also several challenges with implementing adversarial training in federated learning,
-such as heterogeneous clients caused by distribution, certified guarantees, privacy leakage, slow convergence rate.
+such as heterogeneous clients caused by distribution, certified guarantees, privacy leakage, and slow convergence rate.
 
 
 \subsection{heterogeneous clients caused by distribution}  
@@ -1102,7 +1102,7 @@ and the computational resources available to each client may also differ.
 The paper\cite{b101} proposes a novel method called FedRobust to address the problem of
 distribution shifts in federated learning. FedRobust is a gradient descent ascent
 (GDA) algorithm that solves the minimax robust optimization problem and can be
-efficiently implemented in a federated setting. This paper show that FedRobust,
+efficiently implemented in a federated setting. This paper shows that FedRobust,
 which alternates between the perturbation and parameter model variables,
 will converge to a stationary point in the minimax objective that satisfies
 the Polyak-Łojasiewicz (PL) \cite{b102} condition. This optimization method can be used
@@ -1118,7 +1118,7 @@ which can significantly impact the performance of the trained model.
 
 Zhang et al.\cite{b34} find that the accuracy of the federated learning model with
 adversarial training decreases on clean data, especially when the data of different
-client are non-independent and identically distributed, so they propose an algorithm
+clients are non-independent and identically distributed, so they propose an algorithm
 based on decision boundary as shown in Fig.\ref{fig19}, which uses local reweighting and global regularization
 to improve the accuracy and robustness in federated adversarial training.
 Chen et al.\cite{b32} study the skewed labels problem in federated learning and proposes
@@ -1149,8 +1149,8 @@ robust as those trained by centralized training, and can enable provably-robust 
 2-bounded adversarial perturbations in a distributed setup.
 
 From the perspective of variance-bias decomposition,Chen et al.\cite{b108} decompose the 
-loss function into a combination of bias and variance, generated adversarial samples on the server 
-and returned them to each client for adversarial training. Then, they used any model aggregation 
+loss function into a combination of bias and variance, generate adversarial samples on the server 
+and return them to each client for adversarial training. Then, they used any model aggregation 
 algorithm to improve the global model's adversarial robustness.
 
 \subsection{Privacy leakage} 
@@ -1203,7 +1203,7 @@ Then how to make better use of the communication protocol vulnerability for devi
 How to improve the transferability of adversarial samples.A possible solution is achieved by optimizing disturbances that affect common characteristics or patterns between different models.
 
 \subsection{Defense}
-In federated learning, client data is distributed among multiple participants. The protection of privacy is a important reason why federated learning is so popular. So it is an important challenge to ensure data privacy while implementing defenses.  
+In federated learning, client data is distributed among multiple participants. The protection of privacy is an important reason why federated learning is so popular. So it is an important challenge to ensure data privacy while implementing defenses.  
 Detecting malicious participants quickly and accurately is also a key issue. Existing solutions rely mainly on consistency verification and anomaly detection, but there is still room for improvement in large-scale federated learning scenarios.  
 Effective defense mechanisms, such as fault-tolerant algorithms and majority voting, are needed to counter Byzantine attacks. However, these mechanisms need to strike a balance with factors like privacy preservation and computational efficiency.
 Adversarial training can enhance model robustness but may compromise generalization capability. Balancing the trade-off between adversarial robustness and generalization is a problem that requires exploration and resolution.

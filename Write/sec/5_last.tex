@@ -1,0 +1,71 @@
+\section{Advanced Research and Problems}
+\subsection{Stealthiness}
+
+A good attack method should not be easily detected by
+the defense system. Backdoor attackers need to effectively
+hide backdoors to make them diﬀicult to detect. In
+Byzantine attacks, how do Byzantine attackers launch
+attacks while evading detection is also to be solved.
+Adversarial attacks need to generate adversarial samples
+without being detected. The attack methods developed
+above enhance their stealthiness by exploiting long-tail
+distribution, federated learning distribution, and dynamic
+generation techniques. Long tail distributed attacks and
+distributed attacks will eventually be discovered by the
+larger and larger model capacity, so how to develop a
+hidden attack method that can effectively face the large
+capacity model is a major problem in the current attack
+method research.   
+
+\subsection{Trade-Off}
+There are many Trade-off issues in federated learning.
+In federated learning, client data is distributed among
+multiple participants. The protection of privacy is an
+important reason why federated learning is so popular.
+So it is an important challenge to ensure data privacy
+while implementing defenses. Effective defense
+mechanisms, such as fault-tolerant algorithms and majority
+voting, are needed to counter Byzantine attacks. However,
+these mechanisms need to strike a balance with factors
+like privacy preservation and computational eﬀiciency.
+Adversarial training can enhance model robustness but
+may compromise generalization capability. Balancing the
+trade-off between adversarial robustness and
+generalization is a problem that requires exploration and resolution.
+Recently, some works have studied the latent connection
+between adversarial attacks and backdoor attacks. For
+example, Weng et al. [66]empirically demonstrated that
+defending against adversarial attacks via adversarial
+training may increase the risks of backdoor attacks. Solving
+these various Trade-off problems is also the focus of future
+research in federated learning.
+
+\subsection{Convergence}
+In defense methods, in order to improve the robustness
+of the model, existing methods often improve the training
+process of the model, such as distillation or adversarial
+training. These methods do play a good defense effect, but
+also bring the model convergence problems. The distributive
+nature of federated learning further aggravates the
+problem of diﬀicult convergence, because the distributive
+nature may cause problems such as heterogeneous data
+and unbalanced computing resources. In the methods
+mentioned in this paper, some articles have improved these
+problems in defense methods, such as using smoothing
+to produce equivalent results, or using reweighting to
+improve decision boundaries to solve the impact of data
+heterogeneity. But in general, how to make the model
+converge quickly is still a problem that needs to be studied
+in the future.
+\section{Conclusion}
+In this survey, we systematically introduce state of the art 
+threats in federated learning systems, which mainly
+include byzantine attacks, backdoor attacks and adversarial
+attacks. And we also detailed describe corresponding
+defensive policies. We also introduce the advantages and
+disadvantages of these methods and how they work, and
+sort out the relationship between them. Additionally, we
+discuss a number of open problems of current defense
+methods, hoping them could help researchers identify and
+solve issues more quickly in the area of robust federated
+learning.

@@ -1,0 +1,21 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kirillov et~al.(2023)Kirillov, Mintun, Ravi, Mao, Rolland, Gustafson,
+  Xiao, Whitehead, Berg, Lo, et~al.]{kirillov2023segment}
+Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura
+  Gustafson, Tete Xiao, Spencer Whitehead, Alexander~C Berg, Wan-Yen Lo, et~al.
+\newblock Segment anything.
+\newblock \emph{arXiv preprint arXiv:2304.02643}, 2023.
+
+\bibitem[Voigt and Von~dem Bussche(2017)]{voigt2017eu}
+Paul Voigt and Axel Von~dem Bussche.
+\newblock The eu general data protection regulation (gdpr).
+\newblock \emph{A Practical Guide, 1st Ed., Cham: Springer International
+  Publishing}, 10\penalty0 (3152676):\penalty0 10--5555, 2017.
+
+\end{thebibliography}

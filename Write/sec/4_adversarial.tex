@@ -39,7 +39,7 @@ adversarial samples locally, then inject them into the data
 sets of participants, and train the model with the data of
 other participants during the training process.
 So, how should attacks targeting federated learning be
-designed? In centralized learning, FGSM [99] is initially
+designed? In centralized learning, FGSM~\cite{goodfellow2014explaining} is initially
 used to generate adversarial examples. Let $\theta$ be the parameters of a model, $x$ the input to the model,
 $eta$ the perturbation to original input and $||\eta||_\infty \le \epsilon$,
 $y$ the targets associated with $x$ (for machine learning tasks that have targets)
@@ -57,7 +57,7 @@ to affect the performance of the entire model.
 In federated learning, attackers can use FGSM locally
 to generate adversarial samples and then inject them into
 the datasets of some participants to affect the performance
-of the entire model. PGD [100] is a more powerful adversarial sample
+of the entire model. PGD~\cite{madry2017towards} is a more powerful adversarial sample
 generation method, which generates adversarial samples
 by iteratively perturbing the input. Specifically, PGD
 first randomly generates an initial disturbance $\delta_0$,
@@ -150,13 +150,14 @@ training dataset with adversarial samples generated to
 target the model, and retrain the model accordingly. This
 way, the model encounters adversarial examples
 continuously during the learning process, thereby enhancing
-its robustness and generalization capability.As shown in
-Fig.20, since adversarial training was first applied to
+its robustness and generalization capability.  
+
+As shown in Fig.~\ref{fig20}, since adversarial training was first applied to
 federated learning in 2020, there are problems in four
 aspects. From these four aspects, we describe the current
 state of development of federated adversarial training.
 FAT (Federated Adversarial Training) is a method
-proposed in [23] that combines federated learning and
+proposed in~\cite{zizzo2020fat} that combines federated learning and
 adversarial training to reduce evasion threats during
 inference while preserving data privacy during training.
 In the FAT protocol, each device trains a local model and
@@ -174,8 +175,8 @@ realistic scenarios.
 
 \begin{figure*}[h]
     \centering
-    \includegraphics[width=1.0\linewidth,height=2.5in]{output/fig20.eps}
-     \caption{}
+    \includegraphics[width=1.0\linewidth,height=3.5in]{output/fig20.eps}
+     \caption{The development of federated adversarial training.}
      \label{fig20}
 \end{figure*}
 
@@ -185,12 +186,12 @@ implementing adversarial training in federated learning, such as
 heterogeneous clients caused by distribution, certified
 guarantees, privacy leakage, and slow convergence rate.
 
-\section{Heterogeneous Clients Caused by Distribution}  
+\subsection{Heterogeneous Clients Caused by Distribution}  
 The major challenge in federated learning is the
 heterogeneity of clients. This means that the distribution of
 training data may vary among different clients, and the
 computational resources available to each client may also
-differ. The paper [101] proposes a novel method called
+differ. The paper~\cite{reisizadeh2020robust} proposes a novel method called
 FedRobust to address the problem of distribution shifts
 in federated learning. FedRobust is a gradient descent
 ascent (GDA) algorithm that solves the minimax robust
@@ -199,33 +200,33 @@ in a federated setting. This paper shows that FedRobust,
 which alternates between the perturbation and parameter
 model variables, will converge to a stationary point in the
 minimax objective that satisfies the Polyak-Łojasiewicz
-(PL) [102] condition. This optimization method can be
+(PL)~\cite{polyak1963gradient} condition. This optimization method can be
 used to address the issue of distribution shifts in federated
 learning, which can significantly impact the performance
 of the trained model. 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.0\linewidth,height=2.5in]{output/fig21.eps}
-     \caption{}
+    \includegraphics[width=1.0\linewidth,height=1.0in]{output/fig21.eps}
+     \caption{Decision boundary of DBFAT-trainedmodel.}
      \label{fig21}
 \end{figure}
 
 
-Zhang et al. [34] find that the accuracy of the federated
+Zhang et al.~\cite{zhang2023delving} find that the accuracy of the federated
 learning model with adversarial training decreases on
 clean data, especially when the data of different clients
 are non-independent and identically distributed, so they
 propose an algorithm based on decision boundary as
-shown in Fig.21, which uses local reweighting and global
+shown in Fig.~\ref{fig21}, which uses local reweighting and global
 regularization to improve the accuracy and robustness in
-federated adversarial training. Chen et al. [24] study the
+federated adversarial training. Chen et al.~\cite{chen2022calfat} study the
 skewed labels problem in federated learning and proposes
 a CalFAT framework to calculate the logits of each class.
 By using this framework, the models between different
 clients eventually converge, enhancing the robustness and
 accuracy of the global model.
-Hong et al. [105] have studied the problems caused
+Hong et al.~\cite{hong2021federated} have studied the problems caused
 by clients with different computing resources. During
 federated learning, some clients can support adversarial
 training, but some clients with lack of computing resources
@@ -254,7 +255,7 @@ the model's performance and trustworthiness, rather than
 relying solely on trial-and-error evaluation and protection.
 It offers a more reliable and definitive defense mechanism
 for models to handle unknown or complex attacks.
-Chen et al. [104] propose incorporating randomized
+Chen et al.~\cite{chen2021certifiably} propose incorporating randomized
 smoothing techniques into federated adversarial training
 to enable data-private distributed learning with
 certifiable robustness to test-time adversarial perturbations.
@@ -262,10 +263,10 @@ The experiments conducted in the paper show that this
 approach can deliver models as robust as those trained
 by centralized training, and can enable provably-robust
 classifiers to 2-bounded adversarial perturbations in a
-distributed setup.
+distributed setup. 
 
 From the perspective of variance-bias decomposition,
-Zhou et al. [108] decompose the loss function into a
+Zhou et al.~\cite{zhou2022adversarial} decompose the loss function into a
 combination of bias and variance, generate adversarial
 samples on the server and return them to each client for
 adversarial training. Then, they used any model
@@ -273,9 +274,9 @@ aggregation algorithm to improve the global model's adversarial robustness.
 
 \subsection{Privacy Leakage}  
 As mentioned earlier, privacy protection is crucial in
-federated learning. In [106],it is proved that the model of
+federated learning. In~\cite{zhang2022privacy}, it is proved that the model of
 confrontation training is more prone to privacy disclosure
-than the model of normal training. Zhou et al. [103]
+than the model of normal training. Zhou et al.~\cite{zhou2020adversarially} 
 argue that conventional federated learning frameworks are
 vulnerable to strong adversarial attacks, even if adversarial
 training using locally generated adversarial examples is
@@ -290,10 +291,10 @@ the clients' privacy.
 
 \subsection{Slow Convergence Rate}
 
-As described in [34], conducting adversarial training
+As described in~\cite{zhang2023delving}, conducting adversarial training
 in federated learning is a challenging task because the
 convergence speed of adversarial training is very slow.
-In [107], a method is proposed to solve this problem.
+In~\cite{shah2021adversarial}, a method is proposed to solve this problem.
 Assuming the local iteration number of federated learning
 is E, this article believes that a larger E will increase the
 drift between models and affect the adversarial robustness,
@@ -304,7 +305,7 @@ mechanism for adjusting E, and uses FedCurv instead of
 FedAvg as the global aggregation algorithm, and proposes
 a new algorithm called FedDynAT to simultaneously
 improve the convergence speed and adversarial robustness.
-As shown in table III, we list some of the methods
+As shown in Tab.\ref{Comparison of FAT}, we list some of the methods
 mentioned above for comparison. It can be seen from the
 table that the adversarial robustness in federated learning
 is still weak (less than 40\%). Therefore, the study of
@@ -335,4 +336,4 @@ urgent matter.
     \toprule
     % 继续插入更多数据行
     \end{tabular}
-    \end{table} 
+    \end{table}  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.23)  23 NOV 2023 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.23)  25 NOV 2023 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,23 +392,23 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -459,10 +459,10 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \num@segmentsi=\count315
 \@datafile=\read2
 )
-Package backref Info: ** backref set up for natbib ** on input line 49.
+Package backref Info: ** backref set up for natbib ** on input line 61.
 \AtBeginShipoutBox=\box58
 Package atbegshi Info: Package `everyshi' patched.
-Package hyperref Info: Link coloring ON on input line 49.
+Package hyperref Info: Link coloring ON on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -472,22 +472,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
  (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.out) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 51.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/0_abstract.tex) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/1_intro.tex
@@ -508,7 +508,7 @@ Package pdftex.def Info: output/fig1-eps-converted-to.pdf  used on input line 32
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig1-eps-converted-to.pdf>]
+]
 Package epstopdf Info: Source file: <output/fig2.eps>
 (epstopdf)                    date: 2023-09-20 11:00:34
 (epstopdf)                    size: 1593598 bytes
@@ -518,7 +518,7 @@ Package epstopdf Info: Source file: <output/fig2.eps>
 (epstopdf)             Command: <repstopdf --outfile=output/fig2-eps-converted-to.pdf output/fig2.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig2-eps-converted-to.pdf, id=153, 1073.00874pt x 745.78625pt>
+<output/fig2-eps-converted-to.pdf, id=155, 1073.00874pt x 745.78625pt>
 File: output/fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig2-eps-converted-to.pdf>
 Package pdftex.def Info: output/fig2-eps-converted-to.pdf  used on input line 73.
@@ -530,32 +530,29 @@ Package epstopdf Info: Source file: <output/fig3.eps>
 (epstopdf)                    date: 2023-11-23 09:44:11
 (epstopdf)                    size: 56810 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig3-eps-converted-to.pdf output/fig3.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig3-eps-converted-to.pdf, id=154, 841.1425pt x 540.0175pt>
+<output/fig3-eps-converted-to.pdf, id=156, 841.1425pt x 540.0175pt>
 File: output/fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig3-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig3-eps-converted-to.pdf  used on input line 80.
+Package pdftex.def Info: output/fig3-eps-converted-to.pdf  used on input line 83.
 (pdftex.def)             Requested size: 237.13548pt x 180.67007pt.
+ [2 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig1-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig2-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig4.eps>
-(epstopdf)                    date: 2023-09-20 11:00:36
-(epstopdf)                    size: 4655509 bytes
+(epstopdf)                    date: 2023-11-25 12:20:31
+(epstopdf)                    size: 5201479 bytes
 (epstopdf)             Output file: <output/fig4-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-11-23 09:46:02
-(epstopdf)                    size: 362034 bytes
+(epstopdf)                    date: 2023-11-25 12:21:26
+(epstopdf)                    size: 374466 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig4-eps-converted-to.pdf output/fig4.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig4-eps-converted-to.pdf, id=155, 995.72pt x 647.41875pt>
+<output/fig4-eps-converted-to.pdf, id=243, 995.72pt x 647.41875pt>
 File: output/fig4-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig4-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig4-eps-converted-to.pdf  used on input line 120.
+Package pdftex.def Info: output/fig4-eps-converted-to.pdf  used on input line 143.
 (pdftex.def)             Requested size: 237.13927pt x 180.6734pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig2-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig3-eps-converted-to.pdf>]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/2_backdoor.tex [3 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig4-eps-converted-to.pdf>]
+) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/2_backdoor.tex [3 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig5.eps>
 (epstopdf)                    date: 2023-09-20 11:00:40
 (epstopdf)                    size: 27994329 bytes
@@ -565,11 +562,16 @@ Package epstopdf Info: Source file: <output/fig5.eps>
 (epstopdf)             Command: <repstopdf --outfile=output/fig5-eps-converted-to.pdf output/fig5.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig5-eps-converted-to.pdf, id=230, 994.71625pt x 729.72626pt>
+<output/fig5-eps-converted-to.pdf, id=318, 994.71625pt x 729.72626pt>
 File: output/fig5-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig5-eps-converted-to.pdf>
 Package pdftex.def Info: output/fig5-eps-converted-to.pdf  used on input line 91.
 (pdftex.def)             Requested size: 237.1279pt x 180.67183pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig6.eps>
 (epstopdf)                    date: 2023-09-20 11:00:36
 (epstopdf)                    size: 7601969 bytes
@@ -577,18 +579,18 @@ Package epstopdf Info: Source file: <output/fig6.eps>
 (epstopdf)                    date: 2023-11-23 09:48:41
 (epstopdf)                    size: 257240 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig6-eps-converted-to.pdf output/fig6.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig6-eps-converted-to.pdf, id=231, 964.60374pt x 412.54124pt>
+<output/fig6-eps-converted-to.pdf, id=374, 964.60374pt x 412.54124pt>
 File: output/fig6-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig6-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig6-eps-converted-to.pdf  used on input line 153.
-(pdftex.def)             Requested size: 237.13216pt x 180.67519pt.
+Package pdftex.def Info: output/fig6-eps-converted-to.pdf  used on input line 155.
+(pdftex.def)             Requested size: 237.13216pt x 108.40385pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig5-eps-converted-to.pdf>]
+[5 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig7.eps>
 (epstopdf)                    date: 2023-09-20 11:00:38
 (epstopdf)                    size: 13632709 bytes
@@ -596,18 +598,13 @@ Package epstopdf Info: Source file: <output/fig7.eps>
 (epstopdf)                    date: 2023-11-23 09:51:20
 (epstopdf)                    size: 413548 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig7-eps-converted-to.pdf output/fig7.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig7-eps-converted-to.pdf, id=271, 980.66376pt x 500.87125pt>
+<output/fig7-eps-converted-to.pdf, id=413, 980.66376pt x 500.87125pt>
 File: output/fig7-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig7-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig7-eps-converted-to.pdf  used on input line 186.
+Package pdftex.def Info: output/fig7-eps-converted-to.pdf  used on input line 189.
 (pdftex.def)             Requested size: 237.12982pt x 180.67271pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig8.eps>
 (epstopdf)                    date: 2023-09-21 12:54:48
 (epstopdf)                    size: 294645 bytes
@@ -617,11 +614,11 @@ Package epstopdf Info: Source file: <output/fig8.eps>
 (epstopdf)             Command: <repstopdf --outfile=output/fig8-eps-converted-to.pdf output/fig8.eps>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig8-eps-converted-to.pdf, id=301, 963.6pt x 542.025pt>
+<output/fig8-eps-converted-to.pdf, id=419, 963.6pt x 542.025pt>
 File: output/fig8-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig8-eps-converted-to.pdf>
 Package pdftex.def Info: output/fig8-eps-converted-to.pdf  used on input line 259.
-(pdftex.def)             Requested size: 496.85504pt x 180.67178pt.
+(pdftex.def)             Requested size: 496.85504pt x 252.9405pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -634,17 +631,14 @@ Package epstopdf Info: Source file: <output/fig9.eps>
 (epstopdf)                    date: 2023-11-23 09:55:55
 (epstopdf)                    size: 97689 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig9-eps-converted-to.pdf output/fig9.eps>
-(epstopdf)             \includegraphics on input line 329.
+(epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig9-eps-converted-to.pdf, id=321, 952.55875pt x 312.16624pt>
+<output/fig9-eps-converted-to.pdf, id=455, 952.55875pt x 312.16624pt>
 File: output/fig9-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig9-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig9-eps-converted-to.pdf  used on input line 329.
-(pdftex.def)             Requested size: 237.1362pt x 180.68025pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+Package pdftex.def Info: output/fig9-eps-converted-to.pdf  used on input line 337.
+(pdftex.def)             Requested size: 237.1362pt x 72.26828pt.
+ [7 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig8-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig9-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig10.eps>
 (epstopdf)                    date: 2023-09-20 11:00:42
 (epstopdf)                    size: 6189495 bytes
@@ -652,17 +646,13 @@ Package epstopdf Info: Source file: <output/fig10.eps>
 (epstopdf)                    date: 2023-11-23 09:55:57
 (epstopdf)                    size: 230651 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig10-eps-converted-to.pdf output/fig10.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig10-eps-converted-to.pdf, id=322, 948.54375pt x 461.725pt>
+<output/fig10-eps-converted-to.pdf, id=525, 948.54375pt x 461.725pt>
 File: output/fig10-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig10-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig10-eps-converted-to.pdf  used on input line 348.
-(pdftex.def)             Requested size: 237.13535pt x 180.67088pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig8-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig9-eps-converted-to.pdf>]
+Package pdftex.def Info: output/fig10-eps-converted-to.pdf  used on input line 358.
+(pdftex.def)             Requested size: 237.13535pt x 144.5353pt.
 Package epstopdf Info: Source file: <output/fig11.eps>
 (epstopdf)                    date: 2023-09-20 11:00:44
 (epstopdf)                    size: 6408345 bytes
@@ -670,14 +660,18 @@ Package epstopdf Info: Source file: <output/fig11.eps>
 (epstopdf)                    date: 2023-11-23 09:57:17
 (epstopdf)                    size: 482336 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig11-eps-converted-to.pdf output/fig11.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 443.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig11-eps-converted-to.pdf, id=388, 1138.2525pt x 854.19125pt>
+<output/fig11-eps-converted-to.pdf, id=536, 1138.2525pt x 854.19125pt>
 File: output/fig11-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig11-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig11-eps-converted-to.pdf  used on input line 431.
+Package pdftex.def Info: output/fig11-eps-converted-to.pdf  used on input line 443.
 (pdftex.def)             Requested size: 237.12956pt x 180.66278pt.
- [8 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig10-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig11-eps-converted-to.pdf>]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/3_byzantine.tex
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig10-eps-converted-to.pdf>]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/3_byzantine.tex [9 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig11-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig12.eps>
 (epstopdf)                    date: 2023-09-20 10:58:14
 (epstopdf)                    size: 18894179 bytes
@@ -687,7 +681,7 @@ Package epstopdf Info: Source file: <output/fig12.eps>
 (epstopdf)             Command: <repstopdf --outfile=output/fig12-eps-converted-to.pdf output/fig12.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig12-eps-converted-to.pdf, id=437, 2845.63126pt x 2276.505pt>
+<output/fig12-eps-converted-to.pdf, id=626, 2845.63126pt x 2276.505pt>
 File: output/fig12-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig12-eps-converted-to.pdf>
 Package pdftex.def Info: output/fig12-eps-converted-to.pdf  used on input line 21.
@@ -701,12 +695,11 @@ Package epstopdf Info: Source file: <output/fig13.eps>
 (epstopdf)             Command: <repstopdf --outfile=output/fig13-eps-converted-to.pdf output/fig13.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig13-eps-converted-to.pdf, id=438, 806.01125pt x 617.30624pt>
+<output/fig13-eps-converted-to.pdf, id=627, 806.01125pt x 617.30624pt>
 File: output/fig13-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig13-eps-converted-to.pdf>
 Package pdftex.def Info: output/fig13-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 243.45326pt x 180.67203pt.
- [9]
 Package epstopdf Info: Source file: <output/fig14.eps>
 (epstopdf)                    date: 2023-09-20 11:00:40
 (epstopdf)                    size: 1191435 bytes
@@ -714,14 +707,18 @@ Package epstopdf Info: Source file: <output/fig14.eps>
 (epstopdf)                    date: 2023-11-23 10:21:42
 (epstopdf)                    size: 96232 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig14-eps-converted-to.pdf output/fig14.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig14-eps-converted-to.pdf, id=444, 950.55125pt x 718.685pt>
+<output/fig14-eps-converted-to.pdf, id=628, 950.55125pt x 718.685pt>
 File: output/fig14-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig14-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig14-eps-converted-to.pdf  used on input line 60.
+Package pdftex.def Info: output/fig14-eps-converted-to.pdf  used on input line 38.
 (pdftex.def)             Requested size: 237.12958pt x 180.66873pt.
- [10 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig12-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig13-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig14-eps-converted-to.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
 Package epstopdf Info: Source file: <output/fig15.eps>
 (epstopdf)                    date: 2023-09-20 11:00:40
 (epstopdf)                    size: 1267278 bytes
@@ -729,13 +726,17 @@ Package epstopdf Info: Source file: <output/fig15.eps>
 (epstopdf)                    date: 2023-11-23 10:21:43
 (epstopdf)                    size: 41949 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig15-eps-converted-to.pdf output/fig15.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig15-eps-converted-to.pdf, id=529, 1024.82875pt x 484.81125pt>
+<output/fig15-eps-converted-to.pdf, id=658, 1024.82875pt x 484.81125pt>
 File: output/fig15-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig15-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig15-eps-converted-to.pdf  used on input line 171.
+Package pdftex.def Info: output/fig15-eps-converted-to.pdf  used on input line 172.
 (pdftex.def)             Requested size: 237.12868pt x 180.67932pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <output/fig16.eps>
 (epstopdf)                    date: 2023-09-20 11:00:40
 (epstopdf)                    size: 367367 bytes
@@ -743,18 +744,17 @@ Package epstopdf Info: Source file: <output/fig16.eps>
 (epstopdf)                    date: 2023-11-23 10:21:44
 (epstopdf)                    size: 55946 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig16-eps-converted-to.pdf output/fig16.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig16-eps-converted-to.pdf, id=530, 1018.80624pt x 722.7pt>
+<output/fig16-eps-converted-to.pdf, id=661, 1018.80624pt x 722.7pt>
 File: output/fig16-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig16-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig16-eps-converted-to.pdf  used on input line 201.
+Package pdftex.def Info: output/fig16-eps-converted-to.pdf  used on input line 207.
 (pdftex.def)             Requested size: 237.13428pt x 180.67455pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig15-eps-converted-to.pdf>]
+[11 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig12-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig13-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig14-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig17.eps>
 (epstopdf)                    date: 2023-09-20 11:00:40
 (epstopdf)                    size: 797503 bytes
@@ -762,14 +762,18 @@ Package epstopdf Info: Source file: <output/fig17.eps>
 (epstopdf)                    date: 2023-11-23 10:21:45
 (epstopdf)                    size: 50801 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig17-eps-converted-to.pdf output/fig17.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig17-eps-converted-to.pdf, id=550, 894.34125pt x 693.59125pt>
+<output/fig17-eps-converted-to.pdf, id=756, 894.34125pt x 693.59125pt>
 File: output/fig17-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig17-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig17-eps-converted-to.pdf  used on input line 268.
+Package pdftex.def Info: output/fig17-eps-converted-to.pdf  used on input line 282.
 (pdftex.def)             Requested size: 237.13576pt x 180.66814pt.
- [12 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig16-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig17-eps-converted-to.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig15-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig16-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig18.eps>
 (epstopdf)                    date: 2023-09-20 11:00:42
 (epstopdf)                    size: 2552523 bytes
@@ -777,18 +781,18 @@ Package epstopdf Info: Source file: <output/fig18.eps>
 (epstopdf)                    date: 2023-11-23 10:21:46
 (epstopdf)                    size: 84183 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig18-eps-converted-to.pdf output/fig18.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig18-eps-converted-to.pdf, id=581, 921.4425pt x 638.385pt>
+<output/fig18-eps-converted-to.pdf, id=801, 921.4425pt x 638.385pt>
 File: output/fig18-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig18-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig18-eps-converted-to.pdf  used on input line 354.
+Package pdftex.def Info: output/fig18-eps-converted-to.pdf  used on input line 370.
 (pdftex.def)             Requested size: 237.12296pt x 180.67528pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig18-eps-converted-to.pdf>]
+[13 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig17-eps-converted-to.pdf>] [14 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig18-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig19.eps>
 (epstopdf)                    date: 2023-09-20 11:00:42
 (epstopdf)                    size: 272772 bytes
@@ -796,14 +800,14 @@ Package epstopdf Info: Source file: <output/fig19.eps>
 (epstopdf)                    date: 2023-11-23 10:22:13
 (epstopdf)                    size: 24869 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig19-eps-converted-to.pdf output/fig19.eps>
-(epstopdf)             \includegraphics on input line 468.
+(epstopdf)             \includegraphics on input line 486.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig19-eps-converted-to.pdf, id=599, 915.42pt x 533.995pt>
+<output/fig19-eps-converted-to.pdf, id=861, 915.42pt x 533.995pt>
 File: output/fig19-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig19-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig19-eps-converted-to.pdf  used on input line 468.
+Package pdftex.def Info: output/fig19-eps-converted-to.pdf  used on input line 486.
 (pdftex.def)             Requested size: 237.13756pt x 180.6759pt.
-) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/4_adversarial.tex [14 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig19-eps-converted-to.pdf>] [15]
+) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/4_adversarial.tex [15 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig19-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig20.eps>
 (epstopdf)                    date: 2023-09-21 12:54:48
 (epstopdf)                    size: 263043 bytes
@@ -811,17 +815,18 @@ Package epstopdf Info: Source file: <output/fig20.eps>
 (epstopdf)                    date: 2023-11-23 10:23:48
 (epstopdf)                    size: 19745 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig20-eps-converted-to.pdf output/fig20.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig20-eps-converted-to.pdf, id=625, 963.6pt x 542.025pt>
+<output/fig20-eps-converted-to.pdf, id=889, 963.6pt x 542.025pt>
 File: output/fig20-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig20-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig20-eps-converted-to.pdf  used on input line 177.
-(pdftex.def)             Requested size: 496.85504pt x 180.67178pt.
+Package pdftex.def Info: output/fig20-eps-converted-to.pdf  used on input line 178.
+(pdftex.def)             Requested size: 496.85504pt x 252.9405pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[16]
 Package epstopdf Info: Source file: <output/fig21.eps>
 (epstopdf)                    date: 2023-11-23 11:35:50
 (epstopdf)                    size: 373356 bytes
@@ -829,45 +834,44 @@ Package epstopdf Info: Source file: <output/fig21.eps>
 (epstopdf)                    date: 2023-11-23 11:36:44
 (epstopdf)                    size: 54504 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig21-eps-converted-to.pdf output/fig21.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig21-eps-converted-to.pdf, id=626, 737.75626pt x 248.93pt>
+<output/fig21-eps-converted-to.pdf, id=898, 737.75626pt x 248.93pt>
 File: output/fig21-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig21-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig21-eps-converted-to.pdf  used on input line 209.
-(pdftex.def)             Requested size: 237.13374pt x 180.68042pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/5_last.tex [17 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig20-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig21-eps-converted-to.pdf>]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.bbl (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.brf)
+Package pdftex.def Info: output/fig21-eps-converted-to.pdf  used on input line 210.
+(pdftex.def)             Requested size: 237.13374pt x 72.27141pt.
+ [17 </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig20-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/Write/output/fig21-eps-converted-to.pdf>]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/sec/5_last.tex [18]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.bbl (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.brf)
 \tf@brf=\write4
 \openout4 = `main.brf'.
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+ [19] [20] [21] [22])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+ [23
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (/media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5CB6375673BB73D65566FD1DF706B199;2123.
+(rerunfilecheck)             Checksum: E4D873A11E7BC7BED6DD294966283E72;2130.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 7E86C5BA788389B990C041EED47AA728;94.
+(rerunfilecheck)             Checksum: 8457787536D8149C45C9E189D9D2CA24;8555.
  ) 
 Here is how much of TeX's memory you used:
- 12151 strings out of 481239
- 196188 string characters out of 5920376
- 501433 words of memory out of 5000000
- 27082 multiletter control sequences out of 15000+600000
- 560570 words of font info for 80 fonts, out of 8000000 for 9000
+ 12942 strings out of 481239
+ 213690 string characters out of 5920376
+ 503667 words of memory out of 5000000
+ 27754 multiletter control sequences out of 15000+600000
+ 562115 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,16n,46p,848b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.pdf (18 pages, 6276324 bytes).
+ 49i,16n,46p,848b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /media/yunhao/DATA/Project/FederatedLearningSurvey/Write/main.pdf (23 pages, 6342662 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 952 compressed objects within 10 object streams
+ 192 named destinations out of 1000 (max. 500000)
  346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

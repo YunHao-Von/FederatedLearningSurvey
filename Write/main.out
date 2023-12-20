@@ -1,7 +1,7 @@
 \BOOKMARK [1][-]{section.1}{. Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{. Threat Models}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{. Training Phase and Inference Phase}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{. Untargeted and Targeted}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.1}{. Attack in Training Phase \046 Attack in Inference Phase}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{. Untargeted Attack \046 Targeted Attack}{section.2}% 4
 \BOOKMARK [1][-]{section.3}{. Backdoor Attack}{}% 5
 \BOOKMARK [2][-]{subsection.3.1}{. Data Poisoning Attack}{section.3}% 6
 \BOOKMARK [2][-]{subsection.3.2}{. Model Poisoning Attack}{section.3}% 7

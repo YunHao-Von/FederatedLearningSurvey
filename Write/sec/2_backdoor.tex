@@ -1,4 +1,5 @@
 \section{Backdoor Attack}   
+\label{Backdoor Attack}
 
 \begin{table*}[t]
     \caption{\textbf{Comparison of Backdoor Attacks}}
@@ -41,14 +42,11 @@ This enables the model to function normally when
 processing benign inputs, but triggers pre-defined malicious
 behavior when presented with a specific malicious trigger.
 The first neural backdoor in centralized settings can be
-traced back to 2013~\cite{geigel2013neural,gu2017badnets}. We start with the first
-backdoor attacks in federated learning~\cite{bagdasaryan2020backdoor}. Then we discusses
-the improvement of the federated learning backdoor attack
-from the perspective of persistence, distribution, and
-accuracy. Due to the unique nature of federated learning,
+traced back to 2013~\cite{geigel2013neural,gu2017badnets}.
+Due to the unique nature of federated learning,
 whereby the model is trained on individual clients, it is
 more susceptible to backdoor attacks compared to the
-general centralized training model. These types of attacks
+general centralized training model. These backdoor attacks
 in federated learning can be divided into two categories
 based on the different stages at which the adversary
 inserts backdoors into the training pipeline: data poisoning
@@ -62,11 +60,10 @@ typically consists of a combination of clean data with
 ground-truth labels and data with backdoor triggers that
 have targeted labels.  
 
-(1)Visible Poisoning: Early methods of backdoor
+(1)Visible Poisoning: Early methods~\cite{bagdasaryan2020backdoor,gong2022backdoor} of backdoor
 attacks in federated learning can rely on a single trigger,
 meaning that all corrupted clients inject the same trigger
-with their local training datasets. The triggers employed
-in this method are usually predetermined, such as a
+with their local training datasets. The triggers are usually predetermined, such as a
 square located at redundant pixels in the image. During
 reasoning, the inserted triggers are used on malicious
 clients to activate the aggregation model~\cite{bagdasaryan2020backdoor,gong2022backdoor}. While
@@ -76,7 +73,7 @@ transfers backdoor attacks from centralized learning
 directly to federated learning, without fully leveraging the
 distributed nature of the latter. This is because the same
 triggers are embedded in all adversarial clients. Some
-studies take advantages of federated learning to carry out
+studies ~\cite{xie2019dba} take advantages of federated learning to carry out
 backdoor attacks. As shown in Fig.~\ref{fig5}, Xie et al.~\cite{xie2019dba} propose
 a distributed backdoor attack (DBA) that decomposes a
 global trigger pattern, similar to a centralized attack, into
@@ -98,7 +95,7 @@ robust aggregation rules.
 But distributed backdoors are also easy to detect
 because the triggers are static. And if the static triggers are
 changed to dynamic, the backdoors will be more diﬀicult
-to detect. Salem et al~\cite{salem2022dynamic} conduct a clear and systematic
+to detect. Salem et al.~\cite{salem2022dynamic} conduct a clear and systematic
 study on the feasibility of dynamic flip-flops, which can
 facilitate the backdoor attacks by generating antagonistic
 network algorithms to create triggers. This way, the same

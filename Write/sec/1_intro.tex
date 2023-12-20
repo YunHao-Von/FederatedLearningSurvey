@@ -1,18 +1,18 @@
 \section{Introduction}
 Artificial intelligence (AI) can analyze large amounts
 of data and solve complex problems in various fields.
-Most existing state of the art AI techniques rely on
+Most existing state-of-the-art AI techniques rely on
 rich and high-quality datasets to train a highly accurate
 machine learning model. For example, while training
 the SAM model, Alexander et al.~\cite{kirillov2023segment} build the largest
 segmented dataset ever, building more than 1 billion
-masks on 11 million images. However, in practical reality,
+masks on 11 million images. However, in more practical reality,
 most companies cannot construct such large and highquality datasets as Meta when training their model. To
 address this problem, one possible solution is the sharing
 of data among multiple organizations or companies to
 collaboratively train models.
 
-But collaborative training presents several new challenges while collaborative training has developed rapidly.
+But collaborative training presents several new challenges while it has developed rapidly.
 The first challenge stems from data privacy. The data held
 by organizations may contain sensitive information, such
 as medical or financial data of their users. Additionally,
@@ -24,17 +24,17 @@ diverse organizations of data. Data from different organizations provides an inc
 advancements in artificial intelligence models. However,
 due to the various organizations, storing and processing
 data from different organizations, as well as reducing communication costs between these organizations have
-become new challenge to overcome.
+become a new challenge.
 
 \begin{figure}[t]
     \centering
   
     \includegraphics[width=1.0\linewidth,height=2.5in]{output/fig1.eps}
-     \caption{A schematic of federated learning. Arrow 1 represents the
-     central server sending the initialized global model to the client. The
-     clients then train locally and submit the local updates to the server
-     (arrow 2). The server performs the model aggregation (arrow 3). And
-     the server sends the aggregated model to the clients (arrow 4).}
+     \caption{A schematic of federated learning.  
+     Each iteration of federated learning can be divided into four steps.
+     1: The central server sending the initialized global model to the client. 2: The
+     clients then train locally and submit the local updates to the server. 3: The server performs the model aggregation.
+     4: the server sends the aggregated model to the clients.}
      \label{fig1}
 \end{figure}
 
@@ -49,24 +49,19 @@ upload their trained model updates to the central server.
 After receiving the updates from all selected clients, the
 server updates the global model by averaging the uploaded
 updates. And the server sends the updated global model
-to the selected clients. After the four steps, one iteration
+to the selected clients. Completing the four steps, one iteration
 of federated learning is complete. The entire federated
 learning requires multiple iterations to make model achieve
 convergence. Throughout the training process, only the
 data owners have access to their local data. This approach
 ensures the protection of data from unauthorized access
 by other clients or the central server, while also reducing
-communication costs between the clients and the server~\cite{yang2019federated}. Due to the clear advantages of FL, FL has been widely
+communication costs between the clients and the server~\cite{yang2019federated}. Due to the advantages of FL, FL has been widely
 applied to many fields in recent years~\cite{doshi2022federated,becking2022adaptive,chen2019federated,lin2021fednlp,Liu_Yu,Wu_Wu_Cao_Huang_Xie_2021}. 
 However,
 further research has shown that federated learning also
-faces numerous security risks~\cite{guo2021robust,enthoven2021overview,rodriguez2023survey,tariq2023trustworthy,zhang2023survey}, such as backdoor
-attacks, adversarial attacks, and Byzantine attacks. The distributed nature of federated learning clients makes it
-more challenging to guarantee the trustworthiness of each
-client. Consequently, compared to traditional centralized
-machine learning, federated learning is more susceptible
-to attacks~\cite{guo2021robust}. So there are many researchs on defenses.
-
+faces numerous security risks~\cite{guo2021robust,enthoven2021overview,rodriguez2023survey,tariq2023trustworthy,zhang2023survey} like backdoor
+attacks, adversarial attacks, and Byzantine attacks.
 
 \begin{figure}[t]
     \centering
@@ -88,6 +83,10 @@ to attacks~\cite{guo2021robust}. So there are many researchs on defenses.
      \label{fig3}
 \end{figure}
 
+\begin{itemize}
+    \item 
+\end{itemize}
+
 \begin{table*}[t]
     \caption{\textbf{Comparison of Attacks}}
     \label{Comparison of Attacks}
@@ -97,11 +96,11 @@ to attacks~\cite{guo2021robust}. So there are many researchs on defenses.
     \toprule % 第一道横线
     \textbf{Attack Category} & \textbf{Goal} & \textbf{Mechanism} & \textbf{Attack Phase} & \textbf{Targeted Attack} \\ 
     \midrule
-    Backdoor Attack & \makecell{Present results the attackers want on the backdoor samples.\\ Behave normally  on benign samples.} & \makecell{Excessive learning ability of models.} & Training & Targeted \\
+    Backdoor Attack & \makecell[tl]{\tabitem Present results as attackers expect on the backdoor samples. \\ \tabitem Behave normally  on benign samples.} & \makecell[tl]{Excessive learning ability of models.} & Training & Targeted \\
     \midrule
-    Byzantine Attack & \makecell{Reduce model generalization.\\ Make model diﬀicult to converge.} & \makecell{Distribution of federated learning clients.} & Training & Untargeted\\ 
+    Byzantine Attack & \makecell[tl]{\tabitem Reduce model generalization.\\ \tabitem Make model diﬀicult to converge.} & \makecell[tl]{Distribution of federated learning clients.} & Training & Untargeted\\ 
     \midrule
-    Adversarial Attack & \makecell{Misclassify attacked samples. \\Behave normally on benign samples.} & \makecell{The difference of samples in feature space.} & Inference & Targeted \\
+    Adversarial Attack & \makecell[tl]{\tabitem Misclassify attacked samples. \\ \tabitem Behave normally on benign samples.} & \makecell[tl]{The difference of samples in feature space.} & Inference & Targeted / Untargeted \\
     \toprule
     % 继续插入更多数据行
     \end{tabular}
@@ -109,34 +108,40 @@ to attacks~\cite{guo2021robust}. So there are many researchs on defenses.
 
 We primarily enumerate backdoor attacks, adversarial
 attacks, and Byzantine attacks in federated learning, along
-with their corresponding defense methods. These attacks
+with their corresponding defense methods~\cite{tran2018spectral,chen2018detecting,zeng2021rethinking,liu2017neural,doan2020februus,li2020learning}. These attacks
 pose significant threats to federated learning systems,
 and in response to these new threats, several FL defense
 methods have been proposed. In previous surveys~\cite{guo2021robust,enthoven2021overview,rodriguez2023survey,tariq2023trustworthy,zhang2023survey}, researchers have explored some attacks and defense
-strategies in the context of federated learning. These
-surveys often categorize backdoor attacks and Byzantine
+strategies in the context of federated learning.  
+We do not believe that this classification between the two types of attacks can be perfect
+cause some attack methods~\cite{bagdasaryan2020backdoor, zhang2022neurotoxin, zhou2021deep, sun2022semi}  start from the aspect of modifying the client model.
+These surveys often categorize backdoor attacks and Byzantine
 attacks as data poisoning attacks and rarely delve into
 adversarial attacks in the field of federated learning. In
 this survey, we propose a new classification approach for
 these two types of attacks and provide an overview of their
-corresponding defense mechanisms. Addressing the lack
-of content on adversarial attacks in previous surveys, we
-supplement this paper with content on adversarial attacks
+corresponding defense mechanisms. We also supplement this paper with content on adversarial attacks
 and their defense mechanisms. Furthermore, we conduct
 a detailed analysis of the effectiveness and limitations
 of these attack methods and their corresponding defense
-mechanisms.
+mechanisms. In section \ref{Threat Models}, we give a preliminary introduction to the
+definitions of the three attacks discussed in this survey and try to find their commonalities.
+In section \ref{Backdoor Attack}-\ref{Defenses against Adversarial Attack}, we introduce the current state of attack and defense methods for each of the three threats.  
+Finally, we analysis the advanced research and problems faced by federated learning in section \ref{Advanced Research and Problems}.
+
 
 \section{Threat Models} 
+\label{Threat Models}
 In this section, we give a preliminary introduction to the
-definitions of the three attacks discussed in this survey.
-As shown in Fig.~\ref{fig2}, backdoor attacks~\cite{bagdasaryan2020backdoor,wang2020attack,gong2022backdoor,sun2019can,ozdayi2021defending} refer to a
+definitions of the three attacks discussed in this survey. 
+
+
+\textbf{Backdoor attacks}~\cite{bagdasaryan2020backdoor,wang2020attack,gong2022backdoor,sun2019can,ozdayi2021defending} refer to a
 malicious backdoor added to the global model by malicious
 participants during training process. The backdoor can be
 triggered by specific inputs, allowing attackers to control
-the outputs of the model. The goal of the backdoor attacks
-is to make the model maintain the normal outputs on the normal samples, but the outputs expected by attackers
-are shown on the backdoor samples. 
+the outputs of the model. The goal of backdoor attack is to make the model maintain correct outputs on benign samples,
+while presenting the bad results as attackers expect on backdoor samples as shown in Fig.~\ref{fig2}, .
 
 \begin{figure}[h]
     \centering
@@ -147,7 +152,7 @@ are shown on the backdoor samples.
      \label{fig4}
 \end{figure}
 
-Byzantine attacks~\cite{fang2020local,guo2021byzantine,prakash2020mitigating} is that there exist one
+\textbf{Byzantine attacks}~\cite{fang2020local,guo2021byzantine,prakash2020mitigating} is that there exist one
 or more malicious participants in the federated learning
 system who disrupt the training process by sending
 incorrect or misleading updates to the central server, causing
@@ -158,48 +163,38 @@ abnormal convergence, as shown in Fig.\ref{fig3}.
 
 
 
-As shown in Fig.\ref{fig4}, adversarial attacks~\cite{zizzo2020fat,chen2022calfat,li2023federated,zhang2023delving}
+\textbf{Adversarial attacks}~\cite{zizzo2020fat,chen2022calfat,li2023federated,zhang2023delving}
 require adding subtle and carefully crafted perturbations
 to the input data to deceive the model and cause it to
-make incorrect predictions. These attacks pose significant challenges in designing and implementing federated
-learning systems. For instance, personalized advertising
-recommendation systems are often classic examples of
-federated learning systems and malicious participants
-can exploit backdoors embedded in the global model
-to increase the quantity and frequency of their own ad
-placements, gaining unfair advantages. Therefore, it is crucial to address these robustness or security issues in
-federated learning. 
+make incorrect predictions as shown in Fig.\ref{fig4}.   
 
 These attacks have different goals, mechanisms, and
-attack stages. Prior to delving into the details of the
-threats of federated learning, it is essential to make classifications
-of these threats. Specifically, we can categorize
-these threats into two main stages: the training phase and
+attack stages. We can categorize these threats into two main stages: the training phase and
 the inference phase. Additionally, we can also categorize
 them between untargeted attacks and targeted attacks
 based on whether a specific target is present or not. And
 we make a comparison among attacks in Tab.~\ref{Comparison of Attacks}. 
 
-\subsection{Training Phase and Inference Phase}
-(1)Training Phase: Attacks that occur during the model
-training process are intended to either disrupt or impact
-the federated learning model itself. During the training
+\subsection{Attack in Training Phase \& Attack in Inference Phase}
+(1)Attack in Training Phase: Attacks during the model
+training process are intended to impact
+the federated learning model. During the training
 stage, backdoor attacks involve the insertion of a backdoor
 into the model, whereas input deception models with
 triggers are utilized during the reasoning stage to cause
 the model to generate incorrect results~\cite{miao2018towards,zhang2019data}. Byzantine
 attacks disrupt the convergence of the model by utilizing
-malicious clients or servers~\cite{fang2020local}.  
+malicious clients or servers~\cite{fang2020local}. It causes the global model fail to converge by sending harmful information or disrupt communication.
 
-(2)Inference Phase: Attacks that occur during the
+(2)Attack in Inference Phase: Attacks that occur during the
 reasoning phase are typically intended to alter the model's
 reasoning outcomes and deceive it into generating incorrect
-outputs~\cite{barreno2006can} . Adversarial attacks, leverage the model's
+outputs~\cite{barreno2006can} . Adversarial attacks leverage the model's
 vulnerability to disturbances and utilize samples with
 adversarial perturbations as input to the model, causing
 it to produce erroneous outcomes.  
 
-\subsection{Untargeted and Targeted}
+\subsection{Untargeted Attack \& Targeted Attack}
 (1)Untargeted attacks: Untargeted attacks are designed
 to compromise the integrity of the target model in 
 arbitrary manner. Byzantine attack is one form of untargeted

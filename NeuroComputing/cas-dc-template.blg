@@ -1,47 +1,52 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: cas-dc-template.aux
 The style file: cas-model2-names.bst
 Database file #1: cas-refs.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 4 entries,
+Warning--empty pages in fatemieh2011using
+Warning--empty journal in portnoy2020towards
+Warning--empty pages in xie2019dba
+Warning--empty journal in zhou2020adversarially
+You've used 112 entries,
             2990 wiz_defined-function locations,
-            764 strings with 6884 characters,
-and the built_in function-call counts, 2620 in all, are:
-= -- 194
-> -- 88
-< -- 2
-+ -- 34
-- -- 30
-* -- 280
-:= -- 385
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 30
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 198
-empty$ -- 202
-format.name$ -- 42
-if$ -- 484
-int.to.chr$ -- 1
+            1351 strings with 29954 characters,
+and the built_in function-call counts, 86519 in all, are:
+= -- 6441
+> -- 4248
+< -- 50
++ -- 1647
+- -- 1509
+* -- 9637
+:= -- 12480
+add.period$ -- 294
+call.type$ -- 112
+change.case$ -- 1058
+chr.to.int$ -- 104
+cite$ -- 116
+duplicate$ -- 6246
+empty$ -- 5807
+format.name$ -- 1856
+if$ -- 16221
+int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 38
-newline$ -- 35
-num.names$ -- 16
-pop$ -- 68
+missing$ -- 1196
+newline$ -- 533
+num.names$ -- 448
+pop$ -- 2427
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 946
 quote$ -- 0
-skip$ -- 54
+skip$ -- 2088
 stack$ -- 0
-substring$ -- 125
-swap$ -- 140
-text.length$ -- 0
+substring$ -- 3306
+swap$ -- 4675
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
-warning$ -- 0
-while$ -- 16
+type$ -- 1008
+warning$ -- 4
+while$ -- 500
 width$ -- 0
-write$ -- 70
+write$ -- 1513
+(There were 4 warnings)

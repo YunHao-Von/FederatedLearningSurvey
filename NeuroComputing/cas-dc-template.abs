@@ -1,9 +1,16 @@
-This template helps you to create a properly formatted \LaTeX\ manuscript.
-
-\noindent\texttt{\textbackslash begin{abstract}} \dots
-\texttt{\textbackslash end{abstract}} and
-\verb+\begin{keyword}+ \verb+...+ \verb+\end{keyword}+
-which
-contain the abstract and keywords respectively.
-
-\noindent Each keyword shall be separated by a \verb+\sep+ command.
+Federated learning is a distributed machine learning paradigm that emerged as a solution to the need for privacy
+	protection in artificial intelligence. Like traditional machine
+	learning, federated learning is threatened by multiple attacks,
+    such as backdoor attacks,
+	Byzantine attacks, and adversarial attacks. The weaknesses are
+	exacerbated by the inaccessibility of data in federated learning,
+	which makes it more diﬀicult to defend against these threats.
+	This points to the need for further research into defensive
+	approaches to make federated learning a real solution for distributed machine learning paradigm with securing data privacy.
+	Our survey provides a taxonomy of these threats and defense
+	methods, describing the general situation of this vulnerability
+	in federated learning. We also sort out
+	the relationship between these methods, their advantages and
+	disadvantages, and discuss future research
+	directions regarding the security issues of federated learning
+	from multiple perspectives.

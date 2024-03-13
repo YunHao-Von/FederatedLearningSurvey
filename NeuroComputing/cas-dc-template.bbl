@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{112}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -12,35 +12,956 @@
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Article
-\bibitem[{Blondel et~al.(2008)Blondel, Guillaume, Lambiotte and
-  Lefebvre}]{Blondeletal2008}
-\bibinfo{author}{Blondel, V.D.}, \bibinfo{author}{Guillaume, J.L.},
-  \bibinfo{author}{Lambiotte, R.}, \bibinfo{author}{Lefebvre, E.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{Fast unfolding of communities in large networks}.
-\newblock \bibinfo{journal}{J. Stat. Mech.-Theory Exp.} \bibinfo{volume}{2008},
-  \bibinfo{pages}{P10008}.
+\bibitem[{Agrawal and Tapaswi(2019)}]{agrawal2019defense}
+\bibinfo{author}{Agrawal, N.}, \bibinfo{author}{Tapaswi, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Defense mechanisms against ddos attacks in a cloud
+  computing environment: State-of-the-art and research challenges}.
+\newblock \bibinfo{journal}{IEEE Communications Surveys \& Tutorials}
+  \bibinfo{volume}{21}, \bibinfo{pages}{3769--3795}.
 %Type = Article
-\bibitem[{Fortunato(2010)}]{Fortunato2010}
-\bibinfo{author}{Fortunato, S.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Community detection in graphs}.
-\newblock \bibinfo{journal}{Phys. Rep.-Rev. Sec. Phys. Lett.}
-  \bibinfo{volume}{486}, \bibinfo{pages}{75--174}.
+\bibitem[{Aiken et~al.(2021)Aiken, Kim, Woo and Ryoo}]{aiken2021neural}
+\bibinfo{author}{Aiken, W.}, \bibinfo{author}{Kim, H.}, \bibinfo{author}{Woo,
+  S.}, \bibinfo{author}{Ryoo, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Neural network laundering: Removing black-box
+  backdoor watermarks from deep neural networks}.
+\newblock \bibinfo{journal}{Computers \& Security} \bibinfo{volume}{106},
+  \bibinfo{pages}{102277}.
+%Type = Inproceedings
+\bibitem[{Andreina et~al.(2021)Andreina, Marson, M{\"o}llering and
+  Karame}]{andreina2021baffle}
+\bibinfo{author}{Andreina, S.}, \bibinfo{author}{Marson, G.A.},
+  \bibinfo{author}{M{\"o}llering, H.}, \bibinfo{author}{Karame, G.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Baffle: Backdoor detection via feedback-based
+  federated learning}, in: \bibinfo{booktitle}{2021 IEEE 41st International
+  Conference on Distributed Computing Systems (ICDCS)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{852--863}.
 %Type = Article
-\bibitem[{Newman and Girvan(2004)}]{NewmanGirvan2004}
-\bibinfo{author}{Newman, M.E.J.}, \bibinfo{author}{Girvan, M.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{Finding and evaluating community structure in
+\bibitem[{Bagdasaryan et~al.(2019)Bagdasaryan, Poursaeed and
+  Shmatikov}]{bagdasaryan2019differential}
+\bibinfo{author}{Bagdasaryan, E.}, \bibinfo{author}{Poursaeed, O.},
+  \bibinfo{author}{Shmatikov, V.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Differential privacy has disparate impact on model
+  accuracy}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{32}.
+%Type = Inproceedings
+\bibitem[{Bagdasaryan et~al.(2020)Bagdasaryan, Veit, Hua, Estrin and
+  Shmatikov}]{bagdasaryan2020backdoor}
+\bibinfo{author}{Bagdasaryan, E.}, \bibinfo{author}{Veit, A.},
+  \bibinfo{author}{Hua, Y.}, \bibinfo{author}{Estrin, D.},
+  \bibinfo{author}{Shmatikov, V.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{How to backdoor federated learning}, in:
+  \bibinfo{booktitle}{International conference on artificial intelligence and
+  statistics}, \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{2938--2948}.
+%Type = Inproceedings
+\bibitem[{Barreno et~al.(2006)Barreno, Nelson, Sears, Joseph and
+  Tygar}]{barreno2006can}
+\bibinfo{author}{Barreno, M.}, \bibinfo{author}{Nelson, B.},
+  \bibinfo{author}{Sears, R.}, \bibinfo{author}{Joseph, A.D.},
+  \bibinfo{author}{Tygar, J.D.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Can machine learning be secure?}, in:
+  \bibinfo{booktitle}{Proceedings of the 2006 ACM Symposium on Information,
+  computer and communications security}, pp. \bibinfo{pages}{16--25}.
+%Type = Inproceedings
+\bibitem[{Becking et~al.(2022)Becking, Kirchhoffer, Tech, Haase, M{\"u}ller,
+  Schwarz and Samek}]{becking2022adaptive}
+\bibinfo{author}{Becking, D.}, \bibinfo{author}{Kirchhoffer, H.},
+  \bibinfo{author}{Tech, G.}, \bibinfo{author}{Haase, P.},
+  \bibinfo{author}{M{\"u}ller, K.}, \bibinfo{author}{Schwarz, H.},
+  \bibinfo{author}{Samek, W.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Adaptive differential filters for fast and
+  communication-efficient federated learning}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp. \bibinfo{pages}{3367--3376}.
+%Type = Article
+\bibitem[{Bernstein et~al.(2018)Bernstein, Zhao, Azizzadenesheli and
+  Anandkumar}]{bernstein2018signsgd}
+\bibinfo{author}{Bernstein, J.}, \bibinfo{author}{Zhao, J.},
+  \bibinfo{author}{Azizzadenesheli, K.}, \bibinfo{author}{Anandkumar, A.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{signsgd with majority vote is communication efficient
+  and fault tolerant}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1810.05291} .
+%Type = Inproceedings
+\bibitem[{Bhagoji et~al.(2019)Bhagoji, Chakraborty, Mittal and
+  Calo}]{bhagoji2019analyzing}
+\bibinfo{author}{Bhagoji, A.N.}, \bibinfo{author}{Chakraborty, S.},
+  \bibinfo{author}{Mittal, P.}, \bibinfo{author}{Calo, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Analyzing federated learning through an adversarial
+  lens}, in: \bibinfo{booktitle}{International Conference on Machine Learning},
+  \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{634--643}.
+%Type = Article
+\bibitem[{Blanchard et~al.(2017)Blanchard, El~Mhamdi, Guerraoui and
+  Stainer}]{blanchard2017machine}
+\bibinfo{author}{Blanchard, P.}, \bibinfo{author}{El~Mhamdi, E.M.},
+  \bibinfo{author}{Guerraoui, R.}, \bibinfo{author}{Stainer, J.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Machine learning with adversaries: Byzantine tolerant
+  gradient descent}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{30}.
+%Type = Article
+\bibitem[{Chen et~al.(2018)Chen, Carvalho, Baracaldo, Ludwig, Edwards, Lee,
+  Molloy and Srivastava}]{chen2018detecting}
+\bibinfo{author}{Chen, B.}, \bibinfo{author}{Carvalho, W.},
+  \bibinfo{author}{Baracaldo, N.}, \bibinfo{author}{Ludwig, H.},
+  \bibinfo{author}{Edwards, B.}, \bibinfo{author}{Lee, T.},
+  \bibinfo{author}{Molloy, I.}, \bibinfo{author}{Srivastava, B.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Detecting backdoor attacks on deep neural networks by
+  activation clustering}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1811.03728} .
+%Type = Inproceedings
+\bibitem[{Chen et~al.(2021)Chen, Kailkhura, Goldhahn and
+  Zhou}]{chen2021certifiably}
+\bibinfo{author}{Chen, C.}, \bibinfo{author}{Kailkhura, B.},
+  \bibinfo{author}{Goldhahn, R.}, \bibinfo{author}{Zhou, Y.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Certifiably-robust federated adversarial learning via
+  randomized smoothing}, in: \bibinfo{booktitle}{2021 IEEE 18th International
+  Conference on Mobile Ad Hoc and Smart Systems (MASS)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{173--179}.
+%Type = Article
+\bibitem[{Chen et~al.(2022)Chen, Liu, Ma and Lyu}]{chen2022calfat}
+\bibinfo{author}{Chen, C.}, \bibinfo{author}{Liu, Y.}, \bibinfo{author}{Ma,
+  X.}, \bibinfo{author}{Lyu, L.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Calfat: Calibrated federated adversarial training
+  with label skewness}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{35}, \bibinfo{pages}{3569--3581}.
+%Type = Article
+\bibitem[{Chen et~al.(2019)Chen, Suresh, Mathews, Wong, Allauzen, Beaufays and
+  Riley}]{chen2019federated}
+\bibinfo{author}{Chen, M.}, \bibinfo{author}{Suresh, A.T.},
+  \bibinfo{author}{Mathews, R.}, \bibinfo{author}{Wong, A.},
+  \bibinfo{author}{Allauzen, C.}, \bibinfo{author}{Beaufays, F.},
+  \bibinfo{author}{Riley, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Federated learning of n-gram language models}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1910.03432} .
+%Type = Article
+\bibitem[{Chen et~al.(2012)Chen, Park and Bian}]{chen2012robustness}
+\bibinfo{author}{Chen, R.}, \bibinfo{author}{Park, J.M.J.},
+  \bibinfo{author}{Bian, K.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Robustness against byzantine failures in distributed
+  spectrum sensing}.
+\newblock \bibinfo{journal}{Computer Communications} \bibinfo{volume}{35},
+  \bibinfo{pages}{2115--2124}.
+%Type = Article
+\bibitem[{Dai and Li(2023)}]{dai2023chameleon}
+\bibinfo{author}{Dai, Y.}, \bibinfo{author}{Li, S.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Chameleon: Adapting to peer images for planting
+  durable backdoors in federated learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2304.12961} .
+%Type = Article
+\bibitem[{Damaskinos et~al.(2019)Damaskinos, El-Mhamdi, Guerraoui, Guirguis and
+  Rouault}]{damaskinos2019aggregathor}
+\bibinfo{author}{Damaskinos, G.}, \bibinfo{author}{El-Mhamdi, E.M.},
+  \bibinfo{author}{Guerraoui, R.}, \bibinfo{author}{Guirguis, A.},
+  \bibinfo{author}{Rouault, S.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Aggregathor: Byzantine machine learning via robust
+  gradient aggregation}.
+\newblock \bibinfo{journal}{Proceedings of Machine Learning and Systems}
+  \bibinfo{volume}{1}, \bibinfo{pages}{81--106}.
+%Type = Inproceedings
+\bibitem[{Doan et~al.(2020)Doan, Abbasnejad and Ranasinghe}]{doan2020februus}
+\bibinfo{author}{Doan, B.G.}, \bibinfo{author}{Abbasnejad, E.},
+  \bibinfo{author}{Ranasinghe, D.C.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Februus: Input purification defense against trojan
+  attacks on deep neural network systems}, in: \bibinfo{booktitle}{Annual
+  computer security applications conference}, pp. \bibinfo{pages}{897--912}.
+%Type = Inproceedings
+\bibitem[{Doshi and Yilmaz(2022)}]{doshi2022federated}
+\bibinfo{author}{Doshi, K.}, \bibinfo{author}{Yilmaz, Y.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Federated learning-based driver activity recognition
+  for edge devices}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}, pp.
+  \bibinfo{pages}{3338--3346}.
+%Type = Inproceedings
+\bibitem[{Douceur(2002)}]{douceur2002sybil}
+\bibinfo{author}{Douceur, J.R.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{The sybil attack}, in:
+  \bibinfo{booktitle}{International workshop on peer-to-peer systems},
+  \bibinfo{organization}{Springer}. pp. \bibinfo{pages}{251--260}.
+%Type = Article
+\bibitem[{Enthoven and Al-Ars(2021)}]{enthoven2021overview}
+\bibinfo{author}{Enthoven, D.}, \bibinfo{author}{Al-Ars, Z.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{An overview of federated deep learning privacy
+  attacks and defensive strategies}.
+\newblock \bibinfo{journal}{Federated Learning Systems: Towards Next-Generation
+  AI} , \bibinfo{pages}{173--196}.
+%Type = Inproceedings
+\bibitem[{Fang et~al.(2020)Fang, Cao, Jia and Gong}]{fang2020local}
+\bibinfo{author}{Fang, M.}, \bibinfo{author}{Cao, X.}, \bibinfo{author}{Jia,
+  J.}, \bibinfo{author}{Gong, N.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Local model poisoning attacks to
+  $\{$Byzantine-Robust$\}$ federated learning}, in: \bibinfo{booktitle}{29th
+  USENIX security symposium (USENIX Security 20)}, pp.
+  \bibinfo{pages}{1605--1622}.
+%Type = Inproceedings
+\bibitem[{Fatemieh et~al.(2010)Fatemieh, Chandra and
+  Gunter}]{fatemieh2010secure}
+\bibinfo{author}{Fatemieh, O.}, \bibinfo{author}{Chandra, R.},
+  \bibinfo{author}{Gunter, C.A.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Secure collaborative sensing for crowd sourcing
+  spectrum data in white space networks}, in: \bibinfo{booktitle}{2010 IEEE
+  Symposium on New Frontiers in Dynamic Spectrum (DySPAN)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--12}.
+%Type = Inproceedings
+\bibitem[{Fatemieh et~al.(2011)Fatemieh, Farhadi, Chandra and
+  Gunter}]{fatemieh2011using}
+\bibinfo{author}{Fatemieh, O.}, \bibinfo{author}{Farhadi, A.},
+  \bibinfo{author}{Chandra, R.}, \bibinfo{author}{Gunter, C.A.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Using classification to protect the integrity of
+  spectrum measurements in white space networks.}, in:
+  \bibinfo{booktitle}{NDSS}.
+%Type = Article
+\bibitem[{Fung et~al.(2018)Fung, Yoon and Beschastnikh}]{fung2018mitigating}
+\bibinfo{author}{Fung, C.}, \bibinfo{author}{Yoon, C.J.},
+  \bibinfo{author}{Beschastnikh, I.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Mitigating sybils in federated learning poisoning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1808.04866} .
+%Type = Article
+\bibitem[{Geigel(2013)}]{geigel2013neural}
+\bibinfo{author}{Geigel, A.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Neural network trojan}.
+\newblock \bibinfo{journal}{Journal of Computer Security} \bibinfo{volume}{21},
+  \bibinfo{pages}{191--232}.
+%Type = Article
+\bibitem[{Gil et~al.(2017)Gil, Kumar, Mazumder, Katabi and
+  Rus}]{gil2017guaranteeing}
+\bibinfo{author}{Gil, S.}, \bibinfo{author}{Kumar, S.},
+  \bibinfo{author}{Mazumder, M.}, \bibinfo{author}{Katabi, D.},
+  \bibinfo{author}{Rus, D.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Guaranteeing spoof-resilient multi-robot networks}.
+\newblock \bibinfo{journal}{Autonomous Robots} \bibinfo{volume}{41},
+  \bibinfo{pages}{1383--1400}.
+%Type = Article
+\bibitem[{Gong et~al.(2022)Gong, Chen, Wang and Kong}]{gong2022backdoor}
+\bibinfo{author}{Gong, X.}, \bibinfo{author}{Chen, Y.}, \bibinfo{author}{Wang,
+  Q.}, \bibinfo{author}{Kong, W.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Backdoor attacks and defenses in federated learning:
+  State-of-the-art, taxonomy, and future directions}.
+\newblock \bibinfo{journal}{IEEE Wireless Communications} .
+%Type = Article
+\bibitem[{Goodfellow et~al.(2014)Goodfellow, Shlens and
+  Szegedy}]{goodfellow2014explaining}
+\bibinfo{author}{Goodfellow, I.J.}, \bibinfo{author}{Shlens, J.},
+  \bibinfo{author}{Szegedy, C.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Explaining and harnessing adversarial examples}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1412.6572} .
+%Type = Article
+\bibitem[{Gu et~al.(2017)Gu, Dolan-Gavitt and Garg}]{gu2017badnets}
+\bibinfo{author}{Gu, T.}, \bibinfo{author}{Dolan-Gavitt, B.},
+  \bibinfo{author}{Garg, S.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Badnets: Identifying vulnerabilities in the machine
+  learning model supply chain}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1708.06733} .
+%Type = Inproceedings
+\bibitem[{Guerraoui et~al.(2018)Guerraoui, Rouault
+  et~al.}]{guerraoui2018hidden}
+\bibinfo{author}{Guerraoui, R.}, \bibinfo{author}{Rouault, S.}, et~al.,
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The hidden vulnerability of distributed learning in
+  byzantium}, in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{3521--3530}.
+%Type = Article
+\bibitem[{Guo et~al.(2021a)Guo, Zhang, Yu, Xie, Ma, Xiang and
+  Liu}]{guo2021byzantine}
+\bibinfo{author}{Guo, S.}, \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Yu,
+  H.}, \bibinfo{author}{Xie, X.}, \bibinfo{author}{Ma, L.},
+  \bibinfo{author}{Xiang, T.}, \bibinfo{author}{Liu, Y.},
+  \bibinfo{year}{2021}a.
+\newblock \bibinfo{title}{Byzantine-resilient decentralized stochastic gradient
+  descent}.
+\newblock \bibinfo{journal}{IEEE Transactions on Circuits and Systems for Video
+  Technology} \bibinfo{volume}{32}, \bibinfo{pages}{4096--4106}.
+%Type = Article
+\bibitem[{Guo et~al.(2021b)Guo, Zhang, Yang, Zhang, Gan, Xiang and
+  Liu}]{guo2021robust}
+\bibinfo{author}{Guo, S.}, \bibinfo{author}{Zhang, X.}, \bibinfo{author}{Yang,
+  F.}, \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Gan, Y.},
+  \bibinfo{author}{Xiang, T.}, \bibinfo{author}{Liu, Y.},
+  \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{Robust and privacy-preserving collaborative learning:
+  A comprehensive survey}.
+\newblock \bibinfo{journal}{arXiv e-prints} , \bibinfo{pages}{arXiv--2112}.
+%Type = Inproceedings
+\bibitem[{Guo et~al.(2020)Guo, Wang, Xu, Xing, Du and Song}]{guo2020towards}
+\bibinfo{author}{Guo, W.}, \bibinfo{author}{Wang, L.}, \bibinfo{author}{Xu,
+  Y.}, \bibinfo{author}{Xing, X.}, \bibinfo{author}{Du, M.},
+  \bibinfo{author}{Song, D.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Towards inspecting and eliminating trojan backdoors
+  in deep neural networks}, in: \bibinfo{booktitle}{2020 IEEE International
+  Conference on Data Mining (ICDM)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{162--171}.
+%Type = Article
+\bibitem[{Hong et~al.(2021)Hong, Wang, Wang and Zhou}]{hong2021federated}
+\bibinfo{author}{Hong, J.}, \bibinfo{author}{Wang, H.}, \bibinfo{author}{Wang,
+  Z.}, \bibinfo{author}{Zhou, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Federated robustness propagation: Sharing robustness
+  in heterogeneous federated learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2106.10196} .
+%Type = Article
+\bibitem[{Hsu et~al.(2019)Hsu, Qi and Brown}]{hsu2019measuring}
+\bibinfo{author}{Hsu, T.M.H.}, \bibinfo{author}{Qi, H.},
+  \bibinfo{author}{Brown, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Measuring the effects of non-identical data
+  distribution for federated visual classification}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1909.06335} .
+%Type = Article
+\bibitem[{Huang et~al.(2023)Huang, Ma, Erfani and Bailey}]{huang2023distilling}
+\bibinfo{author}{Huang, H.}, \bibinfo{author}{Ma, X.}, \bibinfo{author}{Erfani,
+  S.}, \bibinfo{author}{Bailey, J.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Distilling cognitive backdoor patterns within an
+  image}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2301.10908} .
+%Type = Article
+\bibitem[{Jiang et~al.(2023)Jiang, Ma, Wang, Yu, Sun, Ni and
+  Liu}]{jiang2023secure}
+\bibinfo{author}{Jiang, Y.}, \bibinfo{author}{Ma, B.}, \bibinfo{author}{Wang,
+  X.}, \bibinfo{author}{Yu, G.}, \bibinfo{author}{Sun, C.},
+  \bibinfo{author}{Ni, W.}, \bibinfo{author}{Liu, R.P.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{A secure aggregation for federated learning on
+  long-tailed data}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2307.08324} .
+%Type = Article
+\bibitem[{Kailkhura et~al.(2013)Kailkhura, Han, Brahma and
+  Varshney}]{kailkhura2013distributed}
+\bibinfo{author}{Kailkhura, B.}, \bibinfo{author}{Han, Y.S.},
+  \bibinfo{author}{Brahma, S.}, \bibinfo{author}{Varshney, P.K.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Distributed bayesian detection with byzantine data}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1307.3544} .
+%Type = Article
+\bibitem[{Kirillov et~al.(2023)Kirillov, Mintun, Ravi, Mao, Rolland, Gustafson,
+  Xiao, Whitehead, Berg, Lo et~al.}]{kirillov2023segment}
+\bibinfo{author}{Kirillov, A.}, \bibinfo{author}{Mintun, E.},
+  \bibinfo{author}{Ravi, N.}, \bibinfo{author}{Mao, H.},
+  \bibinfo{author}{Rolland, C.}, \bibinfo{author}{Gustafson, L.},
+  \bibinfo{author}{Xiao, T.}, \bibinfo{author}{Whitehead, S.},
+  \bibinfo{author}{Berg, A.C.}, \bibinfo{author}{Lo, W.Y.}, et~al.,
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Segment anything}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2304.02643} .
+%Type = Incollection
+\bibitem[{Lamport et~al.(2019)Lamport, Shostak and
+  Pease}]{lamport2019byzantine}
+\bibinfo{author}{Lamport, L.}, \bibinfo{author}{Shostak, R.},
+  \bibinfo{author}{Pease, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{The byzantine generals problem}, in:
+  \bibinfo{booktitle}{Concurrency: the works of leslie lamport}, pp.
+  \bibinfo{pages}{203--226}.
+%Type = Inproceedings
+\bibitem[{Li et~al.(2014)Li, Li, Gao, Zhao, Fan and Han}]{li2014resolving}
+\bibinfo{author}{Li, Q.}, \bibinfo{author}{Li, Y.}, \bibinfo{author}{Gao, J.},
+  \bibinfo{author}{Zhao, B.}, \bibinfo{author}{Fan, W.}, \bibinfo{author}{Han,
+  J.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Resolving conflicts in heterogeneous data by truth
+  discovery and source reliability estimation}, in:
+  \bibinfo{booktitle}{Proceedings of the 2014 ACM SIGMOD international
+  conference on Management of data}, pp. \bibinfo{pages}{1187--1198}.
+%Type = Article
+\bibitem[{Li et~al.(2020a)Li, Cheng, Wang, Liu and Chen}]{li2020learning}
+\bibinfo{author}{Li, S.}, \bibinfo{author}{Cheng, Y.}, \bibinfo{author}{Wang,
+  W.}, \bibinfo{author}{Liu, Y.}, \bibinfo{author}{Chen, T.},
+  \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{Learning to detect malicious clients for robust
+  federated learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2002.00211} .
+%Type = Inproceedings
+\bibitem[{Li et~al.(2023)Li, Song and Yang}]{li2023federated}
+\bibinfo{author}{Li, X.}, \bibinfo{author}{Song, Z.}, \bibinfo{author}{Yang,
+  J.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Federated adversarial learning: A framework with
+  convergence analysis}, in: \bibinfo{booktitle}{International Conference on
+  Machine Learning}, \bibinfo{organization}{PMLR}. pp.
+  \bibinfo{pages}{19932--19959}.
+%Type = Article
+\bibitem[{Li et~al.(2021a)Li, Lyu, Koren, Lyu, Li and Ma}]{li2021anti}
+\bibinfo{author}{Li, Y.}, \bibinfo{author}{Lyu, X.}, \bibinfo{author}{Koren,
+  N.}, \bibinfo{author}{Lyu, L.}, \bibinfo{author}{Li, B.},
+  \bibinfo{author}{Ma, X.}, \bibinfo{year}{2021}a.
+\newblock \bibinfo{title}{Anti-backdoor learning: Training clean models on
+  poisoned data}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{34}, \bibinfo{pages}{14900--14912}.
+%Type = Article
+\bibitem[{Li et~al.(2021b)Li, Zhai, Jiang, Li and Xia}]{li2021backdoor}
+\bibinfo{author}{Li, Y.}, \bibinfo{author}{Zhai, T.}, \bibinfo{author}{Jiang,
+  Y.}, \bibinfo{author}{Li, Z.}, \bibinfo{author}{Xia, S.T.},
+  \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{Backdoor attack in the physical world}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2104.02361} .
+%Type = Article
+\bibitem[{Li et~al.(2020b)Li, Zhai, Wu, Jiang, Li and Xia}]{li2020rethinking}
+\bibinfo{author}{Li, Y.}, \bibinfo{author}{Zhai, T.}, \bibinfo{author}{Wu, B.},
+  \bibinfo{author}{Jiang, Y.}, \bibinfo{author}{Li, Z.}, \bibinfo{author}{Xia,
+  S.}, \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{Rethinking the trigger of backdoor attack}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2004.04692} .
+%Type = Article
+\bibitem[{Lin et~al.(2021)Lin, He, Zeng, Wang, Huang, Soltanolkotabi, Ren and
+  Avestimehr}]{lin2021fednlp}
+\bibinfo{author}{Lin, B.Y.}, \bibinfo{author}{He, C.}, \bibinfo{author}{Zeng,
+  Z.}, \bibinfo{author}{Wang, H.}, \bibinfo{author}{Huang, Y.},
+  \bibinfo{author}{Soltanolkotabi, M.}, \bibinfo{author}{Ren, X.},
+  \bibinfo{author}{Avestimehr, S.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Fednlp: A research platform for federated learning in
+  natural language processing}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2104.08815} .
+%Type = Article
+\bibitem[{Lin et~al.(2019)Lin, Du and Liu}]{lin2019free}
+\bibinfo{author}{Lin, J.}, \bibinfo{author}{Du, M.}, \bibinfo{author}{Liu, J.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Free-riders in federated learning: Attacks and
+  defenses}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1911.12560} .
+%Type = Article
+\bibitem[{Liu et~al.(2022)Liu, Xing, Deng, Li, Guan and Yu}]{Liu_Yu}
+\bibinfo{author}{Liu, R.}, \bibinfo{author}{Xing, P.}, \bibinfo{author}{Deng,
+  Z.}, \bibinfo{author}{Li, A.}, \bibinfo{author}{Guan, C.},
+  \bibinfo{author}{Yu, H.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Federated graph neural networks: Overview, techniques
+  and challenges}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2202.07256} .
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2017)Liu, Xie and Srivastava}]{liu2017neural}
+\bibinfo{author}{Liu, Y.}, \bibinfo{author}{Xie, Y.},
+  \bibinfo{author}{Srivastava, A.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Neural trojans}, in: \bibinfo{booktitle}{2017 IEEE
+  International Conference on Computer Design (ICCD)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{45--48}.
+%Type = Article
+\bibitem[{Madry et~al.(2017)Madry, Makelov, Schmidt, Tsipras and
+  Vladu}]{madry2017towards}
+\bibinfo{author}{Madry, A.}, \bibinfo{author}{Makelov, A.},
+  \bibinfo{author}{Schmidt, L.}, \bibinfo{author}{Tsipras, D.},
+  \bibinfo{author}{Vladu, A.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Towards deep learning models resistant to adversarial
+  attacks}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1706.06083} .
+%Type = Article
+\bibitem[{Mallmann-Trenn et~al.(2021)Mallmann-Trenn, Cavorsi and
+  Gil}]{mallmann2021crowd}
+\bibinfo{author}{Mallmann-Trenn, F.}, \bibinfo{author}{Cavorsi, M.},
+  \bibinfo{author}{Gil, S.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Crowd vetting: Rejecting adversaries via
+  collaboration with application to multirobot flocking}.
+\newblock \bibinfo{journal}{IEEE Transactions on Robotics}
+  \bibinfo{volume}{38}, \bibinfo{pages}{5--24}.
+%Type = Inproceedings
+\bibitem[{McMahan et~al.(2017a)McMahan, Moore, Ramage, Hampson and
+  y~Arcas}]{mcmahan2017communication}
+\bibinfo{author}{McMahan, B.}, \bibinfo{author}{Moore, E.},
+  \bibinfo{author}{Ramage, D.}, \bibinfo{author}{Hampson, S.},
+  \bibinfo{author}{y~Arcas, B.A.}, \bibinfo{year}{2017}a.
+\newblock \bibinfo{title}{Communication-efficient learning of deep networks
+  from decentralized data}, in: \bibinfo{booktitle}{Artificial intelligence and
+  statistics}, \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{1273--1282}.
+%Type = Article
+\bibitem[{McMahan et~al.(2017b)McMahan, Ramage, Talwar and
+  Zhang}]{mcmahan2017learning}
+\bibinfo{author}{McMahan, H.B.}, \bibinfo{author}{Ramage, D.},
+  \bibinfo{author}{Talwar, K.}, \bibinfo{author}{Zhang, L.},
+  \bibinfo{year}{2017}b.
+\newblock \bibinfo{title}{Learning differentially private recurrent language
+  models}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1710.06963} .
+%Type = Inproceedings
+\bibitem[{Miao et~al.(2018)Miao, Li, Xiao, Jiang, Huai and
+  Su}]{miao2018towards}
+\bibinfo{author}{Miao, C.}, \bibinfo{author}{Li, Q.}, \bibinfo{author}{Xiao,
+  H.}, \bibinfo{author}{Jiang, W.}, \bibinfo{author}{Huai, M.},
+  \bibinfo{author}{Su, L.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Towards data poisoning attacks in crowd sensing
+  systems}, in: \bibinfo{booktitle}{Proceedings of the Eighteenth ACM
+  International Symposium on Mobile Ad Hoc Networking and Computing}, pp.
+  \bibinfo{pages}{111--120}.
+%Type = Article
+\bibitem[{Mostafa(2019)}]{mostafa2019robust}
+\bibinfo{author}{Mostafa, H.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Robust federated learning through representation
+  matching and adaptive hyper-parameters}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1912.13075} .
+%Type = Article
+\bibitem[{Mu{\~n}oz-Gonz{\'a}lez et~al.(2019)Mu{\~n}oz-Gonz{\'a}lez, Co and
+  Lupu}]{munoz2019byzantine}
+\bibinfo{author}{Mu{\~n}oz-Gonz{\'a}lez, L.}, \bibinfo{author}{Co, K.T.},
+  \bibinfo{author}{Lupu, E.C.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Byzantine-robust federated machine learning through
+  adaptive model averaging}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1909.05125} .
+%Type = Article
+\bibitem[{Naseri et~al.(2020)Naseri, Hayes and
+  De~Cristofaro}]{naseri2020toward}
+\bibinfo{author}{Naseri, M.}, \bibinfo{author}{Hayes, J.},
+  \bibinfo{author}{De~Cristofaro, E.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Toward robustness and privacy in federated learning:
+  Experimenting with local and central differential privacy}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2009.03561} .
+%Type = Inproceedings
+\bibitem[{Nguyen et~al.(2022)Nguyen, Rieger, De~Viti, Chen, Brandenburg,
+  Yalame, M{\"o}llering, Fereidooni, Marchal, Miettinen
+  et~al.}]{nguyen2022flame}
+\bibinfo{author}{Nguyen, T.D.}, \bibinfo{author}{Rieger, P.},
+  \bibinfo{author}{De~Viti, R.}, \bibinfo{author}{Chen, H.},
+  \bibinfo{author}{Brandenburg, B.B.}, \bibinfo{author}{Yalame, H.},
+  \bibinfo{author}{M{\"o}llering, H.}, \bibinfo{author}{Fereidooni, H.},
+  \bibinfo{author}{Marchal, S.}, \bibinfo{author}{Miettinen, M.}, et~al.,
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{$\{$FLAME$\}$: Taming backdoors in federated
+  learning}, in: \bibinfo{booktitle}{31st USENIX Security Symposium (USENIX
+  Security 22)}, pp. \bibinfo{pages}{1415--1432}.
+%Type = Article
+\bibitem[{Nguyen et~al.(2021)Nguyen, Rieger, Yalame, M{\"o}llering, Fereidooni,
+  Marchal, Miettinen, Mirhoseini, Sadeghi, Schneider
+  et~al.}]{nguyen2021flguard}
+\bibinfo{author}{Nguyen, T.D.}, \bibinfo{author}{Rieger, P.},
+  \bibinfo{author}{Yalame, M.H.}, \bibinfo{author}{M{\"o}llering, H.},
+  \bibinfo{author}{Fereidooni, H.}, \bibinfo{author}{Marchal, S.},
+  \bibinfo{author}{Miettinen, M.}, \bibinfo{author}{Mirhoseini, A.},
+  \bibinfo{author}{Sadeghi, A.R.}, \bibinfo{author}{Schneider, T.}, et~al.,
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Flguard: Secure and private federated learning}.
+\newblock \bibinfo{journal}{Crytography and Security} .
+%Type = Inproceedings
+\bibitem[{Ozdayi et~al.(2021)Ozdayi, Kantarcioglu and
+  Gel}]{ozdayi2021defending}
+\bibinfo{author}{Ozdayi, M.S.}, \bibinfo{author}{Kantarcioglu, M.},
+  \bibinfo{author}{Gel, Y.R.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Defending against backdoors in federated learning
+  with robust learning rate}, in: \bibinfo{booktitle}{Proceedings of the AAAI
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{9268--9276}.
+%Type = Article
+\bibitem[{Pillutla et~al.(2022)Pillutla, Kakade and
+  Harchaoui}]{pillutla2022robust}
+\bibinfo{author}{Pillutla, K.}, \bibinfo{author}{Kakade, S.M.},
+  \bibinfo{author}{Harchaoui, Z.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Robust aggregation for federated learning}.
+\newblock \bibinfo{journal}{IEEE Transactions on Signal Processing}
+  \bibinfo{volume}{70}, \bibinfo{pages}{1142--1154}.
+%Type = Article
+\bibitem[{Polyak et~al.(1963)}]{polyak1963gradient}
+\bibinfo{author}{Polyak, B.T.}, et~al., \bibinfo{year}{1963}.
+\newblock \bibinfo{title}{Gradient methods for minimizing functionals}.
+\newblock \bibinfo{journal}{Zhurnal vychislitel’noi matematiki i
+  matematicheskoi fiziki} \bibinfo{volume}{3}, \bibinfo{pages}{643--653}.
+%Type = Article
+\bibitem[{Portnoy and Hendler(2020)}]{portnoy2020towards}
+\bibinfo{author}{Portnoy, A.}, \bibinfo{author}{Hendler, D.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Towards realistic byzantine-robust federated
+  learning} .
+%Type = Article
+\bibitem[{Prakash and Avestimehr(2020)}]{prakash2020mitigating}
+\bibinfo{author}{Prakash, S.}, \bibinfo{author}{Avestimehr, A.S.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Mitigating byzantine attacks in federated learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2010.07541} .
+%Type = Article
+\bibitem[{Qin et~al.(2013)Qin, Li and Hsieh}]{qin2013defending}
+\bibinfo{author}{Qin, Z.}, \bibinfo{author}{Li, Q.}, \bibinfo{author}{Hsieh,
+  G.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Defending against cooperative attacks in cooperative
+  spectrum sensing}.
+\newblock \bibinfo{journal}{IEEE Transactions on Wireless communications}
+  \bibinfo{volume}{12}, \bibinfo{pages}{2680--2687}.
+%Type = Article
+\bibitem[{Reisizadeh et~al.(2020)Reisizadeh, Farnia, Pedarsani and
+  Jadbabaie}]{reisizadeh2020robust}
+\bibinfo{author}{Reisizadeh, A.}, \bibinfo{author}{Farnia, F.},
+  \bibinfo{author}{Pedarsani, R.}, \bibinfo{author}{Jadbabaie, A.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Robust federated learning: The case of affine
+  distribution shifts}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{33}, \bibinfo{pages}{21554--21565}.
+%Type = Article
+\bibitem[{Rodr{\'\i}guez-Barroso et~al.(2023)Rodr{\'\i}guez-Barroso,
+  Jim{\'e}nez-L{\'o}pez, Luz{\'o}n, Herrera and
+  Mart{\'\i}nez-C{\'a}mara}]{rodriguez2023survey}
+\bibinfo{author}{Rodr{\'\i}guez-Barroso, N.},
+  \bibinfo{author}{Jim{\'e}nez-L{\'o}pez, D.}, \bibinfo{author}{Luz{\'o}n,
+  M.V.}, \bibinfo{author}{Herrera, F.},
+  \bibinfo{author}{Mart{\'\i}nez-C{\'a}mara, E.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Survey on federated learning threats: Concepts,
+  taxonomy on attacks and defences, experimental study and challenges}.
+\newblock \bibinfo{journal}{Information Fusion} \bibinfo{volume}{90},
+  \bibinfo{pages}{148--173}.
+%Type = Inproceedings
+\bibitem[{Salem et~al.(2022)Salem, Wen, Backes, Ma and
+  Zhang}]{salem2022dynamic}
+\bibinfo{author}{Salem, A.}, \bibinfo{author}{Wen, R.},
+  \bibinfo{author}{Backes, M.}, \bibinfo{author}{Ma, S.},
+  \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Dynamic backdoor attacks against machine learning
+  models}, in: \bibinfo{booktitle}{2022 IEEE 7th European Symposium on Security
+  and Privacy (EuroS\&P)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{703--718}.
+%Type = Article
+\bibitem[{Shafahi et~al.(2018)Shafahi, Huang, Najibi, Suciu, Studer, Dumitras
+  and Goldstein}]{shafahi2018poison}
+\bibinfo{author}{Shafahi, A.}, \bibinfo{author}{Huang, W.R.},
+  \bibinfo{author}{Najibi, M.}, \bibinfo{author}{Suciu, O.},
+  \bibinfo{author}{Studer, C.}, \bibinfo{author}{Dumitras, T.},
+  \bibinfo{author}{Goldstein, T.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Poison frogs! targeted clean-label poisoning attacks
+  on neural networks}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{31}.
+%Type = Article
+\bibitem[{Shah et~al.(2021)Shah, Dube, Chakraborty and
+  Verma}]{shah2021adversarial}
+\bibinfo{author}{Shah, D.}, \bibinfo{author}{Dube, P.},
+  \bibinfo{author}{Chakraborty, S.}, \bibinfo{author}{Verma, A.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Adversarial training in communication constrained
+  federated learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2103.01319} .
+%Type = Inproceedings
+\bibitem[{Shen et~al.(2016)Shen, Tople and Saxena}]{shen2016auror}
+\bibinfo{author}{Shen, S.}, \bibinfo{author}{Tople, S.},
+  \bibinfo{author}{Saxena, P.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Auror: Defending against poisoning attacks in
+  collaborative deep learning systems}, in: \bibinfo{booktitle}{Proceedings of
+  the 32nd Annual Conference on Computer Security Applications}, pp.
+  \bibinfo{pages}{508--519}.
+%Type = Article
+\bibitem[{Steinhardt et~al.(2017)Steinhardt, Koh and
+  Liang}]{steinhardt2017certified}
+\bibinfo{author}{Steinhardt, J.}, \bibinfo{author}{Koh, P.W.W.},
+  \bibinfo{author}{Liang, P.S.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Certified defenses for data poisoning attacks}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{30}.
+%Type = Article
+\bibitem[{Sun et~al.(2021)Sun, Li, DiValentin, Hassanzadeh, Chen and
+  Li}]{sun2021fl}
+\bibinfo{author}{Sun, J.}, \bibinfo{author}{Li, A.},
+  \bibinfo{author}{DiValentin, L.}, \bibinfo{author}{Hassanzadeh, A.},
+  \bibinfo{author}{Chen, Y.}, \bibinfo{author}{Li, H.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Fl-wbc: Enhancing robustness against model poisoning
+  attacks in federated learning from a client perspective}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{34}, \bibinfo{pages}{12613--12624}.
+%Type = Inproceedings
+\bibitem[{Sun et~al.(2022)Sun, Ochiai and Sakuma}]{sun2022semi}
+\bibinfo{author}{Sun, Y.}, \bibinfo{author}{Ochiai, H.},
+  \bibinfo{author}{Sakuma, J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Semi-targeted model poisoning attack on federated
+  learning via backward error analysis}, in: \bibinfo{booktitle}{2022
+  International Joint Conference on Neural Networks (IJCNN)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--8}.
+%Type = Article
+\bibitem[{Sun et~al.(2019)Sun, Kairouz, Suresh and McMahan}]{sun2019can}
+\bibinfo{author}{Sun, Z.}, \bibinfo{author}{Kairouz, P.},
+  \bibinfo{author}{Suresh, A.T.}, \bibinfo{author}{McMahan, H.B.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Can you really backdoor federated learning?}
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1911.07963} .
+%Type = Article
+\bibitem[{Tariq et~al.(2023)Tariq, Serhani, Sallabi, Qayyum, Barka and
+  Shuaib}]{tariq2023trustworthy}
+\bibinfo{author}{Tariq, A.}, \bibinfo{author}{Serhani, M.A.},
+  \bibinfo{author}{Sallabi, F.}, \bibinfo{author}{Qayyum, T.},
+  \bibinfo{author}{Barka, E.S.}, \bibinfo{author}{Shuaib, K.A.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Trustworthy federated learning: A survey}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2305.11537} .
+%Type = Inproceedings
+\bibitem[{Tolpegin et~al.(2020)Tolpegin, Truex, Gursoy and
+  Liu}]{tolpegin2020data}
+\bibinfo{author}{Tolpegin, V.}, \bibinfo{author}{Truex, S.},
+  \bibinfo{author}{Gursoy, M.E.}, \bibinfo{author}{Liu, L.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Data poisoning attacks against federated learning
+  systems}, in: \bibinfo{booktitle}{Computer Security--ESORICS 2020: 25th
+  European Symposium on Research in Computer Security, ESORICS 2020, Guildford,
+  UK, September 14--18, 2020, Proceedings, Part I 25},
+  \bibinfo{organization}{Springer}. pp. \bibinfo{pages}{480--501}.
+%Type = Article
+\bibitem[{Tran et~al.(2018)Tran, Li and Madry}]{tran2018spectral}
+\bibinfo{author}{Tran, B.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Madry,
+  A.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Spectral signatures in backdoor attacks}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{31}.
+%Type = Article
+\bibitem[{Voigt and Von~dem Bussche(2017)}]{voigt2017eu}
+\bibinfo{author}{Voigt, P.}, \bibinfo{author}{Von~dem Bussche, A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The eu general data protection regulation (gdpr)}.
+\newblock \bibinfo{journal}{A Practical Guide, 1st Ed., Cham: Springer
+  International Publishing} \bibinfo{volume}{10}, \bibinfo{pages}{10--5555}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2019)Wang, Yao, Shan, Li, Viswanath, Zheng and
+  Zhao}]{wang2019neural}
+\bibinfo{author}{Wang, B.}, \bibinfo{author}{Yao, Y.}, \bibinfo{author}{Shan,
+  S.}, \bibinfo{author}{Li, H.}, \bibinfo{author}{Viswanath, B.},
+  \bibinfo{author}{Zheng, H.}, \bibinfo{author}{Zhao, B.Y.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Neural cleanse: Identifying and mitigating backdoor
+  attacks in neural networks}, in: \bibinfo{booktitle}{2019 IEEE Symposium on
+  Security and Privacy (SP)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{707--723}.
+%Type = Article
+\bibitem[{Wang et~al.(2014)Wang, Jia, Fleck, Powell, Li and
+  Stavrou}]{wang2014moving}
+\bibinfo{author}{Wang, H.}, \bibinfo{author}{Jia, Q.}, \bibinfo{author}{Fleck,
+  D.}, \bibinfo{author}{Powell, W.}, \bibinfo{author}{Li, F.},
+  \bibinfo{author}{Stavrou, A.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A moving target ddos defense mechanism}.
+\newblock \bibinfo{journal}{Computer Communications} \bibinfo{volume}{46},
+  \bibinfo{pages}{10--21}.
+%Type = Article
+\bibitem[{Wang et~al.(2020)Wang, Sreenivasan, Rajput, Vishwakarma, Agarwal,
+  Sohn, Lee and Papailiopoulos}]{wang2020attack}
+\bibinfo{author}{Wang, H.}, \bibinfo{author}{Sreenivasan, K.},
+  \bibinfo{author}{Rajput, S.}, \bibinfo{author}{Vishwakarma, H.},
+  \bibinfo{author}{Agarwal, S.}, \bibinfo{author}{Sohn, J.y.},
+  \bibinfo{author}{Lee, K.}, \bibinfo{author}{Papailiopoulos, D.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Attack of the tails: Yes, you really can backdoor
+  federated learning}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{33}, \bibinfo{pages}{16070--16084}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2022)Wang, Xiao, Chen, Hu, Lou and Hou}]{wang2022flare}
+\bibinfo{author}{Wang, N.}, \bibinfo{author}{Xiao, Y.}, \bibinfo{author}{Chen,
+  Y.}, \bibinfo{author}{Hu, Y.}, \bibinfo{author}{Lou, W.},
+  \bibinfo{author}{Hou, Y.T.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Flare: defending federated learning against model
+  poisoning attacks via latent space representations}, in:
+  \bibinfo{booktitle}{Proceedings of the 2022 ACM on Asia Conference on
+  Computer and Communications Security}, pp. \bibinfo{pages}{946--958}.
+%Type = Article
+\bibitem[{Weng et~al.(2020)Weng, Lee and Wu}]{weng2020trade}
+\bibinfo{author}{Weng, C.H.}, \bibinfo{author}{Lee, Y.T.}, \bibinfo{author}{Wu,
+  S.H.B.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{On the trade-off between adversarial and backdoor
+  robustness}.
+\newblock \bibinfo{journal}{Advances in Neural Information Processing Systems}
+  \bibinfo{volume}{33}, \bibinfo{pages}{11973--11983}.
+%Type = Article
+\bibitem[{Wu et~al.(2021)Wu, Wu, Cao, Huang and Xie}]{Wu_Wu_Cao_Huang_Xie_2021}
+\bibinfo{author}{Wu, C.}, \bibinfo{author}{Wu, F.}, \bibinfo{author}{Cao, Y.},
+  \bibinfo{author}{Huang, Y.}, \bibinfo{author}{Xie, X.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Fedgnn: Federated graph neural network for
+  privacy-preserving recommendation.}
+\newblock \bibinfo{journal}{Cornell University - arXiv,Cornell University -
+  arXiv} .
+%Type = Article
+\bibitem[{Wu et~al.(2018)Wu, Yu, Song and Hu}]{wu2018sequential}
+\bibinfo{author}{Wu, J.}, \bibinfo{author}{Yu, Y.}, \bibinfo{author}{Song, T.},
+  \bibinfo{author}{Hu, J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Sequential 0/1 for cooperative spectrum sensing in
+  the presence of strategic byzantine attack}.
+\newblock \bibinfo{journal}{IEEE Wireless Communications Letters}
+  \bibinfo{volume}{8}, \bibinfo{pages}{500--503}.
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2021)Xie, Chen, Chen and Li}]{xie2021crfl}
+\bibinfo{author}{Xie, C.}, \bibinfo{author}{Chen, M.}, \bibinfo{author}{Chen,
+  P.Y.}, \bibinfo{author}{Li, B.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Crfl: Certifiably robust federated learning against
+  backdoor attacks}, in: \bibinfo{booktitle}{International Conference on
+  Machine Learning}, \bibinfo{organization}{PMLR}. pp.
+  \bibinfo{pages}{11372--11382}.
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2019)Xie, Huang, Chen and Li}]{xie2019dba}
+\bibinfo{author}{Xie, C.}, \bibinfo{author}{Huang, K.}, \bibinfo{author}{Chen,
+  P.Y.}, \bibinfo{author}{Li, B.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Dba: Distributed backdoor attacks against federated
+  learning}, in: \bibinfo{booktitle}{International conference on learning
+  representations}.
+%Type = Article
+\bibitem[{Xie et~al.(2018)Xie, Koyejo and Gupta}]{xie2018generalized}
+\bibinfo{author}{Xie, C.}, \bibinfo{author}{Koyejo, O.},
+  \bibinfo{author}{Gupta, I.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Generalized byzantine-tolerant sgd}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1802.10116} .
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2020)Xie, Koyejo and Gupta}]{xie2020fall}
+\bibinfo{author}{Xie, C.}, \bibinfo{author}{Koyejo, O.},
+  \bibinfo{author}{Gupta, I.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Fall of empires: Breaking byzantine-tolerant sgd by
+  inner product manipulation}, in: \bibinfo{booktitle}{Uncertainty in
+  Artificial Intelligence}, \bibinfo{organization}{PMLR}. pp.
+  \bibinfo{pages}{261--270}.
+%Type = Article
+\bibitem[{Xu et~al.(2020)Xu, Liu, Chen, Zhao and Lin}]{xu2020defending}
+\bibinfo{author}{Xu, K.}, \bibinfo{author}{Liu, S.}, \bibinfo{author}{Chen,
+  P.Y.}, \bibinfo{author}{Zhao, P.}, \bibinfo{author}{Lin, X.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Defending against backdoor attack on deep neural
   networks}.
-\newblock \bibinfo{journal}{Phys. Rev. E.} \bibinfo{volume}{69},
-  \bibinfo{pages}{026113}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2002.12162} .
+%Type = Inproceedings
+\bibitem[{Yang et~al.(2022)Yang, Zhong, Yang, Yang, Xu, Wang and
+  Zhang}]{yang2022overview}
+\bibinfo{author}{Yang, H.}, \bibinfo{author}{Zhong, Y.}, \bibinfo{author}{Yang,
+  B.}, \bibinfo{author}{Yang, Y.}, \bibinfo{author}{Xu, Z.},
+  \bibinfo{author}{Wang, L.}, \bibinfo{author}{Zhang, Y.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{An overview of sybil attack detection mechanisms in
+  vfc}, in: \bibinfo{booktitle}{2022 52nd Annual IEEE/IFIP International
+  Conference on Dependable Systems and Networks Workshops (DSN-W)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{117--122}.
 %Type = Article
-\bibitem[{Vehlow et~al.(2013)Vehlow, Reinhardt and Weiskopf}]{Vehlowetal2013}
-\bibinfo{author}{Vehlow, C.}, \bibinfo{author}{Reinhardt, T.},
-  \bibinfo{author}{Weiskopf, D.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Visualizing fuzzy overlapping communities in
-  networks}.
-\newblock \bibinfo{journal}{IEEE Trans. Vis. Comput. Graph.}
-  \bibinfo{volume}{19}, \bibinfo{pages}{2486--2495}.
+\bibitem[{Yang et~al.(2019)Yang, Liu, Cheng, Kang, Chen and
+  Yu}]{yang2019federated}
+\bibinfo{author}{Yang, Q.}, \bibinfo{author}{Liu, Y.}, \bibinfo{author}{Cheng,
+  Y.}, \bibinfo{author}{Kang, Y.}, \bibinfo{author}{Chen, T.},
+  \bibinfo{author}{Yu, H.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Federated learning: synthesis lectures on artificial
+  intelligence and machine learning}.
+\newblock \bibinfo{journal}{vol} \bibinfo{volume}{13}, \bibinfo{pages}{1--207}.
+%Type = Inproceedings
+\bibitem[{Yoshida and Fujino(2020)}]{yoshida2020disabling}
+\bibinfo{author}{Yoshida, K.}, \bibinfo{author}{Fujino, T.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Disabling backdoor and identifying poison data by
+  using knowledge distillation in backdoor attacks on deep neural networks},
+  in: \bibinfo{booktitle}{Proceedings of the 13th ACM Workshop on Artificial
+  Intelligence and Security}, pp. \bibinfo{pages}{117--127}.
+%Type = Article
+\bibitem[{Zeng et~al.(2021a)Zeng, Chen, Park, Mao, Jin and
+  Jia}]{zeng2021adversarial}
+\bibinfo{author}{Zeng, Y.}, \bibinfo{author}{Chen, S.}, \bibinfo{author}{Park,
+  W.}, \bibinfo{author}{Mao, Z.M.}, \bibinfo{author}{Jin, M.},
+  \bibinfo{author}{Jia, R.}, \bibinfo{year}{2021}a.
+\newblock \bibinfo{title}{Adversarial unlearning of backdoors via implicit
+  hypergradient}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2110.03735} .
+%Type = Inproceedings
+\bibitem[{Zeng et~al.(2021b)Zeng, Park, Mao and Jia}]{zeng2021rethinking}
+\bibinfo{author}{Zeng, Y.}, \bibinfo{author}{Park, W.}, \bibinfo{author}{Mao,
+  Z.M.}, \bibinfo{author}{Jia, R.}, \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{Rethinking the backdoor attacks' triggers: A
+  frequency perspective}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  international conference on computer vision}, pp.
+  \bibinfo{pages}{16473--16481}.
+%Type = Article
+\bibitem[{Zhang et~al.(2019)Zhang, Zheng, Gao, Miao, Su, Li and
+  Ren}]{zhang2019data}
+\bibinfo{author}{Zhang, H.}, \bibinfo{author}{Zheng, T.}, \bibinfo{author}{Gao,
+  J.}, \bibinfo{author}{Miao, C.}, \bibinfo{author}{Su, L.},
+  \bibinfo{author}{Li, Y.}, \bibinfo{author}{Ren, K.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Data poisoning attack against knowledge graph
+  embedding}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1904.12052} .
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2022a)Zhang, Chen and Li}]{zhang2022privacy}
+\bibinfo{author}{Zhang, J.}, \bibinfo{author}{Chen, Y.}, \bibinfo{author}{Li,
+  H.}, \bibinfo{year}{2022}a.
+\newblock \bibinfo{title}{Privacy leakage of adversarial training models in
+  federated learning systems}, in: \bibinfo{booktitle}{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pp.
+  \bibinfo{pages}{108--114}.
+%Type = Article
+\bibitem[{Zhang et~al.(2023a)Zhang, Li, Chen, Lyu, Wu, Ding and
+  Wu}]{zhang2023delving}
+\bibinfo{author}{Zhang, J.}, \bibinfo{author}{Li, B.}, \bibinfo{author}{Chen,
+  C.}, \bibinfo{author}{Lyu, L.}, \bibinfo{author}{Wu, S.},
+  \bibinfo{author}{Ding, S.}, \bibinfo{author}{Wu, C.}, \bibinfo{year}{2023}a.
+\newblock \bibinfo{title}{Delving into the adversarial robustness of federated
+  learning}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2302.09479} .
+%Type = Article
+\bibitem[{Zhang et~al.(2015)Zhang, Ding, Wu, Zou, Han and
+  Wang}]{zhang2015byzantine}
+\bibinfo{author}{Zhang, L.}, \bibinfo{author}{Ding, G.}, \bibinfo{author}{Wu,
+  Q.}, \bibinfo{author}{Zou, Y.}, \bibinfo{author}{Han, Z.},
+  \bibinfo{author}{Wang, J.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Byzantine attack and defense in cognitive radio
+  networks: A survey}.
+\newblock \bibinfo{journal}{IEEE Communications Surveys \& Tutorials}
+  \bibinfo{volume}{17}, \bibinfo{pages}{1342--1363}.
+%Type = Article
+\bibitem[{Zhang et~al.(2023b)Zhang, Zeng, Luo, Xu and King}]{zhang2023survey}
+\bibinfo{author}{Zhang, Y.}, \bibinfo{author}{Zeng, D.}, \bibinfo{author}{Luo,
+  J.}, \bibinfo{author}{Xu, Z.}, \bibinfo{author}{King, I.},
+  \bibinfo{year}{2023}b.
+\newblock \bibinfo{title}{A survey of trustworthy federated learning with
+  perspectives on security, robustness, and privacy}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2302.10637} .
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2022b)Zhang, Cao, Jia and Gong}]{zhang2022fldetector}
+\bibinfo{author}{Zhang, Z.}, \bibinfo{author}{Cao, X.}, \bibinfo{author}{Jia,
+  J.}, \bibinfo{author}{Gong, N.Z.}, \bibinfo{year}{2022}b.
+\newblock \bibinfo{title}{Fldetector: Defending federated learning against
+  model poisoning attacks via detecting malicious clients}, in:
+  \bibinfo{booktitle}{Proceedings of the 28th ACM SIGKDD Conference on
+  Knowledge Discovery and Data Mining}, pp. \bibinfo{pages}{2545--2555}.
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2022c)Zhang, Panda, Song, Yang, Mahoney, Mittal, Kannan
+  and Gonzalez}]{zhang2022neurotoxin}
+\bibinfo{author}{Zhang, Z.}, \bibinfo{author}{Panda, A.},
+  \bibinfo{author}{Song, L.}, \bibinfo{author}{Yang, Y.},
+  \bibinfo{author}{Mahoney, M.}, \bibinfo{author}{Mittal, P.},
+  \bibinfo{author}{Kannan, R.}, \bibinfo{author}{Gonzalez, J.},
+  \bibinfo{year}{2022}c.
+\newblock \bibinfo{title}{Neurotoxin: Durable backdoors in federated learning},
+  in: \bibinfo{booktitle}{International Conference on Machine Learning},
+  \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{26429--26446}.
+%Type = Article
+\bibitem[{Zhao et~al.(2020)Zhao, Chen, Das, Ramamurthy and
+  Lin}]{zhao2020bridging}
+\bibinfo{author}{Zhao, P.}, \bibinfo{author}{Chen, P.Y.}, \bibinfo{author}{Das,
+  P.}, \bibinfo{author}{Ramamurthy, K.N.}, \bibinfo{author}{Lin, X.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Bridging mode connectivity in loss landscapes and
+  adversarial robustness}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2005.00060} .
+%Type = Article
+\bibitem[{Zhou et~al.(2021)Zhou, Xu, Wu and Zheng}]{zhou2021deep}
+\bibinfo{author}{Zhou, X.}, \bibinfo{author}{Xu, M.}, \bibinfo{author}{Wu, Y.},
+  \bibinfo{author}{Zheng, N.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Deep model poisoning attack on federated learning}.
+\newblock \bibinfo{journal}{Future Internet} \bibinfo{volume}{13},
+  \bibinfo{pages}{73}.
+%Type = Article
+\bibitem[{Zhou et~al.(2020)Zhou, Wu and He}]{zhou2020adversarially}
+\bibinfo{author}{Zhou, Y.}, \bibinfo{author}{Wu, J.}, \bibinfo{author}{He, J.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Adversarially robust federated learning for neural
+  networks} .
+%Type = Inproceedings
+\bibitem[{Zhou et~al.(2022)Zhou, Wu, Wang and He}]{zhou2022adversarial}
+\bibinfo{author}{Zhou, Y.}, \bibinfo{author}{Wu, J.}, \bibinfo{author}{Wang,
+  H.}, \bibinfo{author}{He, J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Adversarial robustness through bias variance
+  decomposition: A new perspective for federated learning}, in:
+  \bibinfo{booktitle}{Proceedings of the 31st ACM International Conference on
+  Information \& Knowledge Management}, pp. \bibinfo{pages}{2753--2762}.
+%Type = Inproceedings
+\bibitem[{Zhu et~al.(2019)Zhu, Huang, Li, Taylor, Studer and
+  Goldstein}]{zhu2019transferable}
+\bibinfo{author}{Zhu, C.}, \bibinfo{author}{Huang, W.R.}, \bibinfo{author}{Li,
+  H.}, \bibinfo{author}{Taylor, G.}, \bibinfo{author}{Studer, C.},
+  \bibinfo{author}{Goldstein, T.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Transferable clean-label poisoning attacks on deep
+  neural nets}, in: \bibinfo{booktitle}{International Conference on Machine
+  Learning}, \bibinfo{organization}{PMLR}. pp. \bibinfo{pages}{7614--7623}.
+%Type = Inproceedings
+\bibitem[{Zhu et~al.(2020)Zhu, Ning, Wang, Xin and Wu}]{zhu2020gangsweep}
+\bibinfo{author}{Zhu, L.}, \bibinfo{author}{Ning, R.}, \bibinfo{author}{Wang,
+  C.}, \bibinfo{author}{Xin, C.}, \bibinfo{author}{Wu, H.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Gangsweep: Sweep out neural backdoors by gan}, in:
+  \bibinfo{booktitle}{Proceedings of the 28th ACM International Conference on
+  Multimedia}, pp. \bibinfo{pages}{3173--3181}.
+%Type = Article
+\bibitem[{Zizzo et~al.(2020)Zizzo, Rawat, Sinn and Buesser}]{zizzo2020fat}
+\bibinfo{author}{Zizzo, G.}, \bibinfo{author}{Rawat, A.},
+  \bibinfo{author}{Sinn, M.}, \bibinfo{author}{Buesser, B.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Fat: Federated adversarial training}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2012.01791} .
 
 \end{thebibliography}

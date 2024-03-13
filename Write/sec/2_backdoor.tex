@@ -5,31 +5,31 @@
     \caption{\textbf{Comparison of Backdoor Attacks}}
     \label{Comparison of Backdoor Attacks}
     \centering
-    \begin{tabular}{|c|c|c|c|c|c|} % 有七列，使用 "c" 表示居中对齐，没有竖线
+    \begin{tabular}{|c|c|c|c|c|} % 有七列，使用 "c" 表示居中对齐，没有竖线
     \toprule % 第一道横线
-    \textbf{Attack Method} & \textbf{Category} & \textbf{Persistence} & \textbf{Mechanism} & \textbf{Stealthiness} & \textbf{Accuracy} \\ 
+    \textbf{Attack Method} & \textbf{Category} & \textbf{Persistence} & \textbf{Mechanism} & \textbf{Stealthiness}\\ 
     \midrule
-    \makecell{Semantic Backdoor} & \makecell{Model Poisoning} & \makecell{Bad} & \makecell{Model replacement.} & \makecell{Bad} & \makecell{$75\%$} \\
+    \makecell{Semantic Backdoor} & \makecell{Model Poisoning} & \makecell{Bad} & \makecell{Model replacement.} & \makecell{Bad} \\
     \midrule
-    \makecell{Label Flipping} & \makecell{Data Poisoning} & \makecell{Bad} & \makecell{Generated poisoned examples.} & \makecell{Bad} & \makecell{-} \\
+    \makecell{Label Flipping} & \makecell{Data Poisoning} & \makecell{Bad} & \makecell{Generated poisoned examples.} & \makecell{Bad} \\
     \midrule
-    \makecell{CLean Label} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Sample camouflage.} & \makecell{Outstanding} & \makecell{$76\%$} \\
+    \makecell{CLean Label} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Sample camouflage.} & \makecell{Outstanding} \\
     \midrule
-    \makecell{Transferable \\ Clean Label} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Sample camouflage.} & \makecell{Outstanding} & \makecell{-} \\
+    \makecell{Transferable \\ Clean Label} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Sample camouflage.} & \makecell{Outstanding} \\
     \midrule
-    \makecell{Backdoor with \\ Edge Data} & \makecell{Data Poisoning} & \makecell{Normal} & \makecell{Long-tail distribution.} & \makecell{Normal} & \makecell{$81\%$} \\
+    \makecell{Backdoor with \\ Edge Data} & \makecell{Data Poisoning} & \makecell{Normal} & \makecell{Long-tail distribution.} & \makecell{Normal} \\
     \midrule
-    \makecell{Distributed \\ Backdoor} & \makecell{Data Poisoning} & \makecell{Bad} & \makecell{Embedded backdoors distributed \\ from multiple clients.} & \makecell{Outstanding} & \makecell{$83\%$} \\
+    \makecell{Distributed \\ Backdoor} & \makecell{Data Poisoning} & \makecell{Bad} & \makecell{Embedded backdoors distributed \\ from multiple clients.} & \makecell{Outstanding} \\
     \midrule
-    \makecell{Neurotoxin} & \makecell{Model Poisoning} & \makecell{Outstanding} & \makecell{Attack parameters that \\ change less during training.} & \makecell{Normal} & \makecell{$89\%$} \\
+    \makecell{Neurotoxin} & \makecell{Model Poisoning} & \makecell{Outstanding} & \makecell{Attack parameters that \\ change less during training.} & \makecell{Normal} \\
     \midrule
-    \makecell{Optimization-based \\Backdoor Attack} & \makecell{Model Poisoning} & \makecell{Normal} & \makecell{Optimization method} & \makecell{Normal} & \makecell{$92\%$} \\
+    \makecell{Optimization-based \\Backdoor Attack} & \makecell{Model Poisoning} & \makecell{Normal} & \makecell{Optimization method} & \makecell{Normal} \\
     \midrule
-    \makecell{Distance Awareness \\Attack} & \makecell{Model Poisoning} & \makecell{Normal} & \makecell{Attacking Distance-aware Attack} & \makecell{Normal} & \makecell{$94\%$} \\
+    \makecell{Distance Awareness \\Attack} & \makecell{Model Poisoning} & \makecell{Normal} & \makecell{Attacking Distance-aware Attack} & \makecell{Normal} \\
     \midrule
-    \makecell{Dynamic Backdoor \\Attack} & \makecell{Data Poisoning} & \makecell{Normal} & \makecell{Dynamic backdoor} & \makecell{Outstanding} & \makecell{-} \\
+    \makecell{Dynamic Backdoor \\Attack} & \makecell{Data Poisoning} & \makecell{Normal} & \makecell{Dynamic backdoor} & \makecell{Outstanding} \\
     \midrule
-    \makecell{Chameleon} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Adaptive technique.} & \makecell{Normal} & \makecell{$95\%$} \\
+    \makecell{Chameleon} & \makecell{Data Poisoning} & \makecell{Outstanding} & \makecell{Adaptive technique.} & \makecell{Normal} \\
     
     \toprule
     % 继续插入更多数据行

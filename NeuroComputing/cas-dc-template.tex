@@ -64,8 +64,8 @@
 % eg: \tnotetext[1]{Title footnote text}
 % \tnotetext[<tnote number>]{<tnote text>} 
 \tnotetext[1]{This document is the results of the research
-   project funded the Research Foundation of Education Bureau of Hunan Province(23A0494).}
-
+   project funded the Research Foundation of Education Bureau of Hunan Province(23A0494)
+   and the Natural Science Founda-tion of Hunan Province(2023JJ30082).}
 
 % First author
 %
@@ -80,7 +80,7 @@
 %       twitter=<twitter id>,
 %       linkedin=<linkedin id>,
 %       gplus=<gplus id>]
-\author[1]{Yunhao Feng}
+\author[1]{Yunhao Feng$^\dagger,$}
 
 
 
@@ -92,22 +92,21 @@
 % Address/affiliation
 \affiliation[1]{organization={National University of Defense Technology},
     city={Changsha},
+    postcode={410000},
     country={China}}
 
 % Second author
-\author[1]{Yinjian Hou}
-\cormark[1]
+\author[1]{Yinjian Hou$^\dagger,$}
 
 \ead{houyinjian18@nudt.edu.cn}
 
-\author[1]{Mingrui Lao}
-\author[1]{Yulun Wu}
-\author[2]{Gang Liu}
-\author[1]{Tianyuan Yu}
 \author[1]{Yanming Guo}
 \ead{guoyanming@nudt.edu.cn}
-\cormark[2]
-
+\cormark[1]
+\author[1]{Mingrui Lao}
+\author[1]{Yulun Wu}
+\author[1]{Tianyuan Yu}
+\author[2]{Gang Liu}
 
 
 
@@ -117,10 +116,11 @@
 % Address/affiliation
 \affiliation[2]{organization={Hunan Institute of Science and Technology},
     city={Yueyang},
+    postcode={414000},
     country={China}}
 % Corresponding author text
-\cortext[cor1]{Joint first author}
-\cortext[cor2]{Corresponding author}
+% \cortext[cor1]{Joint first author}
+\cortext[cor1]{Corresponding author , $\dagger$ Joint first author}
 
 
 % Here goes the abstract
@@ -1744,7 +1744,7 @@ adversarial training in federated learning is still a very
 urgent matter. 
 
 \begin{table}[t]
-    \caption{\textbf{Comparison of FAT}}
+    \caption{\textbf{Comparison of Federated Adversarial Training}}
     \label{Comparison of FAT}
     \centering
     \begin{tabular}{|c|c|c|c|} % 有七列，使用 "c" 表示居中对齐，没有竖线

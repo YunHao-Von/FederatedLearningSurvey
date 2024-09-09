@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.3.19)  9 SEP 2024 15:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.3.19)  9 SEP 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,12 +564,9 @@ LaTeX Info: Redefining \nameref on input line 93.
 \@outlinefile=\write3
 \openout3 = `sn-article.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \c@lstlisting=\count311
 LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 160.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
 (Font)              size <8> substituted on input line 160.
@@ -643,16 +640,12 @@ Overfull \hbox (254.70918pt too wide) in paragraph at lines 250--262
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-File: output/fig4.eps Graphic file (type eps)
-<output/fig4.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+File: output/fig4.eps Graphic file (type eps)
+<output/fig4.eps>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
@@ -667,25 +660,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: output/fig5.eps Graphic file (type eps)
 <output/fig5.eps>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-File: output/fig6.eps Graphic file (type eps)
-<output/fig6.eps>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [8]
+File: output/fig6.eps Graphic file (type eps)
+<output/fig6.eps>
 File: output/fig7.eps Graphic file (type eps)
 <output/fig7.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: output/fig8.eps Graphic file (type eps)
 <output/fig8.eps>
 
@@ -695,10 +690,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [12]
 File: output/fig9.eps Graphic file (type eps)
 <output/fig9.eps>
 File: output/fig10.eps Graphic file (type eps)
@@ -710,19 +705,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [14]
 File: output/fig11.eps Graphic file (type eps)
 <output/fig11.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [16]
 File: output/fig12.eps Graphic file (type eps)
 <output/fig12.eps>
 File: output/fig13.eps Graphic file (type eps)
@@ -730,31 +725,27 @@ File: output/fig13.eps Graphic file (type eps)
 File: output/fig14.eps Graphic file (type eps)
 <output/fig14.eps>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 File: output/fig15.eps Graphic file (type eps)
 <output/fig15.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [20]
 File: output/fig16.eps Graphic file (type eps)
 <output/fig16.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [21]
 File: output/fig17.eps Graphic file (type eps)
 <output/fig17.eps>
 
@@ -764,74 +755,79 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [22]
-File: output/fig18.eps Graphic file (type eps)
-<output/fig18.eps>
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+File: output/fig18.eps Graphic file (type eps)
+<output/fig18.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-File: output/fig19.eps Graphic file (type eps)
-<output/fig19.eps>
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
+File: output/fig19.eps Graphic file (type eps)
+<output/fig19.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-File: output/fig20.eps Graphic file (type eps)
-<output/fig20.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: output/fig21.eps Graphic file (type eps)
-<output/fig21.eps>
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+File: output/fig20.eps Graphic file (type eps)
+<output/fig20.eps>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 1744.
+File: output/fig21.eps Graphic file (type eps)
+<output/fig21.eps>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 1745.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1744.
+(Font)              size <5> substituted on input line 1745.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 1744.
+(Font)              size <5> substituted on input line 1745.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1744.
+(Font)              size <5> substituted on input line 1745.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1744.
+(Font)              size <5> substituted on input line 1745.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31] (./sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33] (./sn-article.bbl
 Underfull \hbox (badness 5316) in paragraph at lines 82--95
 []\TU/lmr/m/n/10.03749 McMahan, B., Moore, E., Ramage, D., Hampson, S., Arcas, B.A.:
  []
@@ -839,21 +835,18 @@ Underfull \hbox (badness 5316) in paragraph at lines 82--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [34]
-Underfull \hbox (badness 1237) in paragraph at lines 522--536
-\TU/lmr/m/n/10.03749 resilient decentralized stochastic gradient descent. IEEE Transactions on
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
+Underfull \hbox (badness 1237) in paragraph at lines 522--536
+\TU/lmr/m/n/10.03749 resilient decentralized stochastic gradient descent. IEEE Transactions on
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
@@ -868,38 +861,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1855.
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1856.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1855.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1856.
  (./sn-article.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1855.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1855.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1856.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1856.
+Package rerunfilecheck Info: File `sn-article.out' has not changed.
+(rerunfilecheck)             Checksum: 2F2A96F634BDAE5BF384439D13F092D0;2268.
 
-
-Package rerunfilecheck Warning: File `sn-article.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sn-article.out':
-(rerunfilecheck)             Before: F5458AF2D4794EA9D77EC12137FD2DED;2076
-(rerunfilecheck)             After:  2F2A96F634BDAE5BF384439D13F092D0;2268.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.985pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1855.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1856.
  ) 
 Here is how much of TeX's memory you used:
- 14246 strings out of 479819
- 203353 string characters out of 5895846
- 482705 words of memory out of 5000000
- 31078 multiletter control sequences out of 15000+600000
+ 14244 strings out of 479819
+ 203307 string characters out of 5895846
+ 489909 words of memory out of 5000000
+ 31076 multiletter control sequences out of 15000+600000
  550206 words of font info for 120 fonts, out of 8000000 for 9000
  1358 hyphenation exceptions out of 8191
- 46i,16n,45p,752b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,16n,45p,752b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sn-article.pdf (42 pages).
+Output written on sn-article.pdf (43 pages).

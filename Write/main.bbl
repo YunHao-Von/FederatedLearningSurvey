@@ -1,0 +1,765 @@
+\begin{thebibliography}{112}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agrawal and Tapaswi(2019)]{agrawal2019defense}
+Neha Agrawal and Shashikala Tapaswi.
+\newblock Defense mechanisms against ddos attacks in a cloud computing
+  environment: State-of-the-art and research challenges.
+\newblock \emph{IEEE Communications Surveys \& Tutorials}, 21\penalty0
+  (4):\penalty0 3769--3795, 2019.
+
+\bibitem[Aiken et~al.(2021)Aiken, Kim, Woo, and Ryoo]{aiken2021neural}
+William Aiken, Hyoungshick Kim, Simon Woo, and Jungwoo Ryoo.
+\newblock Neural network laundering: Removing black-box backdoor watermarks
+  from deep neural networks.
+\newblock \emph{Computers \& Security}, 106:\penalty0 102277, 2021.
+
+\bibitem[Andreina et~al.(2021)Andreina, Marson, M{\"o}llering, and
+  Karame]{andreina2021baffle}
+Sebastien Andreina, Giorgia~Azzurra Marson, Helen M{\"o}llering, and Ghassan
+  Karame.
+\newblock Baffle: Backdoor detection via feedback-based federated learning.
+\newblock In \emph{2021 IEEE 41st International Conference on Distributed
+  Computing Systems (ICDCS)}, pages 852--863. IEEE, 2021.
+
+\bibitem[Bagdasaryan et~al.(2019)Bagdasaryan, Poursaeed, and
+  Shmatikov]{bagdasaryan2019differential}
+Eugene Bagdasaryan, Omid Poursaeed, and Vitaly Shmatikov.
+\newblock Differential privacy has disparate impact on model accuracy.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Bagdasaryan et~al.(2020)Bagdasaryan, Veit, Hua, Estrin, and
+  Shmatikov]{bagdasaryan2020backdoor}
+Eugene Bagdasaryan, Andreas Veit, Yiqing Hua, Deborah Estrin, and Vitaly
+  Shmatikov.
+\newblock How to backdoor federated learning.
+\newblock In \emph{International conference on artificial intelligence and
+  statistics}, pages 2938--2948. PMLR, 2020.
+
+\bibitem[Barreno et~al.(2006)Barreno, Nelson, Sears, Joseph, and
+  Tygar]{barreno2006can}
+Marco Barreno, Blaine Nelson, Russell Sears, Anthony~D Joseph, and J~Doug
+  Tygar.
+\newblock Can machine learning be secure?
+\newblock In \emph{Proceedings of the 2006 ACM Symposium on Information,
+  computer and communications security}, pages 16--25, 2006.
+
+\bibitem[Becking et~al.(2022)Becking, Kirchhoffer, Tech, Haase, M{\"u}ller,
+  Schwarz, and Samek]{becking2022adaptive}
+Daniel Becking, Heiner Kirchhoffer, Gerhard Tech, Paul Haase, Karsten
+  M{\"u}ller, Heiko Schwarz, and Wojciech Samek.
+\newblock Adaptive differential filters for fast and communication-efficient
+  federated learning.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 3367--3376, 2022.
+
+\bibitem[Bernstein et~al.(2018)Bernstein, Zhao, Azizzadenesheli, and
+  Anandkumar]{bernstein2018signsgd}
+Jeremy Bernstein, Jiawei Zhao, Kamyar Azizzadenesheli, and Anima Anandkumar.
+\newblock signsgd with majority vote is communication efficient and fault
+  tolerant.
+\newblock \emph{arXiv preprint arXiv:1810.05291}, 2018.
+
+\bibitem[Bhagoji et~al.(2019)Bhagoji, Chakraborty, Mittal, and
+  Calo]{bhagoji2019analyzing}
+Arjun~Nitin Bhagoji, Supriyo Chakraborty, Prateek Mittal, and Seraphin Calo.
+\newblock Analyzing federated learning through an adversarial lens.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  634--643. PMLR, 2019.
+
+\bibitem[Blanchard et~al.(2017)Blanchard, El~Mhamdi, Guerraoui, and
+  Stainer]{blanchard2017machine}
+Peva Blanchard, El~Mahdi El~Mhamdi, Rachid Guerraoui, and Julien Stainer.
+\newblock Machine learning with adversaries: Byzantine tolerant gradient
+  descent.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Chen et~al.(2018)Chen, Carvalho, Baracaldo, Ludwig, Edwards, Lee,
+  Molloy, and Srivastava]{chen2018detecting}
+Bryant Chen, Wilka Carvalho, Nathalie Baracaldo, Heiko Ludwig, Benjamin
+  Edwards, Taesung Lee, Ian Molloy, and Biplav Srivastava.
+\newblock Detecting backdoor attacks on deep neural networks by activation
+  clustering.
+\newblock \emph{arXiv preprint arXiv:1811.03728}, 2018.
+
+\bibitem[Chen et~al.(2021)Chen, Kailkhura, Goldhahn, and
+  Zhou]{chen2021certifiably}
+Cheng Chen, Bhavya Kailkhura, Ryan Goldhahn, and Yi Zhou.
+\newblock Certifiably-robust federated adversarial learning via randomized
+  smoothing.
+\newblock In \emph{2021 IEEE 18th International Conference on Mobile Ad Hoc and
+  Smart Systems (MASS)}, pages 173--179. IEEE, 2021.
+
+\bibitem[Chen et~al.(2022)Chen, Liu, Ma, and Lyu]{chen2022calfat}
+Chen Chen, Yuchen Liu, Xingjun Ma, and Lingjuan Lyu.
+\newblock Calfat: Calibrated federated adversarial training with label
+  skewness.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  35:\penalty0 3569--3581, 2022.
+
+\bibitem[Chen et~al.(2019)Chen, Suresh, Mathews, Wong, Allauzen, Beaufays, and
+  Riley]{chen2019federated}
+Mingqing Chen, Ananda~Theertha Suresh, Rajiv Mathews, Adeline Wong, Cyril
+  Allauzen, Fran{\c{c}}oise Beaufays, and Michael Riley.
+\newblock Federated learning of n-gram language models.
+\newblock \emph{arXiv preprint arXiv:1910.03432}, 2019.
+
+\bibitem[Chen et~al.(2012)Chen, Park, and Bian]{chen2012robustness}
+Ruiliang Chen, Jung-Min~Jerry Park, and Kaigui Bian.
+\newblock Robustness against byzantine failures in distributed spectrum
+  sensing.
+\newblock \emph{Computer Communications}, 35\penalty0 (17):\penalty0
+  2115--2124, 2012.
+
+\bibitem[Dai and Li(2023)]{dai2023chameleon}
+Yanbo Dai and Songze Li.
+\newblock Chameleon: Adapting to peer images for planting durable backdoors in
+  federated learning.
+\newblock \emph{arXiv preprint arXiv:2304.12961}, 2023.
+
+\bibitem[Damaskinos et~al.(2019)Damaskinos, El-Mhamdi, Guerraoui, Guirguis, and
+  Rouault]{damaskinos2019aggregathor}
+Georgios Damaskinos, El-Mahdi El-Mhamdi, Rachid Guerraoui, Arsany Guirguis, and
+  S{\'e}bastien Rouault.
+\newblock Aggregathor: Byzantine machine learning via robust gradient
+  aggregation.
+\newblock \emph{Proceedings of Machine Learning and Systems}, 1:\penalty0
+  81--106, 2019.
+
+\bibitem[Doan et~al.(2020)Doan, Abbasnejad, and Ranasinghe]{doan2020februus}
+Bao~Gia Doan, Ehsan Abbasnejad, and Damith~C Ranasinghe.
+\newblock Februus: Input purification defense against trojan attacks on deep
+  neural network systems.
+\newblock In \emph{Annual computer security applications conference}, pages
+  897--912, 2020.
+
+\bibitem[Doshi and Yilmaz(2022)]{doshi2022federated}
+Keval Doshi and Yasin Yilmaz.
+\newblock Federated learning-based driver activity recognition for edge
+  devices.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 3338--3346, 2022.
+
+\bibitem[Douceur(2002)]{douceur2002sybil}
+John~R Douceur.
+\newblock The sybil attack.
+\newblock In \emph{International workshop on peer-to-peer systems}, pages
+  251--260. Springer, 2002.
+
+\bibitem[Enthoven and Al-Ars(2021)]{enthoven2021overview}
+David Enthoven and Zaid Al-Ars.
+\newblock An overview of federated deep learning privacy attacks and defensive
+  strategies.
+\newblock \emph{Federated Learning Systems: Towards Next-Generation AI}, pages
+  173--196, 2021.
+
+\bibitem[Fang et~al.(2020)Fang, Cao, Jia, and Gong]{fang2020local}
+Minghong Fang, Xiaoyu Cao, Jinyuan Jia, and Neil Gong.
+\newblock Local model poisoning attacks to $\{$Byzantine-Robust$\}$ federated
+  learning.
+\newblock In \emph{29th USENIX security symposium (USENIX Security 20)}, pages
+  1605--1622, 2020.
+
+\bibitem[Fatemieh et~al.(2010)Fatemieh, Chandra, and
+  Gunter]{fatemieh2010secure}
+Omid Fatemieh, Ranveer Chandra, and Carl~A Gunter.
+\newblock Secure collaborative sensing for crowd sourcing spectrum data in
+  white space networks.
+\newblock In \emph{2010 IEEE Symposium on New Frontiers in Dynamic Spectrum
+  (DySPAN)}, pages 1--12. IEEE, 2010.
+
+\bibitem[Fatemieh et~al.(2011)Fatemieh, Farhadi, Chandra, and
+  Gunter]{fatemieh2011using}
+Omid Fatemieh, Ali Farhadi, Ranveer Chandra, and Carl~A Gunter.
+\newblock Using classification to protect the integrity of spectrum
+  measurements in white space networks.
+\newblock In \emph{NDSS}, 2011.
+
+\bibitem[Fung et~al.(2018)Fung, Yoon, and Beschastnikh]{fung2018mitigating}
+Clement Fung, Chris~JM Yoon, and Ivan Beschastnikh.
+\newblock Mitigating sybils in federated learning poisoning.
+\newblock \emph{arXiv preprint arXiv:1808.04866}, 2018.
+
+\bibitem[Geigel(2013)]{geigel2013neural}
+Arturo Geigel.
+\newblock Neural network trojan.
+\newblock \emph{Journal of Computer Security}, 21\penalty0 (2):\penalty0
+  191--232, 2013.
+
+\bibitem[Gil et~al.(2017)Gil, Kumar, Mazumder, Katabi, and
+  Rus]{gil2017guaranteeing}
+Stephanie Gil, Swarun Kumar, Mark Mazumder, Dina Katabi, and Daniela Rus.
+\newblock Guaranteeing spoof-resilient multi-robot networks.
+\newblock \emph{Autonomous Robots}, 41:\penalty0 1383--1400, 2017.
+
+\bibitem[Gong et~al.(2022)Gong, Chen, Wang, and Kong]{gong2022backdoor}
+Xueluan Gong, Yanjiao Chen, Qian Wang, and Weihan Kong.
+\newblock Backdoor attacks and defenses in federated learning:
+  State-of-the-art, taxonomy, and future directions.
+\newblock \emph{IEEE Wireless Communications}, 2022.
+
+\bibitem[Goodfellow et~al.(2014)Goodfellow, Shlens, and
+  Szegedy]{goodfellow2014explaining}
+Ian~J Goodfellow, Jonathon Shlens, and Christian Szegedy.
+\newblock Explaining and harnessing adversarial examples.
+\newblock \emph{arXiv preprint arXiv:1412.6572}, 2014.
+
+\bibitem[Gu et~al.(2017)Gu, Dolan-Gavitt, and Garg]{gu2017badnets}
+Tianyu Gu, Brendan Dolan-Gavitt, and Siddharth Garg.
+\newblock Badnets: Identifying vulnerabilities in the machine learning model
+  supply chain.
+\newblock \emph{arXiv preprint arXiv:1708.06733}, 2017.
+
+\bibitem[Guerraoui et~al.(2018)Guerraoui, Rouault, et~al.]{guerraoui2018hidden}
+Rachid Guerraoui, S{\'e}bastien Rouault, et~al.
+\newblock The hidden vulnerability of distributed learning in byzantium.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  3521--3530. PMLR, 2018.
+
+\bibitem[Guo et~al.(2021{\natexlab{a}})Guo, Zhang, Yu, Xie, Ma, Xiang, and
+  Liu]{guo2021byzantine}
+Shangwei Guo, Tianwei Zhang, Han Yu, Xiaofei Xie, Lei Ma, Tao Xiang, and Yang
+  Liu.
+\newblock Byzantine-resilient decentralized stochastic gradient descent.
+\newblock \emph{IEEE Transactions on Circuits and Systems for Video
+  Technology}, 32\penalty0 (6):\penalty0 4096--4106, 2021{\natexlab{a}}.
+
+\bibitem[Guo et~al.(2021{\natexlab{b}})Guo, Zhang, Yang, Zhang, Gan, Xiang, and
+  Liu]{guo2021robust}
+Shangwei Guo, Xu Zhang, Fei Yang, Tianwei Zhang, Yan Gan, Tao Xiang, and Yang
+  Liu.
+\newblock Robust and privacy-preserving collaborative learning: A comprehensive
+  survey.
+\newblock \emph{arXiv e-prints}, pages arXiv--2112, 2021{\natexlab{b}}.
+
+\bibitem[Guo et~al.(2020)Guo, Wang, Xu, Xing, Du, and Song]{guo2020towards}
+Wenbo Guo, Lun Wang, Yan Xu, Xinyu Xing, Min Du, and Dawn Song.
+\newblock Towards inspecting and eliminating trojan backdoors in deep neural
+  networks.
+\newblock In \emph{2020 IEEE International Conference on Data Mining (ICDM)},
+  pages 162--171. IEEE, 2020.
+
+\bibitem[Hong et~al.(2021)Hong, Wang, Wang, and Zhou]{hong2021federated}
+Junyuan Hong, Haotao Wang, Zhangyang Wang, and Jiayu Zhou.
+\newblock Federated robustness propagation: Sharing robustness in heterogeneous
+  federated learning.
+\newblock \emph{arXiv preprint arXiv:2106.10196}, 2021.
+
+\bibitem[Hsu et~al.(2019)Hsu, Qi, and Brown]{hsu2019measuring}
+Tzu-Ming~Harry Hsu, Hang Qi, and Matthew Brown.
+\newblock Measuring the effects of non-identical data distribution for
+  federated visual classification.
+\newblock \emph{arXiv preprint arXiv:1909.06335}, 2019.
+
+\bibitem[Huang et~al.(2023)Huang, Ma, Erfani, and Bailey]{huang2023distilling}
+Hanxun Huang, Xingjun Ma, Sarah Erfani, and James Bailey.
+\newblock Distilling cognitive backdoor patterns within an image.
+\newblock \emph{arXiv preprint arXiv:2301.10908}, 2023.
+
+\bibitem[Jiang et~al.(2023)Jiang, Ma, Wang, Yu, Sun, Ni, and
+  Liu]{jiang2023secure}
+Yanna Jiang, Baihe Ma, Xu Wang, Guangsheng Yu, Caijun Sun, Wei Ni, and Ren~Ping
+  Liu.
+\newblock A secure aggregation for federated learning on long-tailed data.
+\newblock \emph{arXiv preprint arXiv:2307.08324}, 2023.
+
+\bibitem[Kailkhura et~al.(2013)Kailkhura, Han, Brahma, and
+  Varshney]{kailkhura2013distributed}
+Bhavya Kailkhura, Yunghsiang~S Han, Swastik Brahma, and Pramod~K Varshney.
+\newblock Distributed bayesian detection with byzantine data.
+\newblock \emph{arXiv preprint arXiv:1307.3544}, 2013.
+
+\bibitem[Kirillov et~al.(2023)Kirillov, Mintun, Ravi, Mao, Rolland, Gustafson,
+  Xiao, Whitehead, Berg, Lo, et~al.]{kirillov2023segment}
+Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura
+  Gustafson, Tete Xiao, Spencer Whitehead, Alexander~C Berg, Wan-Yen Lo, et~al.
+\newblock Segment anything.
+\newblock \emph{arXiv preprint arXiv:2304.02643}, 2023.
+
+\bibitem[Lamport et~al.(2019)Lamport, Shostak, and Pease]{lamport2019byzantine}
+Leslie Lamport, Robert Shostak, and Marshall Pease.
+\newblock The byzantine generals problem.
+\newblock In \emph{Concurrency: the works of leslie lamport}, pages 203--226.
+  2019.
+
+\bibitem[Li et~al.(2014)Li, Li, Gao, Zhao, Fan, and Han]{li2014resolving}
+Qi Li, Yaliang Li, Jing Gao, Bo Zhao, Wei Fan, and Jiawei Han.
+\newblock Resolving conflicts in heterogeneous data by truth discovery and
+  source reliability estimation.
+\newblock In \emph{Proceedings of the 2014 ACM SIGMOD international conference
+  on Management of data}, pages 1187--1198, 2014.
+
+\bibitem[Li et~al.(2020{\natexlab{a}})Li, Cheng, Wang, Liu, and
+  Chen]{li2020learning}
+Suyi Li, Yong Cheng, Wei Wang, Yang Liu, and Tianjian Chen.
+\newblock Learning to detect malicious clients for robust federated learning.
+\newblock \emph{arXiv preprint arXiv:2002.00211}, 2020{\natexlab{a}}.
+
+\bibitem[Li et~al.(2023)Li, Song, and Yang]{li2023federated}
+Xiaoxiao Li, Zhao Song, and Jiaming Yang.
+\newblock Federated adversarial learning: A framework with convergence
+  analysis.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  19932--19959. PMLR, 2023.
+
+\bibitem[Li et~al.(2020{\natexlab{b}})Li, Zhai, Wu, Jiang, Li, and
+  Xia]{li2020rethinking}
+Yiming Li, Tongqing Zhai, Baoyuan Wu, Yong Jiang, Zhifeng Li, and Shutao Xia.
+\newblock Rethinking the trigger of backdoor attack.
+\newblock \emph{arXiv preprint arXiv:2004.04692}, 2020{\natexlab{b}}.
+
+\bibitem[Li et~al.(2021{\natexlab{a}})Li, Lyu, Koren, Lyu, Li, and
+  Ma]{li2021anti}
+Yige Li, Xixiang Lyu, Nodens Koren, Lingjuan Lyu, Bo Li, and Xingjun Ma.
+\newblock Anti-backdoor learning: Training clean models on poisoned data.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  34:\penalty0 14900--14912, 2021{\natexlab{a}}.
+
+\bibitem[Li et~al.(2021{\natexlab{b}})Li, Zhai, Jiang, Li, and
+  Xia]{li2021backdoor}
+Yiming Li, Tongqing Zhai, Yong Jiang, Zhifeng Li, and Shu-Tao Xia.
+\newblock Backdoor attack in the physical world.
+\newblock \emph{arXiv preprint arXiv:2104.02361}, 2021{\natexlab{b}}.
+
+\bibitem[Lin et~al.(2021)Lin, He, Zeng, Wang, Huang, Soltanolkotabi, Ren, and
+  Avestimehr]{lin2021fednlp}
+Bill~Yuchen Lin, Chaoyang He, Zihang Zeng, Hulin Wang, Yufen Huang, Mahdi
+  Soltanolkotabi, Xiang Ren, and Salman Avestimehr.
+\newblock Fednlp: A research platform for federated learning in natural
+  language processing.
+\newblock \emph{arXiv preprint arXiv:2104.08815}, 2021.
+
+\bibitem[Lin et~al.(2019)Lin, Du, and Liu]{lin2019free}
+Jierui Lin, Min Du, and Jian Liu.
+\newblock Free-riders in federated learning: Attacks and defenses.
+\newblock \emph{arXiv preprint arXiv:1911.12560}, 2019.
+
+\bibitem[Liu et~al.(2022)Liu, Xing, Deng, Li, Guan, and Yu]{Liu_Yu}
+Rui Liu, Pengwei Xing, Zichao Deng, Anran Li, Cuntai Guan, and Han Yu.
+\newblock Federated graph neural networks: Overview, techniques and challenges.
+\newblock \emph{arXiv preprint arXiv:2202.07256}, 2022.
+
+\bibitem[Liu et~al.(2017)Liu, Xie, and Srivastava]{liu2017neural}
+Yuntao Liu, Yang Xie, and Ankur Srivastava.
+\newblock Neural trojans.
+\newblock In \emph{2017 IEEE International Conference on Computer Design
+  (ICCD)}, pages 45--48. IEEE, 2017.
+
+\bibitem[Madry et~al.(2017)Madry, Makelov, Schmidt, Tsipras, and
+  Vladu]{madry2017towards}
+Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and
+  Adrian Vladu.
+\newblock Towards deep learning models resistant to adversarial attacks.
+\newblock \emph{arXiv preprint arXiv:1706.06083}, 2017.
+
+\bibitem[Mallmann-Trenn et~al.(2021)Mallmann-Trenn, Cavorsi, and
+  Gil]{mallmann2021crowd}
+Frederik Mallmann-Trenn, Matthew Cavorsi, and Stephanie Gil.
+\newblock Crowd vetting: Rejecting adversaries via collaboration with
+  application to multirobot flocking.
+\newblock \emph{IEEE Transactions on Robotics}, 38\penalty0 (1):\penalty0
+  5--24, 2021.
+
+\bibitem[McMahan et~al.(2017{\natexlab{a}})McMahan, Moore, Ramage, Hampson, and
+  y~Arcas]{mcmahan2017communication}
+Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise~Aguera y
+  Arcas.
+\newblock Communication-efficient learning of deep networks from decentralized
+  data.
+\newblock In \emph{Artificial intelligence and statistics}, pages 1273--1282.
+  PMLR, 2017{\natexlab{a}}.
+
+\bibitem[McMahan et~al.(2017{\natexlab{b}})McMahan, Ramage, Talwar, and
+  Zhang]{mcmahan2017learning}
+H~Brendan McMahan, Daniel Ramage, Kunal Talwar, and Li Zhang.
+\newblock Learning differentially private recurrent language models.
+\newblock \emph{arXiv preprint arXiv:1710.06963}, 2017{\natexlab{b}}.
+
+\bibitem[Miao et~al.(2018)Miao, Li, Xiao, Jiang, Huai, and Su]{miao2018towards}
+Chenglin Miao, Qi Li, Houping Xiao, Wenjun Jiang, Mengdi Huai, and Lu Su.
+\newblock Towards data poisoning attacks in crowd sensing systems.
+\newblock In \emph{Proceedings of the Eighteenth ACM International Symposium on
+  Mobile Ad Hoc Networking and Computing}, pages 111--120, 2018.
+
+\bibitem[Mostafa(2019)]{mostafa2019robust}
+Hesham Mostafa.
+\newblock Robust federated learning through representation matching and
+  adaptive hyper-parameters.
+\newblock \emph{arXiv preprint arXiv:1912.13075}, 2019.
+
+\bibitem[Mu{\~n}oz-Gonz{\'a}lez et~al.(2019)Mu{\~n}oz-Gonz{\'a}lez, Co, and
+  Lupu]{munoz2019byzantine}
+Luis Mu{\~n}oz-Gonz{\'a}lez, Kenneth~T Co, and Emil~C Lupu.
+\newblock Byzantine-robust federated machine learning through adaptive model
+  averaging.
+\newblock \emph{arXiv preprint arXiv:1909.05125}, 2019.
+
+\bibitem[Naseri et~al.(2020)Naseri, Hayes, and De~Cristofaro]{naseri2020toward}
+Mohammad Naseri, Jamie Hayes, and Emiliano De~Cristofaro.
+\newblock Toward robustness and privacy in federated learning: Experimenting
+  with local and central differential privacy.
+\newblock \emph{arXiv preprint arXiv:2009.03561}, 2020.
+
+\bibitem[Nguyen et~al.(2021)Nguyen, Rieger, Yalame, M{\"o}llering, Fereidooni,
+  Marchal, Miettinen, Mirhoseini, Sadeghi, Schneider,
+  et~al.]{nguyen2021flguard}
+Thien~Duc Nguyen, Phillip Rieger, Mohammad~Hossein Yalame, Helen M{\"o}llering,
+  Hossein Fereidooni, Samuel Marchal, Markus Miettinen, Azalia Mirhoseini,
+  Ahmad-Reza Sadeghi, Thomas Schneider, et~al.
+\newblock Flguard: Secure and private federated learning.
+\newblock \emph{Crytography and Security}, \penalty0 (Preprint), 2021.
+
+\bibitem[Nguyen et~al.(2022)Nguyen, Rieger, De~Viti, Chen, Brandenburg, Yalame,
+  M{\"o}llering, Fereidooni, Marchal, Miettinen, et~al.]{nguyen2022flame}
+Thien~Duc Nguyen, Phillip Rieger, Roberta De~Viti, Huili Chen, Bj{\"o}rn~B
+  Brandenburg, Hossein Yalame, Helen M{\"o}llering, Hossein Fereidooni, Samuel
+  Marchal, Markus Miettinen, et~al.
+\newblock $\{$FLAME$\}$: Taming backdoors in federated learning.
+\newblock In \emph{31st USENIX Security Symposium (USENIX Security 22)}, pages
+  1415--1432, 2022.
+
+\bibitem[Ozdayi et~al.(2021)Ozdayi, Kantarcioglu, and Gel]{ozdayi2021defending}
+Mustafa~Safa Ozdayi, Murat Kantarcioglu, and Yulia~R Gel.
+\newblock Defending against backdoors in federated learning with robust
+  learning rate.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, pages 9268--9276, 2021.
+
+\bibitem[Pillutla et~al.(2022)Pillutla, Kakade, and
+  Harchaoui]{pillutla2022robust}
+Krishna Pillutla, Sham~M Kakade, and Zaid Harchaoui.
+\newblock Robust aggregation for federated learning.
+\newblock \emph{IEEE Transactions on Signal Processing}, 70:\penalty0
+  1142--1154, 2022.
+
+\bibitem[Polyak et~al.(1963)]{polyak1963gradient}
+Boris~Teodorovich Polyak et~al.
+\newblock Gradient methods for minimizing functionals.
+\newblock \emph{Zhurnal vychislitel’noi matematiki i matematicheskoi fiziki},
+  3\penalty0 (4):\penalty0 643--653, 1963.
+
+\bibitem[Portnoy and Hendler(2020)]{portnoy2020towards}
+Amit Portnoy and Danny Hendler.
+\newblock Towards realistic byzantine-robust federated learning.
+\newblock 2020.
+
+\bibitem[Prakash and Avestimehr(2020)]{prakash2020mitigating}
+Saurav Prakash and Amir~Salman Avestimehr.
+\newblock Mitigating byzantine attacks in federated learning.
+\newblock \emph{arXiv preprint arXiv:2010.07541}, 2020.
+
+\bibitem[Qin et~al.(2013)Qin, Li, and Hsieh]{qin2013defending}
+Zhengrui Qin, Qun Li, and George Hsieh.
+\newblock Defending against cooperative attacks in cooperative spectrum
+  sensing.
+\newblock \emph{IEEE Transactions on Wireless communications}, 12\penalty0
+  (6):\penalty0 2680--2687, 2013.
+
+\bibitem[Reisizadeh et~al.(2020)Reisizadeh, Farnia, Pedarsani, and
+  Jadbabaie]{reisizadeh2020robust}
+Amirhossein Reisizadeh, Farzan Farnia, Ramtin Pedarsani, and Ali Jadbabaie.
+\newblock Robust federated learning: The case of affine distribution shifts.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 21554--21565, 2020.
+
+\bibitem[Rodr{\'\i}guez-Barroso et~al.(2023)Rodr{\'\i}guez-Barroso,
+  Jim{\'e}nez-L{\'o}pez, Luz{\'o}n, Herrera, and
+  Mart{\'\i}nez-C{\'a}mara]{rodriguez2023survey}
+Nuria Rodr{\'\i}guez-Barroso, Daniel Jim{\'e}nez-L{\'o}pez, M~Victoria
+  Luz{\'o}n, Francisco Herrera, and Eugenio Mart{\'\i}nez-C{\'a}mara.
+\newblock Survey on federated learning threats: Concepts, taxonomy on attacks
+  and defences, experimental study and challenges.
+\newblock \emph{Information Fusion}, 90:\penalty0 148--173, 2023.
+
+\bibitem[Salem et~al.(2022)Salem, Wen, Backes, Ma, and Zhang]{salem2022dynamic}
+Ahmed Salem, Rui Wen, Michael Backes, Shiqing Ma, and Yang Zhang.
+\newblock Dynamic backdoor attacks against machine learning models.
+\newblock In \emph{2022 IEEE 7th European Symposium on Security and Privacy
+  (EuroS\&P)}, pages 703--718. IEEE, 2022.
+
+\bibitem[Shafahi et~al.(2018)Shafahi, Huang, Najibi, Suciu, Studer, Dumitras,
+  and Goldstein]{shafahi2018poison}
+Ali Shafahi, W~Ronny Huang, Mahyar Najibi, Octavian Suciu, Christoph Studer,
+  Tudor Dumitras, and Tom Goldstein.
+\newblock Poison frogs! targeted clean-label poisoning attacks on neural
+  networks.
+\newblock \emph{Advances in neural information processing systems}, 31, 2018.
+
+\bibitem[Shah et~al.(2021)Shah, Dube, Chakraborty, and
+  Verma]{shah2021adversarial}
+Devansh Shah, Parijat Dube, Supriyo Chakraborty, and Ashish Verma.
+\newblock Adversarial training in communication constrained federated learning.
+\newblock \emph{arXiv preprint arXiv:2103.01319}, 2021.
+
+\bibitem[Shen et~al.(2016)Shen, Tople, and Saxena]{shen2016auror}
+Shiqi Shen, Shruti Tople, and Prateek Saxena.
+\newblock Auror: Defending against poisoning attacks in collaborative deep
+  learning systems.
+\newblock In \emph{Proceedings of the 32nd Annual Conference on Computer
+  Security Applications}, pages 508--519, 2016.
+
+\bibitem[Steinhardt et~al.(2017)Steinhardt, Koh, and
+  Liang]{steinhardt2017certified}
+Jacob Steinhardt, Pang Wei~W Koh, and Percy~S Liang.
+\newblock Certified defenses for data poisoning attacks.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Sun et~al.(2021)Sun, Li, DiValentin, Hassanzadeh, Chen, and
+  Li]{sun2021fl}
+Jingwei Sun, Ang Li, Louis DiValentin, Amin Hassanzadeh, Yiran Chen, and Hai
+  Li.
+\newblock Fl-wbc: Enhancing robustness against model poisoning attacks in
+  federated learning from a client perspective.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  34:\penalty0 12613--12624, 2021.
+
+\bibitem[Sun et~al.(2022)Sun, Ochiai, and Sakuma]{sun2022semi}
+Yuwei Sun, Hideya Ochiai, and Jun Sakuma.
+\newblock Semi-targeted model poisoning attack on federated learning via
+  backward error analysis.
+\newblock In \emph{2022 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 1--8. IEEE, 2022.
+
+\bibitem[Sun et~al.(2019)Sun, Kairouz, Suresh, and McMahan]{sun2019can}
+Ziteng Sun, Peter Kairouz, Ananda~Theertha Suresh, and H~Brendan McMahan.
+\newblock Can you really backdoor federated learning?
+\newblock \emph{arXiv preprint arXiv:1911.07963}, 2019.
+
+\bibitem[Tariq et~al.(2023)Tariq, Serhani, Sallabi, Qayyum, Barka, and
+  Shuaib]{tariq2023trustworthy}
+Asadullah Tariq, Mohamed~Adel Serhani, Farag Sallabi, Tariq Qayyum, Ezedin~S
+  Barka, and Khaled~A Shuaib.
+\newblock Trustworthy federated learning: A survey.
+\newblock \emph{arXiv preprint arXiv:2305.11537}, 2023.
+
+\bibitem[Tolpegin et~al.(2020)Tolpegin, Truex, Gursoy, and
+  Liu]{tolpegin2020data}
+Vale Tolpegin, Stacey Truex, Mehmet~Emre Gursoy, and Ling Liu.
+\newblock Data poisoning attacks against federated learning systems.
+\newblock In \emph{Computer Security--ESORICS 2020: 25th European Symposium on
+  Research in Computer Security, ESORICS 2020, Guildford, UK, September 14--18,
+  2020, Proceedings, Part I 25}, pages 480--501. Springer, 2020.
+
+\bibitem[Tran et~al.(2018)Tran, Li, and Madry]{tran2018spectral}
+Brandon Tran, Jerry Li, and Aleksander Madry.
+\newblock Spectral signatures in backdoor attacks.
+\newblock \emph{Advances in neural information processing systems}, 31, 2018.
+
+\bibitem[Voigt and Von~dem Bussche(2017)]{voigt2017eu}
+Paul Voigt and Axel Von~dem Bussche.
+\newblock The eu general data protection regulation (gdpr).
+\newblock \emph{A Practical Guide, 1st Ed., Cham: Springer International
+  Publishing}, 10\penalty0 (3152676):\penalty0 10--5555, 2017.
+
+\bibitem[Wang et~al.(2019)Wang, Yao, Shan, Li, Viswanath, Zheng, and
+  Zhao]{wang2019neural}
+Bolun Wang, Yuanshun Yao, Shawn Shan, Huiying Li, Bimal Viswanath, Haitao
+  Zheng, and Ben~Y Zhao.
+\newblock Neural cleanse: Identifying and mitigating backdoor attacks in neural
+  networks.
+\newblock In \emph{2019 IEEE Symposium on Security and Privacy (SP)}, pages
+  707--723. IEEE, 2019.
+
+\bibitem[Wang et~al.(2014)Wang, Jia, Fleck, Powell, Li, and
+  Stavrou]{wang2014moving}
+Huangxin Wang, Quan Jia, Dan Fleck, Walter Powell, Fei Li, and Angelos Stavrou.
+\newblock A moving target ddos defense mechanism.
+\newblock \emph{Computer Communications}, 46:\penalty0 10--21, 2014.
+
+\bibitem[Wang et~al.(2020)Wang, Sreenivasan, Rajput, Vishwakarma, Agarwal,
+  Sohn, Lee, and Papailiopoulos]{wang2020attack}
+Hongyi Wang, Kartik Sreenivasan, Shashank Rajput, Harit Vishwakarma, Saurabh
+  Agarwal, Jy-yong Sohn, Kangwook Lee, and Dimitris Papailiopoulos.
+\newblock Attack of the tails: Yes, you really can backdoor federated learning.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 16070--16084, 2020.
+
+\bibitem[Wang et~al.(2022)Wang, Xiao, Chen, Hu, Lou, and Hou]{wang2022flare}
+Ning Wang, Yang Xiao, Yimin Chen, Yang Hu, Wenjing Lou, and Y~Thomas Hou.
+\newblock Flare: defending federated learning against model poisoning attacks
+  via latent space representations.
+\newblock In \emph{Proceedings of the 2022 ACM on Asia Conference on Computer
+  and Communications Security}, pages 946--958, 2022.
+
+\bibitem[Weng et~al.(2020)Weng, Lee, and Wu]{weng2020trade}
+Cheng-Hsin Weng, Yan-Ting Lee, and Shan-Hung~Brandon Wu.
+\newblock On the trade-off between adversarial and backdoor robustness.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 11973--11983, 2020.
+
+\bibitem[Wu et~al.(2021)Wu, Wu, Cao, Huang, and Xie]{Wu_Wu_Cao_Huang_Xie_2021}
+Chuhan Wu, Fangzhao Wu, Yang Cao, Yongfeng Huang, and Xing Xie.
+\newblock Fedgnn: Federated graph neural network for privacy-preserving
+  recommendation.
+\newblock \emph{Cornell University - arXiv,Cornell University - arXiv}, 2021.
+
+\bibitem[Wu et~al.(2018)Wu, Yu, Song, and Hu]{wu2018sequential}
+Jun Wu, Yue Yu, Tiecheng Song, and Jing Hu.
+\newblock Sequential 0/1 for cooperative spectrum sensing in the presence of
+  strategic byzantine attack.
+\newblock \emph{IEEE Wireless Communications Letters}, 8\penalty0 (2):\penalty0
+  500--503, 2018.
+
+\bibitem[Xie et~al.(2018)Xie, Koyejo, and Gupta]{xie2018generalized}
+Cong Xie, Oluwasanmi Koyejo, and Indranil Gupta.
+\newblock Generalized byzantine-tolerant sgd.
+\newblock \emph{arXiv preprint arXiv:1802.10116}, 2018.
+
+\bibitem[Xie et~al.(2019)Xie, Huang, Chen, and Li]{xie2019dba}
+Chulin Xie, Keli Huang, Pin-Yu Chen, and Bo Li.
+\newblock Dba: Distributed backdoor attacks against federated learning.
+\newblock In \emph{International conference on learning representations}, 2019.
+
+\bibitem[Xie et~al.(2020)Xie, Koyejo, and Gupta]{xie2020fall}
+Cong Xie, Oluwasanmi Koyejo, and Indranil Gupta.
+\newblock Fall of empires: Breaking byzantine-tolerant sgd by inner product
+  manipulation.
+\newblock In \emph{Uncertainty in Artificial Intelligence}, pages 261--270.
+  PMLR, 2020.
+
+\bibitem[Xie et~al.(2021)Xie, Chen, Chen, and Li]{xie2021crfl}
+Chulin Xie, Minghao Chen, Pin-Yu Chen, and Bo Li.
+\newblock Crfl: Certifiably robust federated learning against backdoor attacks.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  11372--11382. PMLR, 2021.
+
+\bibitem[Xu et~al.(2020)Xu, Liu, Chen, Zhao, and Lin]{xu2020defending}
+Kaidi Xu, Sijia Liu, Pin-Yu Chen, Pu Zhao, and Xue Lin.
+\newblock Defending against backdoor attack on deep neural networks.
+\newblock \emph{arXiv preprint arXiv:2002.12162}, 2020.
+
+\bibitem[Yang et~al.(2022)Yang, Zhong, Yang, Yang, Xu, Wang, and
+  Zhang]{yang2022overview}
+Haonan Yang, Yongchao Zhong, Bo Yang, Yiyu Yang, Zifeng Xu, Longjuan Wang, and
+  Yuqing Zhang.
+\newblock An overview of sybil attack detection mechanisms in vfc.
+\newblock In \emph{2022 52nd Annual IEEE/IFIP International Conference on
+  Dependable Systems and Networks Workshops (DSN-W)}, pages 117--122. IEEE,
+  2022.
+
+\bibitem[Yang et~al.(2019)Yang, Liu, Cheng, Kang, Chen, and
+  Yu]{yang2019federated}
+Qiang Yang, Yang Liu, Yong Cheng, Yan Kang, Tianjian Chen, and Han Yu.
+\newblock Federated learning: synthesis lectures on artificial intelligence and
+  machine learning.
+\newblock \emph{vol}, 13:\penalty0 1--207, 2019.
+
+\bibitem[Yoshida and Fujino(2020)]{yoshida2020disabling}
+Kota Yoshida and Takeshi Fujino.
+\newblock Disabling backdoor and identifying poison data by using knowledge
+  distillation in backdoor attacks on deep neural networks.
+\newblock In \emph{Proceedings of the 13th ACM Workshop on Artificial
+  Intelligence and Security}, pages 117--127, 2020.
+
+\bibitem[Zeng et~al.(2021{\natexlab{a}})Zeng, Chen, Park, Mao, Jin, and
+  Jia]{zeng2021adversarial}
+Yi Zeng, Si Chen, Won Park, Z~Morley Mao, Ming Jin, and Ruoxi Jia.
+\newblock Adversarial unlearning of backdoors via implicit hypergradient.
+\newblock \emph{arXiv preprint arXiv:2110.03735}, 2021{\natexlab{a}}.
+
+\bibitem[Zeng et~al.(2021{\natexlab{b}})Zeng, Park, Mao, and
+  Jia]{zeng2021rethinking}
+Yi Zeng, Won Park, Z~Morley Mao, and Ruoxi Jia.
+\newblock Rethinking the backdoor attacks' triggers: A frequency perspective.
+\newblock In \emph{Proceedings of the IEEE/CVF international conference on
+  computer vision}, pages 16473--16481, 2021{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Zheng, Gao, Miao, Su, Li, and
+  Ren]{zhang2019data}
+Hengtong Zhang, Tianhang Zheng, Jing Gao, Chenglin Miao, Lu Su, Yaliang Li, and
+  Kui Ren.
+\newblock Data poisoning attack against knowledge graph embedding.
+\newblock \emph{arXiv preprint arXiv:1904.12052}, 2019.
+
+\bibitem[Zhang et~al.(2022{\natexlab{a}})Zhang, Chen, and Li]{zhang2022privacy}
+Jingyang Zhang, Yiran Chen, and Hai Li.
+\newblock Privacy leakage of adversarial training models in federated learning
+  systems.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 108--114, 2022{\natexlab{a}}.
+
+\bibitem[Zhang et~al.(2023{\natexlab{a}})Zhang, Li, Chen, Lyu, Wu, Ding, and
+  Wu]{zhang2023delving}
+Jie Zhang, Bo Li, Chen Chen, Lingjuan Lyu, Shuang Wu, Shouhong Ding, and Chao
+  Wu.
+\newblock Delving into the adversarial robustness of federated learning.
+\newblock \emph{arXiv preprint arXiv:2302.09479}, 2023{\natexlab{a}}.
+
+\bibitem[Zhang et~al.(2015)Zhang, Ding, Wu, Zou, Han, and
+  Wang]{zhang2015byzantine}
+Linyuan Zhang, Guoru Ding, Qihui Wu, Yulong Zou, Zhu Han, and Jinlong Wang.
+\newblock Byzantine attack and defense in cognitive radio networks: A survey.
+\newblock \emph{IEEE Communications Surveys \& Tutorials}, 17\penalty0
+  (3):\penalty0 1342--1363, 2015.
+
+\bibitem[Zhang et~al.(2023{\natexlab{b}})Zhang, Zeng, Luo, Xu, and
+  King]{zhang2023survey}
+Yifei Zhang, Dun Zeng, Jinglong Luo, Zenglin Xu, and Irwin King.
+\newblock A survey of trustworthy federated learning with perspectives on
+  security, robustness, and privacy.
+\newblock \emph{arXiv preprint arXiv:2302.10637}, 2023{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2022{\natexlab{b}})Zhang, Cao, Jia, and
+  Gong]{zhang2022fldetector}
+Zaixi Zhang, Xiaoyu Cao, Jinyuan Jia, and Neil~Zhenqiang Gong.
+\newblock Fldetector: Defending federated learning against model poisoning
+  attacks via detecting malicious clients.
+\newblock In \emph{Proceedings of the 28th ACM SIGKDD Conference on Knowledge
+  Discovery and Data Mining}, pages 2545--2555, 2022{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2022{\natexlab{c}})Zhang, Panda, Song, Yang, Mahoney,
+  Mittal, Kannan, and Gonzalez]{zhang2022neurotoxin}
+Zhengming Zhang, Ashwinee Panda, Linyue Song, Yaoqing Yang, Michael Mahoney,
+  Prateek Mittal, Ramchandran Kannan, and Joseph Gonzalez.
+\newblock Neurotoxin: Durable backdoors in federated learning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  26429--26446. PMLR, 2022{\natexlab{c}}.
+
+\bibitem[Zhao et~al.(2020)Zhao, Chen, Das, Ramamurthy, and
+  Lin]{zhao2020bridging}
+Pu Zhao, Pin-Yu Chen, Payel Das, Karthikeyan~Natesan Ramamurthy, and Xue Lin.
+\newblock Bridging mode connectivity in loss landscapes and adversarial
+  robustness.
+\newblock \emph{arXiv preprint arXiv:2005.00060}, 2020.
+
+\bibitem[Zhou et~al.(2021)Zhou, Xu, Wu, and Zheng]{zhou2021deep}
+Xingchen Zhou, Ming Xu, Yiming Wu, and Ning Zheng.
+\newblock Deep model poisoning attack on federated learning.
+\newblock \emph{Future Internet}, 13\penalty0 (3):\penalty0 73, 2021.
+
+\bibitem[Zhou et~al.(2020)Zhou, Wu, and He]{zhou2020adversarially}
+Yao Zhou, Jun Wu, and Jingrui He.
+\newblock Adversarially robust federated learning for neural networks.
+\newblock 2020.
+
+\bibitem[Zhou et~al.(2022)Zhou, Wu, Wang, and He]{zhou2022adversarial}
+Yao Zhou, Jun Wu, Haixun Wang, and Jingrui He.
+\newblock Adversarial robustness through bias variance decomposition: A new
+  perspective for federated learning.
+\newblock In \emph{Proceedings of the 31st ACM International Conference on
+  Information \& Knowledge Management}, pages 2753--2762, 2022.
+
+\bibitem[Zhu et~al.(2019)Zhu, Huang, Li, Taylor, Studer, and
+  Goldstein]{zhu2019transferable}
+Chen Zhu, W~Ronny Huang, Hengduo Li, Gavin Taylor, Christoph Studer, and Tom
+  Goldstein.
+\newblock Transferable clean-label poisoning attacks on deep neural nets.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  7614--7623. PMLR, 2019.
+
+\bibitem[Zhu et~al.(2020)Zhu, Ning, Wang, Xin, and Wu]{zhu2020gangsweep}
+Liuwan Zhu, Rui Ning, Cong Wang, Chunsheng Xin, and Hongyi Wu.
+\newblock Gangsweep: Sweep out neural backdoors by gan.
+\newblock In \emph{Proceedings of the 28th ACM International Conference on
+  Multimedia}, pages 3173--3181, 2020.
+
+\bibitem[Zizzo et~al.(2020)Zizzo, Rawat, Sinn, and Buesser]{zizzo2020fat}
+Giulio Zizzo, Ambrish Rawat, Mathieu Sinn, and Beat Buesser.
+\newblock Fat: Federated adversarial training.
+\newblock \emph{arXiv preprint arXiv:2012.01791}, 2020.
+
+\end{thebibliography}

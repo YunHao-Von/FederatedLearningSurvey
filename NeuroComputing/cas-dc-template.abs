@@ -1,7 +1,7 @@
 Federated learning is a distributed machine learning paradigm that emerged as a solution to the need for privacy
 	protection in artificial intelligence. Like traditional machine
 	learning, federated learning is threatened by multiple attacks,
-    such as backdoor attacks,
+	such as backdoor attacks,
 	Byzantine attacks, and adversarial attacks. The weaknesses are
 	exacerbated by the inaccessibility of data in federated learning,
 	which makes it more diﬀicult to defend against these threats.

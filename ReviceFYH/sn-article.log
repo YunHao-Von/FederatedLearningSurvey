@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  9 SEP 2024 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  14 SEP 2024 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -477,7 +477,380 @@ Package amsthm Warning: Unknown theoremstyle `thmstylethree' on input line 87.
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count310
 \l__pdf_internal_box=\box70
-) (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.aux)
+) (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.aux
+
+Package natbib Warning: Citation `kirillov2023segment' multiply defined.
+
+
+Package natbib Warning: Citation `voigt2017eu' multiply defined.
+
+
+Package natbib Warning: Citation `mcmahan2017communication' multiply defined.
+
+
+Package natbib Warning: Citation `yang2019federated' multiply defined.
+
+
+Package natbib Warning: Citation `doshi2022federated' multiply defined.
+
+
+Package natbib Warning: Citation `becking2022adaptive' multiply defined.
+
+
+Package natbib Warning: Citation `liu2024vertical' multiply defined.
+
+
+Package natbib Warning: Citation `liu2024recent' multiply defined.
+
+
+Package natbib Warning: Citation `ye2024openfedllm' multiply defined.
+
+
+Package natbib Warning: Citation `gecer2024federated' multiply defined.
+
+
+Package natbib Warning: Citation `yazdinejad2024robust' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2024a3fl' multiply defined.
+
+
+Package natbib Warning: Citation `rodriguez2023survey' multiply defined.
+
+
+Package natbib Warning: Citation `tariq2023trustworthy' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2023survey' multiply defined.
+
+
+Package natbib Warning: Citation `pan2024one' multiply defined.
+
+
+Package natbib Warning: Citation `yang2024distributed' multiply defined.
+
+
+Package natbib Warning: Citation `zeng2021rethinking' multiply defined.
+
+
+Package natbib Warning: Citation `wang2024rope' multiply defined.
+
+
+Package natbib Warning: Citation `doan2020februus' multiply defined.
+
+
+Package natbib Warning: Citation `li2020learning' multiply defined.
+
+
+Package natbib Warning: Citation `naseri2024badvfl' multiply defined.
+
+
+Package natbib Warning: Citation `nguyen2024backdoor' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2024survey' multiply defined.
+
+
+Package natbib Warning: Citation `bagdasaryan2020backdoor' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2022neurotoxin' multiply defined.
+
+
+Package natbib Warning: Citation `zhou2021deep' multiply defined.
+
+
+Package natbib Warning: Citation `sun2022semi' multiply defined.
+
+
+Package natbib Warning: Citation `wang2020attack' multiply defined.
+
+
+Package natbib Warning: Citation `gong2022backdoor' multiply defined.
+
+
+Package natbib Warning: Citation `sun2019can' multiply defined.
+
+
+Package natbib Warning: Citation `ozdayi2021defending' multiply defined.
+
+
+Package natbib Warning: Citation `fang2020local' multiply defined.
+
+
+Package natbib Warning: Citation `guo2021byzantine' multiply defined.
+
+
+Package natbib Warning: Citation `prakash2020mitigating' multiply defined.
+
+
+Package natbib Warning: Citation `zizzo2020fat' multiply defined.
+
+
+Package natbib Warning: Citation `chen2022calfat' multiply defined.
+
+
+Package natbib Warning: Citation `li2023federated' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2023delving' multiply defined.
+
+
+Package natbib Warning: Citation `miao2018towards' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2019data' multiply defined.
+
+
+Package natbib Warning: Citation `barreno2006can' multiply defined.
+
+
+Package natbib Warning: Citation `lamport2019byzantine' multiply defined.
+
+
+Package natbib Warning: Citation `xie2020fall' multiply defined.
+
+
+Package natbib Warning: Citation `bernstein2018signsgd' multiply defined.
+
+
+Package natbib Warning: Citation `damaskinos2019aggregathor' multiply defined.
+
+
+Package natbib Warning: Citation `geigel2013neural' multiply defined.
+
+
+Package natbib Warning: Citation `gu2017badnets' multiply defined.
+
+
+Package natbib Warning: Citation `xie2019dba' multiply defined.
+
+
+Package natbib Warning: Citation `salem2022dynamic' multiply defined.
+
+
+Package natbib Warning: Citation `li2020rethinking' multiply defined.
+
+
+Package natbib Warning: Citation `dai2023chameleon' multiply defined.
+
+
+Package natbib Warning: Citation `shen2016auror' multiply defined.
+
+
+Package natbib Warning: Citation `steinhardt2017certified' multiply defined.
+
+
+Package natbib Warning: Citation `tolpegin2020data' multiply defined.
+
+
+Package natbib Warning: Citation `shafahi2018poison' multiply defined.
+
+
+Package natbib Warning: Citation `zhu2019transferable' multiply defined.
+
+
+Package natbib Warning: Citation `tran2018spectral' multiply defined.
+
+
+Package natbib Warning: Citation `chen2018detecting' multiply defined.
+
+
+Package natbib Warning: Citation `liu2017neural' multiply defined.
+
+
+Package natbib Warning: Citation `li2021backdoor' multiply defined.
+
+
+Package natbib Warning: Citation `fung2018mitigating' multiply defined.
+
+
+Package natbib Warning: Citation `nguyen2021flguard' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2022fldetector' multiply defined.
+
+
+Package natbib Warning: Citation `cao2023fedrecover' multiply defined.
+
+
+Package natbib Warning: Citation `naseri2020toward' multiply defined.
+
+
+Package natbib Warning: Citation `bagdasaryan2019differential' multiply defined.
+
+
+Package natbib Warning: Citation `mcmahan2017learning' multiply defined.
+
+
+Package natbib Warning: Citation `andreina2021baffle' multiply defined.
+
+
+Package natbib Warning: Citation `xie2021crfl' multiply defined.
+
+
+Package natbib Warning: Citation `nguyen2022flame' multiply defined.
+
+
+Package natbib Warning: Citation `sun2021fl' multiply defined.
+
+
+Package natbib Warning: Citation `wang2022flare' multiply defined.
+
+
+Package natbib Warning: Citation `li2021anti' multiply defined.
+
+
+Package natbib Warning: Citation `zeng2021adversarial' multiply defined.
+
+
+Package natbib Warning: Citation `zhao2020bridging' multiply defined.
+
+
+Package natbib Warning: Citation `yoshida2020disabling' multiply defined.
+
+
+Package natbib Warning: Citation `huang2023distilling' multiply defined.
+
+
+Package natbib Warning: Citation `zhu2020gangsweep' multiply defined.
+
+
+Package natbib Warning: Citation `guo2020towards' multiply defined.
+
+
+Package natbib Warning: Citation `wang2019neural' multiply defined.
+
+
+Package natbib Warning: Citation `xu2020defending' multiply defined.
+
+
+Package natbib Warning: Citation `aiken2021neural' multiply defined.
+
+
+Package natbib Warning: Citation `douceur2002sybil' multiply defined.
+
+
+Package natbib Warning: Citation `bhagoji2019analyzing' multiply defined.
+
+
+Package natbib Warning: Citation `lin2019free' multiply defined.
+
+
+Package natbib Warning: Citation `yang2022overview' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2015byzantine' multiply defined.
+
+
+Package natbib Warning: Citation `kailkhura2013distributed' multiply defined.
+
+
+Package natbib Warning: Citation `fatemieh2010secure' multiply defined.
+
+
+Package natbib Warning: Citation `qin2013defending' multiply defined.
+
+
+Package natbib Warning: Citation `fatemieh2011using' multiply defined.
+
+
+Package natbib Warning: Citation `wu2018sequential' multiply defined.
+
+
+Package natbib Warning: Citation `guerraoui2018hidden' multiply defined.
+
+
+Package natbib Warning: Citation `xie2018generalized' multiply defined.
+
+
+Package natbib Warning: Citation `li2014resolving' multiply defined.
+
+
+Package natbib Warning: Citation `hsu2019measuring' multiply defined.
+
+
+Package natbib Warning: Citation `jiang2023secure' multiply defined.
+
+
+Package natbib Warning: Citation `gil2017guaranteeing' multiply defined.
+
+
+Package natbib Warning: Citation `blanchard2017machine' multiply defined.
+
+
+Package natbib Warning: Citation `munoz2019byzantine' multiply defined.
+
+
+Package natbib Warning: Citation `mallmann2021crowd' multiply defined.
+
+
+Package natbib Warning: Citation `chen2012robustness' multiply defined.
+
+
+Package natbib Warning: Citation `mostafa2019robust' multiply defined.
+
+
+Package natbib Warning: Citation `wang2014moving' multiply defined.
+
+
+Package natbib Warning: Citation `agrawal2019defense' multiply defined.
+
+
+Package natbib Warning: Citation `portnoy2020towards' multiply defined.
+
+
+Package natbib Warning: Citation `pillutla2022robust' multiply defined.
+
+
+Package natbib Warning: Citation `goodfellow2014explaining' multiply defined.
+
+
+Package natbib Warning: Citation `madry2017towards' multiply defined.
+
+
+Package natbib Warning: Citation `wang2024defense' multiply defined.
+
+
+Package natbib Warning: Citation `wang2024detecting' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2023detecting' multiply defined.
+
+
+Package natbib Warning: Citation `feinman2017detecting' multiply defined.
+
+
+Package natbib Warning: Citation `pang2022two' multiply defined.
+
+
+Package natbib Warning: Citation `reisizadeh2020robust' multiply defined.
+
+
+Package natbib Warning: Citation `polyak1963gradient' multiply defined.
+
+
+Package natbib Warning: Citation `hong2021federated' multiply defined.
+
+
+Package natbib Warning: Citation `chen2021certifiably' multiply defined.
+
+
+Package natbib Warning: Citation `zhou2022adversarial' multiply defined.
+
+
+Package natbib Warning: Citation `zhang2022privacy' multiply defined.
+
+
+Package natbib Warning: Citation `zhou2020adversarially' multiply defined.
+
+
+Package natbib Warning: Citation `shah2021adversarial' multiply defined.
+
+
+Package natbib Warning: Citation `weng2020trade' multiply defined.
+
+)
 \openout1 = `sn-article.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -884,6 +1257,9 @@ l.746
                                                   \fi \fi 
 l.746 
        </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig9-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig10-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Package epstopdf Info: Source file: <output/fig11.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 6310479 bytes
@@ -891,28 +1267,21 @@ Package epstopdf Info: Source file: <output/fig11.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 482336 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig11-eps-converted-to.pdf output/fig11.eps>
-(epstopdf)             \includegraphics on input line 807.
+(epstopdf)             \includegraphics on input line 809.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig11-eps-converted-to.pdf, id=579, 1138.2525pt x 854.19125pt>
+<output/fig11-eps-converted-to.pdf, id=592, 1138.2525pt x 854.19125pt>
 File: output/fig11-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig11-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig11-eps-converted-to.pdf  used on input line 807.
+Package pdftex.def Info: output/fig11-eps-converted-to.pdf  used on input line 809.
 (pdftex.def)             Requested size: 371.9945pt x 252.93571pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.859 
+l.861 
        </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig11-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -924,12 +1293,12 @@ Package epstopdf Info: Source file: <output/fig12.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 1353728 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig12-eps-converted-to.pdf output/fig12.eps>
-(epstopdf)             \includegraphics on input line 938.
+(epstopdf)             \includegraphics on input line 940.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig12-eps-converted-to.pdf, id=653, 2845.63126pt x 2276.505pt>
+<output/fig12-eps-converted-to.pdf, id=654, 2845.63126pt x 2276.505pt>
 File: output/fig12-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig12-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig12-eps-converted-to.pdf  used on input line 938.
+Package pdftex.def Info: output/fig12-eps-converted-to.pdf  used on input line 940.
 (pdftex.def)             Requested size: 182.28043pt x 180.66518pt.
 Package epstopdf Info: Source file: <output/fig13.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
@@ -938,12 +1307,12 @@ Package epstopdf Info: Source file: <output/fig13.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 588410 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig13-eps-converted-to.pdf output/fig13.eps>
-(epstopdf)             \includegraphics on input line 945.
+(epstopdf)             \includegraphics on input line 947.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig13-eps-converted-to.pdf, id=654, 806.01125pt x 617.30624pt>
+<output/fig13-eps-converted-to.pdf, id=655, 806.01125pt x 617.30624pt>
 File: output/fig13-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig13-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig13-eps-converted-to.pdf  used on input line 945.
+Package pdftex.def Info: output/fig13-eps-converted-to.pdf  used on input line 947.
 (pdftex.def)             Requested size: 182.2794pt x 180.67203pt.
 Package epstopdf Info: Source file: <output/fig14.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
@@ -952,12 +1321,12 @@ Package epstopdf Info: Source file: <output/fig14.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 96232 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig14-eps-converted-to.pdf output/fig14.eps>
-(epstopdf)             \includegraphics on input line 956.
+(epstopdf)             \includegraphics on input line 958.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig14-eps-converted-to.pdf, id=655, 950.55125pt x 718.685pt>
+<output/fig14-eps-converted-to.pdf, id=656, 950.55125pt x 718.685pt>
 File: output/fig14-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig14-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig14-eps-converted-to.pdf  used on input line 956.
+Package pdftex.def Info: output/fig14-eps-converted-to.pdf  used on input line 958.
 (pdftex.def)             Requested size: 372.00438pt x 252.94719pt.
 
 
@@ -970,12 +1339,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.984 
+l.986 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.984 
+l.986 
        </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig12-eps-converted-to.pdf> </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig13-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -983,7 +1352,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1012 
+l.1014 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig14-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -995,12 +1364,12 @@ Package epstopdf Info: Source file: <output/fig15.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 41949 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig15-eps-converted-to.pdf output/fig15.eps>
-(epstopdf)             \includegraphics on input line 1090.
+(epstopdf)             \includegraphics on input line 1092.
 Package epstopdf Info: Output file is already uptodate.
 <output/fig15-eps-converted-to.pdf, id=775, 1024.82875pt x 484.81125pt>
 File: output/fig15-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig15-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig15-eps-converted-to.pdf  used on input line 1090.
+Package pdftex.def Info: output/fig15-eps-converted-to.pdf  used on input line 1092.
 (pdftex.def)             Requested size: 372.00304pt x 180.67932pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1009,7 +1378,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1122 
+l.1124 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig15-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig16.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
@@ -1018,12 +1387,12 @@ Package epstopdf Info: Source file: <output/fig16.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 55946 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig16-eps-converted-to.pdf output/fig16.eps>
-(epstopdf)             \includegraphics on input line 1125.
+(epstopdf)             \includegraphics on input line 1127.
 Package epstopdf Info: Output file is already uptodate.
 <output/fig16-eps-converted-to.pdf, id=799, 1018.80624pt x 722.7pt>
 File: output/fig16-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig16-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig16-eps-converted-to.pdf  used on input line 1125.
+Package pdftex.def Info: output/fig16-eps-converted-to.pdf  used on input line 1127.
 (pdftex.def)             Requested size: 371.99333pt x 252.93776pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1032,7 +1401,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1169 
+l.1150 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig16-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig17.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
@@ -1041,12 +1410,12 @@ Package epstopdf Info: Source file: <output/fig17.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 50801 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig17-eps-converted-to.pdf output/fig17.eps>
-(epstopdf)             \includegraphics on input line 1200.
+(epstopdf)             \includegraphics on input line 1202.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig17-eps-converted-to.pdf, id=827, 894.34125pt x 693.59125pt>
+<output/fig17-eps-converted-to.pdf, id=826, 894.34125pt x 693.59125pt>
 File: output/fig17-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig17-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig17-eps-converted-to.pdf  used on input line 1200.
+Package pdftex.def Info: output/fig17-eps-converted-to.pdf  used on input line 1202.
 (pdftex.def)             Requested size: 372.00443pt x 252.94174pt.
 
 
@@ -1062,8 +1431,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1272 
-        </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig17-eps-converted-to.pdf>]
+l.1253 \subsection
+                  {Defense Against Transmission Process Attack} </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig17-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <output/fig18.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 2513187 bytes
@@ -1071,25 +1440,29 @@ Package epstopdf Info: Source file: <output/fig18.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 84183 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig18-eps-converted-to.pdf output/fig18.eps>
-(epstopdf)             \includegraphics on input line 1288.
+(epstopdf)             \includegraphics on input line 1290.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig18-eps-converted-to.pdf, id=860, 921.4425pt x 638.385pt>
+<output/fig18-eps-converted-to.pdf, id=862, 921.4425pt x 638.385pt>
 File: output/fig18-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig18-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig18-eps-converted-to.pdf  used on input line 1288.
+Package pdftex.def Info: output/fig18-eps-converted-to.pdf  used on input line 1290.
 (pdftex.def)             Requested size: 371.98708pt x 238.48787pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1310 
+l.1375 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig18-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
 Package epstopdf Info: Source file: <output/fig19.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 260348 bytes
@@ -1097,12 +1470,12 @@ Package epstopdf Info: Source file: <output/fig19.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 24869 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig19-eps-converted-to.pdf output/fig19.eps>
-(epstopdf)             \includegraphics on input line 1404.
+(epstopdf)             \includegraphics on input line 1406.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig19-eps-converted-to.pdf, id=904, 915.42pt x 533.995pt>
+<output/fig19-eps-converted-to.pdf, id=906, 915.42pt x 533.995pt>
 File: output/fig19-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig19-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig19-eps-converted-to.pdf  used on input line 1404.
+Package pdftex.def Info: output/fig19-eps-converted-to.pdf  used on input line 1406.
 (pdftex.def)             Requested size: 372.00021pt x 202.35799pt.
 
 
@@ -1118,11 +1491,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1488 \begin{equation}
+l.1472 \begin{equation}
                         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig19-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
 Package epstopdf Info: Source file: <output/fig20.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 251898 bytes
@@ -1130,39 +1506,13 @@ Package epstopdf Info: Source file: <output/fig20.eps>
 (epstopdf)                    date: 2024-09-09 16:20:26
 (epstopdf)                    size: 19745 bytes
 (epstopdf)             Command: <repstopdf --outfile=output/fig20-eps-converted-to.pdf output/fig20.eps>
-(epstopdf)             \includegraphics on input line 1595.
+(epstopdf)             \includegraphics on input line 1605.
 Package epstopdf Info: Output file is already uptodate.
-<output/fig20-eps-converted-to.pdf, id=943, 963.6pt x 542.025pt>
+<output/fig20-eps-converted-to.pdf, id=958, 963.6pt x 542.025pt>
 File: output/fig20-eps-converted-to.pdf Graphic file (type pdf)
 <use output/fig20-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig20-eps-converted-to.pdf  used on input line 1595.
+Package pdftex.def Info: output/fig20-eps-converted-to.pdf  used on input line 1605.
 (pdftex.def)             Requested size: 371.99432pt x 252.9405pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-Package epstopdf Info: Source file: <output/fig21.eps>
-(epstopdf)                    date: 2024-09-09 16:20:26
-(epstopdf)                    size: 355749 bytes
-(epstopdf)             Output file: <output/fig21-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-09-09 16:20:26
-(epstopdf)                    size: 54504 bytes
-(epstopdf)             Command: <repstopdf --outfile=output/fig21-eps-converted-to.pdf output/fig21.eps>
-(epstopdf)             \includegraphics on input line 1627.
-Package epstopdf Info: Output file is already uptodate.
-<output/fig21-eps-converted-to.pdf, id=953, 737.75626pt x 248.93pt>
-File: output/fig21-eps-converted-to.pdf Graphic file (type pdf)
-<use output/fig21-eps-converted-to.pdf>
-Package pdftex.def Info: output/fig21-eps-converted-to.pdf  used on input line 1627.
-(pdftex.def)             Requested size: 371.99547pt x 130.09006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1170,46 +1520,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1656 
+l.1634 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig20-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <output/fig21.eps>
+(epstopdf)                    date: 2024-09-09 16:20:26
+(epstopdf)                    size: 355749 bytes
+(epstopdf)             Output file: <output/fig21-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-09 16:20:26
+(epstopdf)                    size: 54504 bytes
+(epstopdf)             Command: <repstopdf --outfile=output/fig21-eps-converted-to.pdf output/fig21.eps>
+(epstopdf)             \includegraphics on input line 1637.
+Package epstopdf Info: Output file is already uptodate.
+<output/fig21-eps-converted-to.pdf, id=1000, 737.75626pt x 248.93pt>
+File: output/fig21-eps-converted-to.pdf Graphic file (type pdf)
+<use output/fig21-eps-converted-to.pdf>
+Package pdftex.def Info: output/fig21-eps-converted-to.pdf  used on input line 1637.
+(pdftex.def)             Requested size: 371.99547pt x 130.09006pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1708 
+l.1677 
         </media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/output/fig21-eps-converted-to.pdf>]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 1737.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 1747.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1737.
+(Font)              size <5> substituted on input line 1747.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 1737.
+(Font)              size <5> substituted on input line 1747.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1737.
+(Font)              size <5> substituted on input line 1747.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 1737.
+(Font)              size <5> substituted on input line 1747.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+ [33pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1779 
-       ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33] (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.bbl
+l.1812 
+       ] (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.bbl
 Underfull \hbox (badness 5711) in paragraph at lines 82--95
 []\OT1/cmr/m/n/10 McMahan, B., Moore, E., Ram-age, D., Hamp-son, S., Arcas, B.A.:
  []
@@ -1244,16 +1609,550 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1848.
+ [43]) (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.bblpdfTeX warning (ext4): destination with the same identifier (name{cite.kirillov2023segment}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 ...rillov et~al.}{2023}]{kirillov2023segment}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.voigt2017eu}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 ...t and Von~dem Bussche}{2017}]{voigt2017eu}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.mcmahan2017communication}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80   et~al.}{2017}]{mcmahan2017communication}
+                                               
+Underfull \hbox (badness 5711) in paragraph at lines 82--95
+[]\OT1/cmr/m/n/10 McMahan, B., Moore, E., Ram-age, D., Hamp-son, S., Arcas, B.A.:
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1848.
+ [44]pdfTeX warning (ext4): destination with the same identifier (name{cite.yang2019federated}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 ...ear{Yang et~al.}{2019}]{yang2019federated}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.doshi2022federated}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 ...hi and Yilmaz}{2022}]{doshi2022federated}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.becking2022adaptive}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.129 ...cking et~al.}{2022}]{becking2022adaptive}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.liu2024vertical}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 ...year{Liu et~al.}{2024a}]{liu2024vertical}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.liu2024recent}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.166 ...oryear{Liu et~al.}{2024b}]{liu2024recent}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.ye2024openfedllm}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.180 ...ryear{Ye et~al.}{2024}]{ye2024openfedllm}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.gecer2024federated}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202   Garbinato}{2024}]{gecer2024federated}
+                                             pdfTeX warning (ext4): destination with the same identifier (name{cite.yazdinejad2024robust}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.216   et~al.}{2024}]{yazdinejad2024robust}
+                                            pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2024a3fl}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.231 ...ryear{Zhang et~al.}{2024}]{zhang2024a3fl}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.rodriguez2023survey}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247   et~al.}{2023}]{rodriguez2023survey}
+                                           pdfTeX warning (ext4): destination with the same identifier (name{cite.tariq2023trustworthy}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.264 ...ariq et~al.}{2023}]{tariq2023trustworthy}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2023survey}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.279 ...ear{Zhang et~al.}{2023}]{zhang2023survey}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.pan2024one}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.294 ...authoryear{Pan et~al.}{2024}]{pan2024one}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.yang2024distributed}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.309 ...{Yang et~al.}{2024}]{yang2024distributed}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zeng2021rethinking}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.324 ...r{Zeng et~al.}{2021}]{zeng2021rethinking}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2024rope}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.339 ...horyear{Wang et~al.}{2024}]{wang2024rope}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.doan2020februus}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.354 ...year{Doan et~al.}{2020}]{doan2020februus}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2020learning}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.368 ...horyear{Li et~al.}{2020}]{li2020learning}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.naseri2024badvfl}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.382 ...r{Naseri et~al.}{2024}]{naseri2024badvfl}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.nguyen2024backdoor}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.396 ...Nguyen et~al.}{2024}]{nguyen2024backdoor}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2024survey}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.414 ...ear{Zhang et~al.}{2024}]{zhang2024survey}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.bagdasaryan2020backdoor}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.431   et~al.}{2020}]{bagdasaryan2020backdoor}
+                                               pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2022neurotoxin}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.448 ...Zhang et~al.}{2022}]{zhang2022neurotoxin}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhou2021deep}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.467 ...horyear{Zhou et~al.}{2021}]{zhou2021deep}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]pdfTeX warning (ext4): destination with the same identifier (name{cite.sun2022semi}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.482 ...uthoryear{Sun et~al.}{2022}]{sun2022semi}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2020attack}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.497 ...ryear{Wang et~al.}{2020}]{wang2020attack}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.gong2022backdoor}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.516 ...ear{Gong et~al.}{2022}]{gong2022backdoor}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.sun2019can}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.530 ...authoryear{Sun et~al.}{2019}]{sun2019can}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.ozdayi2021defending}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.543 ...zdayi et~al.}{2021}]{ozdayi2021defending}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.fang2020local}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.558 ...oryear{Fang et~al.}{2020}]{fang2020local}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.guo2021byzantine}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.573 ...year{Guo et~al.}{2021}]{guo2021byzantine}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.prakash2020mitigating}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.592   Avestimehr}{2020}]{prakash2020mitigating}
+                                                 pdfTeX warning (ext4): destination with the same identifier (name{cite.zizzo2020fat}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.603 ...oryear{Zizzo et~al.}{2020}]{zizzo2020fat}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.chen2022calfat}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.616 ...ryear{Chen et~al.}{2022}]{chen2022calfat}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2023federated}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.632 ...oryear{Li et~al.}{2023}]{li2023federated}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2023delving}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.647 ...ar{Zhang et~al.}{2023}]{zhang2023delving}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]pdfTeX warning (ext4): destination with the same identifier (name{cite.miao2018towards}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.663 ...year{Miao et~al.}{2018}]{miao2018towards}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2019data}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.680 ...ryear{Zhang et~al.}{2019}]{zhang2019data}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.barreno2006can}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.696 ...ar{Barreno et~al.}{2006}]{barreno2006can}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.lamport2019byzantine}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.712 ...port et~al.}{2019}]{lamport2019byzantine}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.xie2020fall}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.725 ...uthoryear{Xie et~al.}{2020}]{xie2020fall}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.bernstein2018signsgd}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.740 ...tein et~al.}{2018}]{bernstein2018signsgd}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.damaskinos2019aggregathor}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.754   et~al.}{2019}]{damaskinos2019aggregathor}
+                                                 pdfTeX warning (ext4): destination with the same identifier (name{cite.geigel2013neural}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.771 ...thoryear{Geigel}{2013}]{geigel2013neural}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.gu2017badnets}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.783 ...thoryear{Gu et~al.}{2017}]{gu2017badnets}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.xie2019dba}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.796 ...authoryear{Xie et~al.}{2019}]{xie2019dba}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.salem2022dynamic}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.809 ...ar{Salem et~al.}{2022}]{salem2022dynamic}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2020rethinking}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.826 ...ryear{Li et~al.}{2020}]{li2020rethinking}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.dai2023chameleon}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.841 ...year{Dai and Li}{2023}]{dai2023chameleon}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]pdfTeX warning (ext4): destination with the same identifier (name{cite.shen2016auror}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.853 ...oryear{Shen et~al.}{2016}]{shen2016auror}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.steinhardt2017certified}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.869   et~al.}{2017}]{steinhardt2017certified}
+                                               pdfTeX warning (ext4): destination with the same identifier (name{cite.tolpegin2020data}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.882 ...Tolpegin et~al.}{2020}]{tolpegin2020data}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.shafahi2018poison}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.899 ...Shafahi et~al.}{2018}]{shafahi2018poison}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhu2019transferable}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.916 ...r{Zhu et~al.}{2019}]{zhu2019transferable}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.tran2018spectral}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.933 ...ear{Tran et~al.}{2018}]{tran2018spectral}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.chen2018detecting}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.946 ...ar{Chen et~al.}{2018}]{chen2018detecting}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.liu2017neural}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.963 ...horyear{Liu et~al.}{2017}]{liu2017neural}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2021backdoor}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.977 ...horyear{Li et~al.}{2021}]{li2021backdoor}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.fung2018mitigating}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.991 ...r{Fung et~al.}{2018}]{fung2018mitigating}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.nguyen2021flguard}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1003 ...Nguyen et~al.}{2021}]{nguyen2021flguard}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2022fldetector}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1023 ...hang et~al.}{2022}]{zhang2022fldetector}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]pdfTeX warning (ext4): destination with the same identifier (name{cite.cao2023fedrecover}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1039 ...ar{Cao et~al.}{2023}]{cao2023fedrecover}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.naseri2020toward}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1055 ...{Naseri et~al.}{2020}]{naseri2020toward}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.bagdasaryan2019differential}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1069 ...al.}{2019}]{bagdasaryan2019differential}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.mcmahan2017learning}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1082 ...ahan et~al.}{2017}]{mcmahan2017learning}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.andreina2021baffle}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1095 ...reina et~al.}{2021}]{andreina2021baffle}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.xie2021crfl}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1111 ...thoryear{Xie et~al.}{2021}]{xie2021crfl}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.nguyen2022flame}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1126 ...r{Nguyen et~al.}{2022}]{nguyen2022flame}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.sun2021fl}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1146 ...authoryear{Sun et~al.}{2021}]{sun2021fl}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2022flare}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1164 ...ryear{Wang et~al.}{2022}]{wang2022flare}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2021anti}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1182 ...authoryear{Li et~al.}{2021}]{li2021anti}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zeng2021adversarial}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1199 ...Zeng et~al.}{2021}]{zeng2021adversarial}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhao2020bridging}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1214 ...ar{Zhao et~al.}{2020}]{zhao2020bridging}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]pdfTeX warning (ext4): destination with the same identifier (name{cite.yoshida2020disabling}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1229   Fujino}{2020}]{yoshida2020disabling}
+                                             pdfTeX warning (ext4): destination with the same identifier (name{cite.huang2023distilling}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1243 ...uang et~al.}{2023}]{huang2023distilling}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhu2020gangsweep}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1256 ...ear{Zhu et~al.}{2020}]{zhu2020gangsweep}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.guo2020towards}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1272 ...ryear{Guo et~al.}{2020}]{guo2020towards}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2019neural}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1290 ...year{Wang et~al.}{2019}]{wang2019neural}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.xu2020defending}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1309 ...ryear{Xu et~al.}{2020}]{xu2020defending}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.aiken2021neural}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1323 ...ar{Aiken et~al.}{2021}]{aiken2021neural}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.douceur2002sybil}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1339 ...oryear{Douceur}{2002}]{douceur2002sybil}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.bhagoji2019analyzing}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1351 ...oji et~al.}{2019}]{bhagoji2019analyzing}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.lin2019free}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1366 ...thoryear{Lin et~al.}{2019}]{lin2019free}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.yang2022overview}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1378 ...ar{Yang et~al.}{2022}]{yang2022overview}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2015byzantine}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1397 ...Zhang et~al.}{2015}]{zhang2015byzantine}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]pdfTeX warning (ext4): destination with the same identifier (name{cite.kailkhura2013distributed}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1415   et~al.}{2013}]{kailkhura2013distributed}
+                                                 pdfTeX warning (ext4): destination with the same identifier (name{cite.fatemieh2010secure}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1428 ...emieh et~al.}{2010}]{fatemieh2010secure}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.qin2013defending}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1444 ...ear{Qin et~al.}{2013}]{qin2013defending}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.fatemieh2011using}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1459 ...temieh et~al.}{2011}]{fatemieh2011using}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wu2018sequential}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1473 ...year{Wu et~al.}{2018}]{wu2018sequential}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.guerraoui2018hidden}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1489 ...aoui et~al.}{2018}]{guerraoui2018hidden}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.xie2018generalized}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1502 ...r{Xie et~al.}{2018}]{xie2018generalized}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.li2014resolving}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1514 ...ryear{Li et~al.}{2014}]{li2014resolving}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.hsu2019measuring}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1532 ...ear{Hsu et~al.}{2019}]{hsu2019measuring}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.jiang2023secure}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1545 ...ar{Jiang et~al.}{2023}]{jiang2023secure}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.gil2017guaranteeing}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1561 ...{Gil et~al.}{2017}]{gil2017guaranteeing}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.blanchard2017machine}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1577 ...ard et~al.}{2017}]{blanchard2017machine}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]pdfTeX warning (ext4): destination with the same identifier (name{cite.munoz2019byzantine}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1592   et~al.}{2019}]{munoz2019byzantine}
+                                           pdfTeX warning (ext4): destination with the same identifier (name{cite.mallmann2021crowd}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1605   et~al.}{2021}]{mallmann2021crowd}
+                                          pdfTeX warning (ext4): destination with the same identifier (name{cite.chen2012robustness}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1620 ...{Chen et~al.}{2012}]{chen2012robustness}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.mostafa2019robust}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1635 ...ryear{Mostafa}{2019}]{mostafa2019robust}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2014moving}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1646 ...year{Wang et~al.}{2014}]{wang2014moving}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.agrawal2019defense}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1664   Tapaswi}{2019}]{agrawal2019defense}
+                                            pdfTeX warning (ext4): destination with the same identifier (name{cite.portnoy2020towards}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1679   Hendler}{2020}]{portnoy2020towards}
+                                            pdfTeX warning (ext4): destination with the same identifier (name{cite.pillutla2022robust}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1689 ...lutla et~al.}{2022}]{pillutla2022robust}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.goodfellow2014explaining}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1704   et~al.}{2014}]{goodfellow2014explaining}
+                                                 pdfTeX warning (ext4): destination with the same identifier (name{cite.madry2017towards}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1716 ...r{Madry et~al.}{2017}]{madry2017towards}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2024defense}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1730 ...ar{Wang et~al.}{2024a}]{wang2024defense}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.wang2024detecting}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1745 ...{Wang et~al.}{2024b}]{wang2024detecting}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2023detecting}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1762 ...Zhang et~al.}{2023}]{zhang2023detecting}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]pdfTeX warning (ext4): destination with the same identifier (name{cite.feinman2017detecting}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1781 ...man et~al.}{2017}]{feinman2017detecting}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.pang2022two}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1794 ...horyear{Pang et~al.}{2022}]{pang2022two}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.reisizadeh2020robust}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1814   et~al.}{2020}]{reisizadeh2020robust}
+                                             pdfTeX warning (ext4): destination with the same identifier (name{cite.polyak1963gradient}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1829 ...olyak et~al.}{1963}]{polyak1963gradient}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.hong2021federated}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1841 ...r{Hong et~al.}{2021}]{hong2021federated}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.chen2021certifiably}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1855 ...Chen et~al.}{2021}]{chen2021certifiably}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhou2022adversarial}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1872 ...Zhou et~al.}{2022}]{zhou2022adversarial}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhang2022privacy}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1888 ...r{Zhang et~al.}{2022}]{zhang2022privacy}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.zhou2020adversarially}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1903 ...ou et~al.}{2020}]{zhou2020adversarially}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.shah2021adversarial}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1914 ...Shah et~al.}{2021}]{shah2021adversarial}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.weng2020trade}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1927 ...ryear{Weng et~al.}{2020}]{weng2020trade}
+                                                  )
+
+Package natbib Warning: There were multiply defined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1859.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1859.
  (/media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1848.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1848.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1859.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1859.
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
 (rerunfilecheck)             Checksum: F5458AF2D4794EA9D77EC12137FD2DED;2076.
 
@@ -1261,21 +2160,21 @@ Package rerunfilecheck Info: File `sn-article.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.985pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1848.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1859.
  ) 
 Here is how much of TeX's memory you used:
- 11612 strings out of 481239
- 172203 string characters out of 5920377
- 460557 words of memory out of 5000000
- 26390 multiletter control sequences out of 15000+600000
+ 11637 strings out of 481239
+ 172712 string characters out of 5920377
+ 460705 words of memory out of 5000000
+ 26399 multiletter control sequences out of 15000+600000
  552181 words of font info for 106 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 46i,17n,37p,819b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,17n,37p,819b,713s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on /media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.pdf (44 pages, 6448305 bytes).
+Output written on /media/yunhao/DATA/Project/FederatedLearningSurvey/ReviceFYH/sn-article.pdf (54 pages, 6472655 bytes).
 PDF statistics:
- 1226 PDF objects out of 1440 (max. 8388607)
- 934 compressed objects within 10 object streams
- 224 named destinations out of 1000 (max. 500000)
+ 1278 PDF objects out of 1440 (max. 8388607)
+ 976 compressed objects within 10 object streams
+ 238 named destinations out of 1000 (max. 500000)
  346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

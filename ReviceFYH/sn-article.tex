@@ -762,7 +762,9 @@ into two types: the first is to remove toxic updates
 from malicious clients before model aggregation, and the
 second is to reduce the impact of malicious clients on the
 aggregated model, such as reducing the learning rate of
-suspicious clients.
+suspicious clients. Cao et al.~\cite{cao2023fedrecover}
+proposed the FedRecover method, which enables the acquisition of a new,
+clean model after identifying malicious clients without the need to retrain the models of all participating clients. This approach effectively addresses the issues of excessive computational resource consumption and time associated with model reconstruction in federated learning.
 
 (2)Robust Training: After filtering techniques, another
 class of techniques aims to directly mitigate backdoor
@@ -1552,10 +1554,18 @@ are proposed to enhance the robustness of deep learning
 models. As adversarial samples share similarities with the
 previously discussed backdoor samples, defense methods
 involving sample filtering can be employed.
-The most common idea is to filter out adversarial samples from test data using a trained binary classifier~\cite{wang2024defense, wang2024detecting,zhang2023detecting}.
+The most common idea is to filter out adversarial samples from test data using a trained binary classifier~\cite{wang2024defense, wang2024detecting,zhang2023detecting,feinman2017detecting,pang2022two}.  
+Feinman et al.~\cite{feinman2017detecting} train a logistic regression classifier using Kernel Density (KD) of features in the last hidden layer, as well as Bayesian Uncertainty (BU) as a basis.
+Pang et al.~\cite{pang2022two} suggest coupling confidence with a proposed R-Con as metrics to separate adversarial samples from normal ones.  
+Zhang et al.~\cite{zhang2023detecting} utilize a diffusion model to compute the expected perturbation scores(EPS) of samples, enabling the differentiation
+between adversarial and normal samples.
+Wang el al.~\cite{wang2024detecting} present a novel defense strategy against adversarial attacks by exploring the proximity relationship between
+adversarial noise distributions and developing a robust detector, called Perturbation Forgery.
 However, these methods develop specialized detectors for specific attacks or classifiers, 
-which largely neglects the modeling of data distribution, resulting in their limited effectiveness against unknown attacks.
-Moreover, according to the learning paradigm of federated learning, the server model cannot access the data from the client devices, which significantly limits the application of such defense methods in federated learning.
+which largely neglects the modeling of data distribution, resulting in their limited effectiveness against unknown attacks.  
+According to the learning paradigm of federated learning, the server model cannot access the data from the client devices.
+Some detection models require substantial computational resources, which is challenging to meet in edge devices used for federated learning.
+These reasons significantly limit the application of such defense methods in federated learning.
 
 In this section, we focus on the defense method of adversarial
 training. Adversarial training is a defense method against
@@ -1840,9 +1850,10 @@ urgent matter.
 %% file, and delete the associated \verb+\bibliography+ commands.                            %%
 %%===========================================================================================%%
 
-\bibliography{sn-bibliography}% common bib file
-%% if required, the content of .bbl file can be included here once bbl is generated
-%%\input sn-article.bbl
+\bibliography{sn-bibliography}
+common bib file
+if required, the content of .bbl file can be included here once bbl is generated
+\input sn-article.bbl
 
 
 \end{document}

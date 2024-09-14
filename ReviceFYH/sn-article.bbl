@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{121}
+\begin{thebibliography}{124}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -1036,6 +1036,22 @@ pp. \bfpage{2545}--\blpage{2555}
 \endbibitem
 
 %%% 65
+\bibitem[\protect\citeauthoryear{Cao et~al.}{2023}]{cao2023fedrecover}
+\begin{bchapter}
+\bauthor{\bsnm{Cao}, \binits{X.}},
+\bauthor{\bsnm{Jia}, \binits{J.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Gong}, \binits{N.Z.}}:
+\bctitle{Fedrecover: Recovering from poisoning attacks in federated learning
+  using historical information}.
+In: \bbtitle{2023 IEEE Symposium on Security and Privacy (SP)},
+pp. \bfpage{1366}--\blpage{1383}
+(\byear{2023}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 66
 \bibitem[\protect\citeauthoryear{Naseri et~al.}{2020}]{naseri2020toward}
 \begin{botherref}
 \oauthor{\bsnm{Naseri}, \binits{M.}},
@@ -1048,7 +1064,7 @@ arXiv preprint arXiv:2009.03561
 \end{botherref}
 \endbibitem
 
-%%% 66
+%%% 67
 \bibitem[\protect\citeauthoryear{Bagdasaryan
   et~al.}{2019}]{bagdasaryan2019differential}
 \begin{botherref}
@@ -1062,7 +1078,7 @@ Advances in neural information processing systems
 \end{botherref}
 \endbibitem
 
-%%% 67
+%%% 68
 \bibitem[\protect\citeauthoryear{McMahan et~al.}{2017}]{mcmahan2017learning}
 \begin{botherref}
 \oauthor{\bsnm{McMahan}, \binits{H.B.}},
@@ -1075,7 +1091,7 @@ arXiv preprint arXiv:1710.06963
 \end{botherref}
 \endbibitem
 
-%%% 68
+%%% 69
 \bibitem[\protect\citeauthoryear{Andreina et~al.}{2021}]{andreina2021baffle}
 \begin{bchapter}
 \bauthor{\bsnm{Andreina}, \binits{S.}},
@@ -1091,7 +1107,7 @@ pp. \bfpage{852}--\blpage{863}
 \end{bchapter}
 \endbibitem
 
-%%% 69
+%%% 70
 \bibitem[\protect\citeauthoryear{Xie et~al.}{2021}]{xie2021crfl}
 \begin{bchapter}
 \bauthor{\bsnm{Xie}, \binits{C.}},
@@ -1106,7 +1122,7 @@ pp. \bfpage{11372}--\blpage{11382}
 \end{bchapter}
 \endbibitem
 
-%%% 70
+%%% 71
 \bibitem[\protect\citeauthoryear{Nguyen et~al.}{2022}]{nguyen2022flame}
 \begin{bchapter}
 \bauthor{\bsnm{Nguyen}, \binits{T.D.}},
@@ -1126,7 +1142,7 @@ pp. \bfpage{1415}--\blpage{1432}
 \end{bchapter}
 \endbibitem
 
-%%% 71
+%%% 72
 \bibitem[\protect\citeauthoryear{Sun et~al.}{2021}]{sun2021fl}
 \begin{barticle}
 \bauthor{\bsnm{Sun}, \binits{J.}},
@@ -1144,7 +1160,7 @@ pp. \bfpage{1415}--\blpage{1432}
 \end{barticle}
 \endbibitem
 
-%%% 72
+%%% 73
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2022}]{wang2022flare}
 \begin{bchapter}
 \bauthor{\bsnm{Wang}, \binits{N.}},
@@ -1162,7 +1178,7 @@ pp. \bfpage{946}--\blpage{958}
 \end{bchapter}
 \endbibitem
 
-%%% 73
+%%% 74
 \bibitem[\protect\citeauthoryear{Li et~al.}{2021}]{li2021anti}
 \begin{barticle}
 \bauthor{\bsnm{Li}, \binits{Y.}},
@@ -1179,7 +1195,7 @@ pp. \bfpage{946}--\blpage{958}
 \end{barticle}
 \endbibitem
 
-%%% 74
+%%% 75
 \bibitem[\protect\citeauthoryear{Zeng et~al.}{2021}]{zeng2021adversarial}
 \begin{botherref}
 \oauthor{\bsnm{Zeng}, \binits{Y.}},
@@ -1194,7 +1210,7 @@ arXiv preprint arXiv:2110.03735
 \end{botherref}
 \endbibitem
 
-%%% 75
+%%% 76
 \bibitem[\protect\citeauthoryear{Zhao et~al.}{2020}]{zhao2020bridging}
 \begin{botherref}
 \oauthor{\bsnm{Zhao}, \binits{P.}},
@@ -1208,7 +1224,7 @@ arXiv preprint arXiv:2005.00060
 \end{botherref}
 \endbibitem
 
-%%% 76
+%%% 77
 \bibitem[\protect\citeauthoryear{Yoshida and
   Fujino}{2020}]{yoshida2020disabling}
 \begin{bchapter}
@@ -1223,7 +1239,7 @@ pp. \bfpage{117}--\blpage{127}
 \end{bchapter}
 \endbibitem
 
-%%% 77
+%%% 78
 \bibitem[\protect\citeauthoryear{Huang et~al.}{2023}]{huang2023distilling}
 \begin{botherref}
 \oauthor{\bsnm{Huang}, \binits{H.}},
@@ -1236,7 +1252,7 @@ arXiv preprint arXiv:2301.10908
 \end{botherref}
 \endbibitem
 
-%%% 78
+%%% 79
 \bibitem[\protect\citeauthoryear{Zhu et~al.}{2020}]{zhu2020gangsweep}
 \begin{bchapter}
 \bauthor{\bsnm{Zhu}, \binits{L.}},
@@ -1252,7 +1268,7 @@ pp. \bfpage{3173}--\blpage{3181}
 \end{bchapter}
 \endbibitem
 
-%%% 79
+%%% 80
 \bibitem[\protect\citeauthoryear{Guo et~al.}{2020}]{guo2020towards}
 \begin{bchapter}
 \bauthor{\bsnm{Guo}, \binits{W.}},
@@ -1270,7 +1286,7 @@ pp. \bfpage{162}--\blpage{171}
 \end{bchapter}
 \endbibitem
 
-%%% 80
+%%% 81
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2019}]{wang2019neural}
 \begin{bchapter}
 \bauthor{\bsnm{Wang}, \binits{B.}},
@@ -1289,7 +1305,7 @@ pp. \bfpage{707}--\blpage{723}
 \end{bchapter}
 \endbibitem
 
-%%% 81
+%%% 82
 \bibitem[\protect\citeauthoryear{Xu et~al.}{2020}]{xu2020defending}
 \begin{botherref}
 \oauthor{\bsnm{Xu}, \binits{K.}},
@@ -1303,7 +1319,7 @@ arXiv preprint arXiv:2002.12162
 \end{botherref}
 \endbibitem
 
-%%% 82
+%%% 83
 \bibitem[\protect\citeauthoryear{Aiken et~al.}{2021}]{aiken2021neural}
 \begin{barticle}
 \bauthor{\bsnm{Aiken}, \binits{W.}},
@@ -1319,7 +1335,7 @@ arXiv preprint arXiv:2002.12162
 \end{barticle}
 \endbibitem
 
-%%% 83
+%%% 84
 \bibitem[\protect\citeauthoryear{Douceur}{2002}]{douceur2002sybil}
 \begin{bchapter}
 \bauthor{\bsnm{Douceur}, \binits{J.R.}}:
@@ -1331,7 +1347,7 @@ pp. \bfpage{251}--\blpage{260}
 \end{bchapter}
 \endbibitem
 
-%%% 84
+%%% 85
 \bibitem[\protect\citeauthoryear{Bhagoji et~al.}{2019}]{bhagoji2019analyzing}
 \begin{bchapter}
 \bauthor{\bsnm{Bhagoji}, \binits{A.N.}},
@@ -1346,7 +1362,7 @@ pp. \bfpage{634}--\blpage{643}
 \end{bchapter}
 \endbibitem
 
-%%% 85
+%%% 86
 \bibitem[\protect\citeauthoryear{Lin et~al.}{2019}]{lin2019free}
 \begin{botherref}
 \oauthor{\bsnm{Lin}, \binits{J.}},
@@ -1358,7 +1374,7 @@ arXiv preprint arXiv:1911.12560
 \end{botherref}
 \endbibitem
 
-%%% 86
+%%% 87
 \bibitem[\protect\citeauthoryear{Yang et~al.}{2022}]{yang2022overview}
 \begin{bchapter}
 \bauthor{\bsnm{Yang}, \binits{H.}},
@@ -1377,7 +1393,7 @@ pp. \bfpage{117}--\blpage{122}
 \end{bchapter}
 \endbibitem
 
-%%% 87
+%%% 88
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2015}]{zhang2015byzantine}
 \begin{barticle}
 \bauthor{\bsnm{Zhang}, \binits{L.}},
@@ -1394,7 +1410,7 @@ pp. \bfpage{117}--\blpage{122}
 \end{barticle}
 \endbibitem
 
-%%% 88
+%%% 89
 \bibitem[\protect\citeauthoryear{Kailkhura
   et~al.}{2013}]{kailkhura2013distributed}
 \begin{botherref}
@@ -1408,7 +1424,7 @@ arXiv preprint arXiv:1307.3544
 \end{botherref}
 \endbibitem
 
-%%% 89
+%%% 90
 \bibitem[\protect\citeauthoryear{Fatemieh et~al.}{2010}]{fatemieh2010secure}
 \begin{bchapter}
 \bauthor{\bsnm{Fatemieh}, \binits{O.}},
@@ -1424,7 +1440,7 @@ pp. \bfpage{1}--\blpage{12}
 \end{bchapter}
 \endbibitem
 
-%%% 90
+%%% 91
 \bibitem[\protect\citeauthoryear{Qin et~al.}{2013}]{qin2013defending}
 \begin{barticle}
 \bauthor{\bsnm{Qin}, \binits{Z.}},
@@ -1439,7 +1455,7 @@ pp. \bfpage{1}--\blpage{12}
 \end{barticle}
 \endbibitem
 
-%%% 91
+%%% 92
 \bibitem[\protect\citeauthoryear{Fatemieh et~al.}{2011}]{fatemieh2011using}
 \begin{bchapter}
 \bauthor{\bsnm{Fatemieh}, \binits{O.}},
@@ -1453,7 +1469,7 @@ In: \bbtitle{NDSS}
 \end{bchapter}
 \endbibitem
 
-%%% 92
+%%% 93
 \bibitem[\protect\citeauthoryear{Wu et~al.}{2018}]{wu2018sequential}
 \begin{barticle}
 \bauthor{\bsnm{Wu}, \binits{J.}},
@@ -1469,7 +1485,7 @@ In: \bbtitle{NDSS}
 \end{barticle}
 \endbibitem
 
-%%% 93
+%%% 94
 \bibitem[\protect\citeauthoryear{Guerraoui et~al.}{2018}]{guerraoui2018hidden}
 \begin{bchapter}
 \bauthor{\bsnm{Guerraoui}, \binits{R.}},
@@ -1482,7 +1498,7 @@ pp. \bfpage{3521}--\blpage{3530}
 \end{bchapter}
 \endbibitem
 
-%%% 94
+%%% 95
 \bibitem[\protect\citeauthoryear{Xie et~al.}{2018}]{xie2018generalized}
 \begin{botherref}
 \oauthor{\bsnm{Xie}, \binits{C.}},
@@ -1494,7 +1510,7 @@ arXiv preprint arXiv:1802.10116
 \end{botherref}
 \endbibitem
 
-%%% 95
+%%% 96
 \bibitem[\protect\citeauthoryear{Li et~al.}{2014}]{li2014resolving}
 \begin{bchapter}
 \bauthor{\bsnm{Li}, \binits{Q.}},
@@ -1512,7 +1528,7 @@ pp. \bfpage{1187}--\blpage{1198}
 \end{bchapter}
 \endbibitem
 
-%%% 96
+%%% 97
 \bibitem[\protect\citeauthoryear{Hsu et~al.}{2019}]{hsu2019measuring}
 \begin{botherref}
 \oauthor{\bsnm{Hsu}, \binits{T.-M.H.}},
@@ -1525,7 +1541,7 @@ arXiv preprint arXiv:1909.06335
 \end{botherref}
 \endbibitem
 
-%%% 97
+%%% 98
 \bibitem[\protect\citeauthoryear{Jiang et~al.}{2023}]{jiang2023secure}
 \begin{botherref}
 \oauthor{\bsnm{Jiang}, \binits{Y.}},
@@ -1541,7 +1557,7 @@ arXiv preprint arXiv:2307.08324
 \end{botherref}
 \endbibitem
 
-%%% 98
+%%% 99
 \bibitem[\protect\citeauthoryear{Gil et~al.}{2017}]{gil2017guaranteeing}
 \begin{barticle}
 \bauthor{\bsnm{Gil}, \binits{S.}},
@@ -1557,7 +1573,7 @@ arXiv preprint arXiv:2307.08324
 \end{barticle}
 \endbibitem
 
-%%% 99
+%%% 100
 \bibitem[\protect\citeauthoryear{Blanchard et~al.}{2017}]{blanchard2017machine}
 \begin{botherref}
 \oauthor{\bsnm{Blanchard}, \binits{P.}},
@@ -1571,7 +1587,7 @@ Advances in neural information processing systems
 \end{botherref}
 \endbibitem
 
-%%% 100
+%%% 101
 \bibitem[\protect\citeauthoryear{Mu{\~n}oz-Gonz{\'a}lez
   et~al.}{2019}]{munoz2019byzantine}
 \begin{botherref}
@@ -1584,7 +1600,7 @@ arXiv preprint arXiv:1909.05125
 \end{botherref}
 \endbibitem
 
-%%% 101
+%%% 102
 \bibitem[\protect\citeauthoryear{Mallmann-Trenn
   et~al.}{2021}]{mallmann2021crowd}
 \begin{barticle}
@@ -1600,7 +1616,7 @@ arXiv preprint arXiv:1909.05125
 \end{barticle}
 \endbibitem
 
-%%% 102
+%%% 103
 \bibitem[\protect\citeauthoryear{Chen et~al.}{2012}]{chen2012robustness}
 \begin{barticle}
 \bauthor{\bsnm{Chen}, \binits{R.}},
@@ -1615,7 +1631,7 @@ arXiv preprint arXiv:1909.05125
 \end{barticle}
 \endbibitem
 
-%%% 103
+%%% 104
 \bibitem[\protect\citeauthoryear{Mostafa}{2019}]{mostafa2019robust}
 \begin{botherref}
 \oauthor{\bsnm{Mostafa}, \binits{H.}}:
@@ -1626,7 +1642,7 @@ arXiv preprint arXiv:1912.13075
 \end{botherref}
 \endbibitem
 
-%%% 104
+%%% 105
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2014}]{wang2014moving}
 \begin{barticle}
 \bauthor{\bsnm{Wang}, \binits{H.}},
@@ -1643,7 +1659,7 @@ arXiv preprint arXiv:1912.13075
 \end{barticle}
 \endbibitem
 
-%%% 105
+%%% 106
 \bibitem[\protect\citeauthoryear{Agrawal and
   Tapaswi}{2019}]{agrawal2019defense}
 \begin{barticle}
@@ -1658,7 +1674,7 @@ arXiv preprint arXiv:1912.13075
 \end{barticle}
 \endbibitem
 
-%%% 106
+%%% 107
 \bibitem[\protect\citeauthoryear{Portnoy and
   Hendler}{2020}]{portnoy2020towards}
 \begin{botherref}
@@ -1669,7 +1685,7 @@ Towards realistic byzantine-robust federated learning
 \end{botherref}
 \endbibitem
 
-%%% 107
+%%% 108
 \bibitem[\protect\citeauthoryear{Pillutla et~al.}{2022}]{pillutla2022robust}
 \begin{barticle}
 \bauthor{\bsnm{Pillutla}, \binits{K.}},
@@ -1683,7 +1699,7 @@ Towards realistic byzantine-robust federated learning
 \end{barticle}
 \endbibitem
 
-%%% 108
+%%% 109
 \bibitem[\protect\citeauthoryear{Goodfellow
   et~al.}{2014}]{goodfellow2014explaining}
 \begin{botherref}
@@ -1696,7 +1712,7 @@ arXiv preprint arXiv:1412.6572
 \end{botherref}
 \endbibitem
 
-%%% 109
+%%% 110
 \bibitem[\protect\citeauthoryear{Madry et~al.}{2017}]{madry2017towards}
 \begin{botherref}
 \oauthor{\bsnm{Madry}, \binits{A.}},
@@ -1710,7 +1726,7 @@ arXiv preprint arXiv:1706.06083
 \end{botherref}
 \endbibitem
 
-%%% 110
+%%% 111
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2024a}]{wang2024defense}
 \begin{barticle}
 \bauthor{\bsnm{Wang}, \binits{H.}},
@@ -1725,7 +1741,7 @@ arXiv preprint arXiv:1706.06083
 \end{barticle}
 \endbibitem
 
-%%% 111
+%%% 112
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2024b}]{wang2024detecting}
 \begin{botherref}
 \oauthor{\bsnm{Wang}, \binits{Q.}},
@@ -1742,7 +1758,7 @@ arXiv preprint arXiv:2405.16226
 \end{botherref}
 \endbibitem
 
-%%% 112
+%%% 113
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2023}]{zhang2023detecting}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{S.}},
@@ -1761,7 +1777,39 @@ pp. \bfpage{41429}--\blpage{41451}
 \end{bchapter}
 \endbibitem
 
-%%% 113
+%%% 114
+\bibitem[\protect\citeauthoryear{Feinman et~al.}{2017}]{feinman2017detecting}
+\begin{botherref}
+\oauthor{\bsnm{Feinman}, \binits{R.}},
+\oauthor{\bsnm{Curtin}, \binits{R.R.}},
+\oauthor{\bsnm{Shintre}, \binits{S.}},
+\oauthor{\bsnm{Gardner}, \binits{A.B.}}:
+Detecting adversarial samples from artifacts.
+arXiv preprint arXiv:1703.00410
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 115
+\bibitem[\protect\citeauthoryear{Pang et~al.}{2022}]{pang2022two}
+\begin{bchapter}
+\bauthor{\bsnm{Pang}, \binits{T.}},
+\bauthor{\bsnm{Zhang}, \binits{H.}},
+\bauthor{\bsnm{He}, \binits{D.}},
+\bauthor{\bsnm{Dong}, \binits{Y.}},
+\bauthor{\bsnm{Su}, \binits{H.}},
+\bauthor{\bsnm{Chen}, \binits{W.}},
+\bauthor{\bsnm{Zhu}, \binits{J.}},
+\bauthor{\bsnm{Liu}, \binits{T.-Y.}}:
+\bctitle{Two coupled rejection metrics can tell adversarial examples apart}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{15223}--\blpage{15233}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 116
 \bibitem[\protect\citeauthoryear{Reisizadeh
   et~al.}{2020}]{reisizadeh2020robust}
 \begin{barticle}
@@ -1777,7 +1825,7 @@ pp. \bfpage{41429}--\blpage{41451}
 \end{barticle}
 \endbibitem
 
-%%% 114
+%%% 117
 \bibitem[\protect\citeauthoryear{Polyak et~al.}{1963}]{polyak1963gradient}
 \begin{barticle}
 \bauthor{\bsnm{Polyak}, \binits{B.T.}}, \betal:
@@ -1789,7 +1837,7 @@ pp. \bfpage{41429}--\blpage{41451}
 \end{barticle}
 \endbibitem
 
-%%% 115
+%%% 118
 \bibitem[\protect\citeauthoryear{Hong et~al.}{2021}]{hong2021federated}
 \begin{botherref}
 \oauthor{\bsnm{Hong}, \binits{J.}},
@@ -1803,7 +1851,7 @@ arXiv preprint arXiv:2106.10196
 \end{botherref}
 \endbibitem
 
-%%% 116
+%%% 119
 \bibitem[\protect\citeauthoryear{Chen et~al.}{2021}]{chen2021certifiably}
 \begin{bchapter}
 \bauthor{\bsnm{Chen}, \binits{C.}},
@@ -1820,7 +1868,7 @@ pp. \bfpage{173}--\blpage{179}
 \end{bchapter}
 \endbibitem
 
-%%% 117
+%%% 120
 \bibitem[\protect\citeauthoryear{Zhou et~al.}{2022}]{zhou2022adversarial}
 \begin{bchapter}
 \bauthor{\bsnm{Zhou}, \binits{Y.}},
@@ -1836,7 +1884,7 @@ pp. \bfpage{2753}--\blpage{2762}
 \end{bchapter}
 \endbibitem
 
-%%% 118
+%%% 121
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2022}]{zhang2022privacy}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{J.}},
@@ -1851,7 +1899,7 @@ pp. \bfpage{108}--\blpage{114}
 \end{bchapter}
 \endbibitem
 
-%%% 119
+%%% 122
 \bibitem[\protect\citeauthoryear{Zhou et~al.}{2020}]{zhou2020adversarially}
 \begin{botherref}
 \oauthor{\bsnm{Zhou}, \binits{Y.}},
@@ -1862,7 +1910,7 @@ Adversarially robust federated learning for neural networks
 \end{botherref}
 \endbibitem
 
-%%% 120
+%%% 123
 \bibitem[\protect\citeauthoryear{Shah et~al.}{2021}]{shah2021adversarial}
 \begin{botherref}
 \oauthor{\bsnm{Shah}, \binits{D.}},
@@ -1875,7 +1923,7 @@ arXiv preprint arXiv:2103.01319
 \end{botherref}
 \endbibitem
 
-%%% 121
+%%% 124
 \bibitem[\protect\citeauthoryear{Weng et~al.}{2020}]{weng2020trade}
 \begin{barticle}
 \bauthor{\bsnm{Weng}, \binits{C.-H.}},
